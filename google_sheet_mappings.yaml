@@ -1,0 +1,129 @@
+character_name: I157
+character_title: F13
+player_name: F15
+
+inspiration: H18
+
+level: AL15
+race: U15
+class: U13
+background: AA13
+alignment: AA15
+
+# TODO: death saves
+
+conditions: V28
+
+age: U156
+eyes: Z158
+hair: AF158
+skin: AK158
+distinguishing_marks: S163
+weight: AF156
+height: AK156
+
+personality_traits: AF20
+ideals: AF24
+bonds: AF28
+flaws: AF32
+
+resources:
+  # TODO: bardic_inspiration
+  spell_slots:
+    used:   { lvl1: AG104, lvl2: J114, lvl3: AG114, lvl4: J124 }
+    total:  { lvl1: AJ104, lvl2: G114, lvl3: AJ114, lvl4: G124 }
+
+prof: H22
+
+passive_perception: C54
+
+# TODO: passive_investigation
+
+stats:
+  str: { score: C23, mod: C21, save: J25, pro: I25 }
+  dex: { score: C28, mod: C26, save: J26, pro: I26 }
+  con: { score: C33, mod: C31, save: J27, pro: I27 }
+  int: { score: C38, mod: C36, save: J28, pro: I28 }
+  wis: { score: C43, mod: C41, save: J29, pro: I29 }
+  cha: { score: C48, mod: C46, save: J30, pro: I30 }
+
+initiative: W20
+
+speed:
+  walking: AA20
+
+hp: { current: S25, total: V24 }
+
+temp_hp: S29
+
+hit_dice: { current: S34, total: T33 }
+
+skills:
+  athletics:        { bonus: J34, pro: I34, expert: H34 }
+  acrobatics:       { bonus: J35, pro: I35, expert: H35 }
+  sleight_of_hand:  { bonus: J36, pro: I36, expert: H36 }
+  stealth:          { bonus: J37, pro: I37, expert: H37 }
+  arcana:           { bonus: J38, pro: I38, expert: H38 }
+  history:          { bonus: J39, pro: I39, expert: H39 }
+  investigation:    { bonus: J40, pro: I40, expert: H40 }
+  nature:           { bonus: J41, pro: I41, expert: H41 }
+  religion:         { bonus: J42, pro: I42, expert: H42 }
+  animal_handling:  { bonus: J43, pro: I43, expert: H43 }
+  insight:          { bonus: J44, pro: I44, expert: H44 }
+  medicine:         { bonus: J45, pro: I45, expert: H45 }
+  perception:       { bonus: J46, pro: I46, expert: H46 }
+  survival:         { bonus: J47, pro: I47, expert: H47 }
+  deception:        { bonus: J48, pro: I48, expert: H48 }
+  intimidation:     { bonus: J49, pro: I49, expert: H49 }
+  performance:      { bonus: J50, pro: I50, expert: H50 }
+  persuasion:       { bonus: J51, pro: I51, expert: H51 }
+
+armor_class: S20
+
+# TODO: attacks
+
+proficiencies:
+  languages: R54
+  armor: R55
+  weapons: R56
+  tools: R57
+
+spells:
+  stat: U100
+  attack_bonus: AI100
+  save_dc: AB100
+  total_known: I101
+  cantrips:
+    a: N103
+    b: N104
+    c: N105
+  lvl1:
+    a: X103
+    b: X104
+    c: X105
+    d: X106
+  lvl2:
+    a: N113
+    b: N114
+    c: N115
+    d: N116
+    e: N117
+    f: N118
+  lvl3:
+    a: X113
+    b: X114
+  lvl4:
+    a: N123
+
+money:
+  copper: E70
+  silver: E73
+  electrum: E82
+  gold: E76
+  platinum: E79
+
+inventory:
+  wearing: L71:L94
+  backpack: AB71:AB94
+
+features: Z54:AH65

@@ -1,0 +1,236 @@
+character name: Herbert Higgingbotham, PhD
+character title: >
+  Professor Herbert Higgingbotham, PhD,
+  Head of Anthropology at Dunwall College of Liberal Arts
+
+player name: Leon
+
+inspiration: no
+
+level: 8
+
+race: Human
+
+class: Lore Bard
+
+background: Anthropologist
+
+alignment: Lawful Good # (moderately imperialist leanings)
+
+death saves:
+  successes: 0
+  failures: 0
+
+conditions: ""
+
+appearance and traits:
+  age: 42
+  eyes: blue
+  hair: dark brown
+  skin: white
+  weight: 140lbs
+  height: 6ft
+  distinguishing marks:
+    - round eyeglasses; left lens is fully broken
+    - safari hat
+    - large handlebar mustache
+
+personality traits:
+  - I have Stage 4 British.
+  - I'm a stickler when it comes to observing proper etiquette and local customs.
+  - When I arrive at a new settlement for the first time, I must learn all its customs.
+
+ideals:
+  - Discovery. I want to be the first person to discover a lost culture.
+  - Protection. I must do everything possible to save a society facing extinction.
+
+bonds:
+  - I want to learn about krag culture.
+  - I want to become more renowned than my rival, Victoria Handforth.
+
+flaws:
+  - I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
+
+resources:
+  bardic inspiration: 
+    used: 0
+    total: 3d8
+    regen: short rest
+  spell slots:
+    used:   { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 0 }
+    total:  { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 2 }
+    regen: long rest
+
+# proficiency bonus
+proficiency bonus: 3
+
+# = skills.perception + 15
+passive perception: 23
+
+# = skills.investigation + 15
+passive investigation: 24
+
+# ability scores
+stats:
+  str: { score:  8, mod: -1, save: -1 }
+  dex: { score: 16, mod:  3, save:  6, proficient: yes }
+  con: { score: 14, mod:  2, save:  2 }
+  int: { score: 16, mod:  3, save:  3 }
+  wis: { score: 14, mod:  2, save:  2 }
+  cha: { score: 16, mod:  3, save:  6, proficient: yes }
+
+# = stats.dex.mod + (proficiency bonus // 2)
+initiative: 4
+
+speed:
+  walking: 30
+
+# hit points = 45 + (stats.con.mod * level)
+hp: { current: 61, total: 61 }
+
+# temporary hit points
+temp hp: 0
+
+# = level * d8
+hit dice: { current: 8d8, total: 8d8 }
+
+skills:
+  # stats.str
+  athletics:        [+0]
+  # stats.dex
+  acrobatics:       [+4]
+  sleight of hand:  [+4]
+  stealth:          [+4]
+  # stats.int
+  arcana:           [+6, proficient]
+  history:          [+6, proficient]
+  investigation:    [+9, expertise]
+  nature:           [+6, proficient]
+  religion:         [+6, proficient]
+  # stats.wis
+  animal handling:  [+3]
+  insight:          [+5, proficient]
+  medicine:         [+3]
+  perception:       [+8, expertise]
+  survival:         [+3]
+  # stats.cha
+  deception:        [+4]
+  intimidation:     [+4]
+  performance:      [+6, proficient]
+  persuasion:       [+6, proficient]
+
+armor class: 13 # = 10 + stats.dex.mod
+
+attacks:
+  - name: revolver
+    atk/dmg: +6, 1d10+3 piercing
+    ammo: 0,
+    ranged: range 60/240, reload 4, misfire 1
+
+  - name: rapier
+    atk/dmg: +6, 1d8+3 piercing
+
+  - name: dagger
+    atk/dmg: +6 / 1d4+3 piercing
+    ranged: range 60/240
+
+proficiencies:
+  languages: |
+    - shalben common
+    - graveltalk
+    - elvish
+    - arcanum
+  armor: |
+    - light armor
+  weapons: |
+    - simple weapons
+    - firearms
+    - longswords
+    - rapiers
+    - shortsword
+  tools: |
+    - singing stone (musical instrument)
+    - tinker's tools
+    - archaeologist's tools
+
+# spellcasting
+spells:
+  stat: Charisma
+  attack bonus: +6
+  save dc: 14
+  total known: 13
+  cantrips:
+    a: vicious mockery (V)
+    b: friends (SM) <C>
+    c: minor illusion (SM)
+  lvl1:
+    a: silvery barbs (V)
+    b: command (V)
+    c: bane (VSM) <C>
+    d: tasha's hideous laughter (VSM) <C>
+  lvl2:
+    a: calm emotions (VS) <C>
+    b: suggestion (VM)
+    c: silence (VS) <C>
+    d: shatter (VSM)
+    e: heat metal (VSM) <C>
+    f: mirror image (VS)
+  lvl3:
+    a: dispel magic (VS)
+    b: counterspell (S)
+  lvl4:
+    a: charm monster (VS)
+
+money:
+  copper:   0
+  silver:   0
+  electrum: 0
+  gold:     10
+  platinum: 0
+
+inventory: # total: 2 lb. (max carry capacity 120 lb.)
+  wearing:
+    -  1 x  1 lb. singing rock (bardic focus)
+    -  1 x  1 lb. dirty rags (formerly traverler's clothes)
+    -  1 x  0 lb. round eyeglasses (left lens broken)
+    -  1 x  0 lb. safari hat
+    # -  1 x  1 lb. coin pouch
+    # -  1 x  1 lb. ammo pouch
+  # backpack:
+  #   -  1 x  7 lb. bedroll
+  #   -  1 x 10 lb. hemp rope (length 50 feet)
+  #     # writing supplies
+  #   -  1 x  0 lb. ink bottle (capacity 1 ounce)
+  #   -  1 x  0 lb. ink pen
+  #   -  1 x  0 lb. sealing wax
+  #   -  5 x  0 lb. sheet of paper
+  #   -  2 x  1 lb. map/scroll case
+  #   -  1 x  5 lb. leather-bound diary
+  #     # personal hygiene
+  #   -  1 x  0 lb. vial of perfume
+  #   -  1 x  0 lb. soap
+  #     # lighting
+  #   -  1 x  1 lb. oil lamp
+  #   -  2 x  1 lb. oil flask (capacity 1 pint)
+  #   -  1 x  1 lb. tinderbox
+  #   - 10 x  1 lb. torch
+  #     # food / water
+  #   -  1 x  1 lb. mess kit
+  #   -  5 x  1 lb. day's worth of rations
+  #   -  1 x  5 lb. waterskin (capacity 4 pints)
+
+feats:
+  - name: Observant
+    benefits:
+      - +1 Intelligence
+      - ability to read lips
+      - +5 to passive Perception & passive Investigation
+
+features:
+  - feat "observant"
+  - bardic inspiration (d8)
+  - song of rest (d6) (+1d6 hp when hit-dice healing on short rests)
+  - expertise (choose 2)
+  - countercharm
+  - cutting words
+  - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication

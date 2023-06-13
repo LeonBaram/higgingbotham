@@ -36,8 +36,8 @@ successes = 0
 failures = 0
 
 ["hit points"]
-hp = "61 / 61"
-"temp hp" = 14
+hp = "60 / 61"
+"temp hp" = 0
 "hit dice" = "8d8 / 8d8"
 
 [resources]
@@ -120,10 +120,11 @@ class = "Bard" # spellcasting class
 ability = "Charisma" # spellcasting ability
 cantrips_known = 3
 spells_known = 11
+concentrating = "bane"
 
 [spell.slots]
-lvl1 = "4 / 4"
-lvl2 = "3 / 3"
+lvl1 = "2 / 4"
+lvl2 = "2 / 3"
 lvl3 = "2 / 3"
 lvl4 = "2 / 2"
 

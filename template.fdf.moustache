@@ -1,0 +1,1371 @@
+%FDF-1.2
+%‚„œ”
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+/T (PP)
+/V ({{{money.platinum}}})
+>> 
+<<
+/T (SlotsTotal 20)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3079)
+/V /Off
+>> 
+<<
+/T (Check Box 3078)
+/V /Off
+>> 
+<<
+/T (Check Box 3077)
+/V /Off
+>> 
+<<
+/T (Spells 1048)
+/V ({{{spells.lvl3.a}}})
+>> 
+<<
+/T (Check Box 3076)
+/V /Off
+>> 
+<<
+/T (Spells 1049)
+/V ({{{spells.lvl3.c}}})
+>> 
+<<
+/T (Check Box 3075)
+/V /Off
+>> 
+<<
+/T (Spells 1046)
+/V ({{{spells.lvl1.a}}})
+>> 
+<<
+/T (Check Box 3074)
+/V /Off
+>> 
+<<
+/T (Spells 1047)
+/V ({{{spells.lvl3.b}}})
+>> 
+<<
+/T (Check Box 3073)
+/V /
+>> 
+<<
+/T (Spells 1044)
+/V ({{{spells.lvl1.l}}})
+>> 
+<<
+/T (Check Box 3072)
+/V /
+>> 
+<<
+/T (Spells 1045)
+/V ({{{spells.lvl1.m}}})
+>> 
+<<
+/T (Check Box 3071)
+/V /Off
+>> 
+<<
+/T (Spells 1042)
+/V ({{{spells.lvl1.j}}})
+>> 
+<<
+/T (Check Box 3070)
+/V /
+>> 
+<<
+/T (Spells 1043)
+/V ({{{spells.lvl1.k}}})
+>> 
+<<
+/T (Spells 1040)
+/V ({{{spells.lvl1.h}}})
+>> 
+<<
+/T (Spells 1041)
+/V ({{{spells.lvl1.i}}})
+>> 
+<<
+/T (STR)
+/V ({{{stats.str.mod}}})
+>> 
+<<
+/T (SlotsTotal 25)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsTotal 26)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsTotal 27)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsTotal 21)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsTotal 22)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsTotal 23)
+/V ({{{spells.}}})
+>> 
+<<
+/T (CharacterName 2)
+/V ({{{character_name}}})
+>> 
+<<
+/T (SlotsTotal 24)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Hair)
+/V ({{{hair}}})
+>> 
+<<
+/T (AC)
+/V ({{{armor_class}}})
+>> 
+<<
+/T (Background)
+/V ({{{background}}})
+>> 
+<<
+/T (DEXmod )
+/V ({{{stats.dex.score}}})
+>> 
+<<
+/T (Spells 1039)
+/V ({{{spells.lvl1.g}}})
+>> 
+<<
+/T (Wpn2 AtkBonus )
+/V ()
+>> 
+<<
+/T (Bonds)
+/V ({{{bonds}}})
+>> 
+<<
+/T (Spells 1037)
+/V ({{{spells.lvl1.e}}})
+>> 
+<<
+/T (Spells 1038)
+/V ({{{spells.lvl1.f}}})
+>> 
+<<
+/T (Spells 1035)
+/V ({{{spells.lvl1.c}}})
+>> 
+<<
+/T (Spells 1036)
+/V ({{{spells.lvl1.d}}})
+>> 
+<<
+/T (Spells 1033)
+/V ({{{spells.lvl1.l}}})
+>> 
+<<
+/T (Check Box 3083)
+/V /Off
+>> 
+<<
+/T (Spells 1034)
+/V ({{{spells.lvl1.b}}})
+>> 
+<<
+/T (Check Box 3082)
+/V /Off
+>> 
+<<
+/T (ST Strength)
+/V ({{{stats.str.save}}})
+>> 
+<<
+/T (Spells 1031)
+/V ({{{spells.lvl1.j}}})
+>> 
+<<
+/T (Check Box 3081)
+/V /Off
+>> 
+<<
+/T (Spells 1032)
+/V ({{{spells.lvl1.k}}})
+>> 
+<<
+/T (Check Box 3080)
+/V /Off
+>> 
+<<
+/T (Spells 1030)
+/V ({{{spells.lvl1.i}}})
+>> 
+<<
+/T (ST Constitution)
+/V ({{{stats.con.save}}})
+>> 
+<<
+/T (HDTotal)
+/V ({{{hit_dice.total}}})
+>> 
+<<
+/T (Check Box 13)
+/V /
+>> 
+<<
+/T (FactionName)
+/V ()
+>> 
+<<
+/T (Inspiration)
+/V ({{{inspiration}}})
+>> 
+<<
+/T (Check Box 12)
+/V /
+>> 
+<<
+/T (Check Box 11)
+/V /
+>> 
+<<
+/T (Spells 1028)
+/V ({{{spells.lvl1.g}}})
+>> 
+<<
+/T (Wpn1 Damage)
+/V ()
+>> 
+<<
+/T (Spells 1029)
+/V ({{{spells.lvl1.h}}})
+>> 
+<<
+/T (Spells 1026)
+/V ({{{spells.lvl1.e}}})
+>> 
+<<
+/T (Spells 1027)
+/V ({{{spells.lvl1.f}}})
+>> 
+<<
+/T (Spells 1024)
+/V ({{{spells.lvl1.c}}})
+>> 
+<<
+/T (Spells 1025)
+/V ({{{spells.lvl1.d}}})
+>> 
+<<
+/T (Spells 1022)
+/V ({{{spells.cantrips.h}}})
+>> 
+<<
+/T (Spells 1023)
+/V ({{{spells.lvl1.b}}})
+>> 
+<<
+/T (Spells 1020)
+/V ({{{spells.cantrips.f}}})
+>> 
+<<
+/T (Spells 1021)
+/V ({{{spells.cantrips.g}}})
+>> 
+<<
+/T (Athletics)
+/V ({{{skills.athletics.bonus}}})
+>> 
+<<
+/T (Wpn3 AtkBonus  )
+/V ()
+>> 
+<<
+/T (Flaws)
+/V ({{{flaws}}})
+>> 
+<<
+/T (Check Box 19)
+/V /
+>> 
+<<
+/T (SleightofHand)
+/V ({{{skills.sleight_of_hand.bonus}}})
+>> 
+<<
+/T (AttacksSpellcasting)
+/V ({{#attacks}}
+{{{name}}}: {{{ammo}}} ammo, {{{atk/dmg}}}, {{{ranged}}}
+{{/attacks}})
+>> 
+<<
+/T (Check Box 18)
+/V /
+>> 
+<<
+/T (Check Box 17)
+/V /
+>> 
+<<
+/T (Check Box 16)
+/V /
+>> 
+<<
+/T (SP)
+/V ({{{money.silver}}})
+>> 
+<<
+/T (Check Box 15)
+/V /
+>> 
+<<
+/T (Check Box 14)
+/V /
+>> 
+<<
+/T (Nature)
+/V ({{{skills.nature.bonus}}})
+>> 
+<<
+/T (Spells 1019)
+/V ({{{spells.cantrips.e}}})
+>> 
+<<
+/T (Spells 1017)
+/V ({{{spells.cantrips.c}}})
+>> 
+<<
+/T (Spells 1018)
+/V ({{{spells.cantrips.d}}})
+>> 
+<<
+/T (Spells 1015)
+/V ({{{spells.lvl1.a}}})
+>> 
+<<
+/T (Spells 1016)
+/V ({{{spells.cantrips.b}}})
+>> 
+<<
+/T (Check Box 251)
+/V /
+>> 
+<<
+/T (Religion)
+/V ({{{skills.religion.bonus}}})
+>> 
+<<
+/T (Spells 1014)
+/V ({{{spells.cantrips.a}}})
+>> 
+<<
+/T (CP)
+/V ({{{money.copper}}})
+>> 
+<<
+/T (SpellSaveDC  2)
+/V ({{{spells.save_dc}}})
+>> 
+<<
+/T (Backstory)
+/V ()
+>> 
+<<
+/T (Medicine)
+/V ({{{skills.medicine.bonus}}})
+>> 
+<<
+/T (SlotsTotal 19)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Perception )
+/V ({{{skills.perception.bonus}}})
+>> 
+<<
+/T (CHA)
+/V ({{{stats.cha.mod}}})
+>> 
+<<
+/T (Treasure)
+/V ()
+>> 
+<<
+/T (Check Box 3038)
+/V /Off
+>> 
+<<
+/T (Deception )
+/V ({{{skills.deception.bonus}}})
+>> 
+<<
+/T (Check Box 3037)
+/V /Off
+>> 
+<<
+/T (Check Box 3036)
+/V /Off
+>> 
+<<
+/T (Check Box 3035)
+/V /Off
+>> 
+<<
+/T (Check Box 3034)
+/V /Off
+>> 
+<<
+/T (Check Box 3033)
+/V /Off
+>> 
+<<
+/T (Check Box 3032)
+/V /Off
+>> 
+<<
+/T (Check Box 3031)
+/V /Off
+>> 
+<<
+/T (Check Box 3030)
+/V /Off
+>> 
+<<
+/T (Spells 1088)
+/V ({{{spells.lvl6.g}}})
+>> 
+<<
+/T (Wpn Name)
+/V ()
+>> 
+<<
+/T (Spells 1089)
+/V ({{{spells.lvl6.h}}})
+>> 
+<<
+/T (Spells 1086)
+/V ({{{spells.lvl6.e}}})
+>> 
+<<
+/T (Spells 1087)
+/V ({{{spells.lvl6.f}}})
+>> 
+<<
+/T (Spells 1084)
+/V ({{{spells.lvl6.c}}})
+>> 
+<<
+/T (Spells 1085)
+/V ({{{spells.lvl6.d}}})
+>> 
+<<
+/T (Spells 1082)
+/V ({{{spells.lvl6.b}}})
+>> 
+<<
+/T (Spells 1083)
+/V ({{{spells.lvl6.a}}})
+>> 
+<<
+/T (Spells 1080)
+/V ({{{spells.lvl5.h}}})
+>> 
+<<
+/T (Spells 1081)
+/V ({{{spells.lvl5.i}}})
+>> 
+<<
+/T (PlayerName)
+/V ({{{player_name}}})
+>> 
+<<
+/T (ST Intelligence)
+/V ({{{stats.int.save}}})
+>> 
+<<
+/T (Insight)
+/V ({{{skills.insight.bonus}}})
+>> 
+<<
+/T (Ideals)
+/V ({{{ideals}}})
+>> 
+<<
+/T (CHamod)
+/V ({{{stats.cha.score}}})
+>> 
+<<
+/T (Check Box 3039)
+/V /Off
+>> 
+<<
+/T (Check Box 3049)
+/V /Off
+>> 
+<<
+/T (Check Box 3048)
+/V /Off
+>> 
+<<
+/T (Spellcasting Class 2)
+/V ({{{class}}})
+>> 
+<<
+/T (Check Box 3047)
+/V /Off
+>> 
+<<
+/T (Eyes)
+/V ({{{eyes}}})
+>> 
+<<
+/T (Check Box 3046)
+/V /Off
+>> 
+<<
+/T (Check Box 3045)
+/V /Off
+>> 
+<<
+/T (Check Box 3044)
+/V /Off
+>> 
+<<
+/T (Check Box 3043)
+/V /Off
+>> 
+<<
+/T (Check Box 3042)
+/V /Off
+>> 
+<<
+/T (Check Box 3041)
+/V /Off
+>> 
+<<
+/T (Spells 1079)
+/V ({{{spells.lvl5.g}}})
+>> 
+<<
+/T (Check Box 3040)
+/V /
+>> 
+<<
+/T (Stealth )
+/V ({{{skills.stealth.bonus}}})
+>> 
+<<
+/T (Spells 1077)
+/V ({{{spells.lvl5.e}}})
+>> 
+<<
+/T (EP)
+/V ({{{money.electrum}}})
+>> 
+<<
+/T (Spells 1078)
+/V ({{{spells.lvl5.f}}})
+>> 
+<<
+/T (Spells 1075)
+/V ({{{spells.lvl5.c}}})
+>> 
+<<
+/T (Spells 1076)
+/V ({{{spells.lvl5.d}}})
+>> 
+<<
+/T (Weight)
+/V ({{{weight}}})
+>> 
+<<
+/T (Spells 1073)
+/V ({{{spells.lvl5.b}}})
+>> 
+<<
+/T (Spells 1074)
+/V ({{{spells.lvl5.a}}})
+>> 
+<<
+/T (Spells 1071)
+/V ({{{spells.lvl4.l}}})
+>> 
+<<
+/T (Spells 1072)
+/V ({{{spells.lvl4.m}}})
+>> 
+<<
+/T (CONmod)
+/V ({{{stats.con.score}}})
+>> 
+<<
+/T (Spells 1070)
+/V ({{{spells.lvl4.k}}})
+>> 
+<<
+/T (Allies)
+/V ()
+>> 
+<<
+/T (History )
+/V ({{{skills.history.bonus}}})
+>> 
+<<
+/T (Check Box 3059)
+/V /Off
+>> 
+<<
+/T (Check Box 3058)
+/V /Off
+>> 
+<<
+/T (Check Box 3057)
+/V /Off
+>> 
+<<
+/T (Check Box 3056)
+/V /Off
+>> 
+<<
+/T (Check Box 3055)
+/V /Off
+>> 
+<<
+/T (Check Box 3054)
+/V /Off
+>> 
+<<
+/T (Check Box 3053)
+/V /Off
+>> 
+<<
+/T (Spells 1068)
+/V ({{{spells.lvl4.i}}})
+>> 
+<<
+/T (Check Box 3052)
+/V /Off
+>> 
+<<
+/T (Spells 1069)
+/V ({{{spells.lvl4.j}}})
+>> 
+<<
+/T (Check Box 3051)
+/V /Off
+>> 
+<<
+/T (Spells 1066)
+/V ({{{spells.lvl4.g}}})
+>> 
+<<
+/T (Check Box 3050)
+/V /Off
+>> 
+<<
+/T (Spells 1067)
+/V ({{{spells.lvl4.h}}})
+>> 
+<<
+/T (Spells 1064)
+/V ({{{spells.lvl4.e}}})
+>> 
+<<
+/T (Spells 1065)
+/V ({{{spells.lvl4.f}}})
+>> 
+<<
+/T (Spells 1062)
+/V ({{{spells.lvl4.c}}})
+>> 
+<<
+/T (Spells 1063)
+/V ({{{spells.lvl4.d}}})
+>> 
+<<
+/T (Spells 1060)
+/V ({{{spells.lvl4.b}}})
+>> 
+<<
+/T (Spells 1061)
+/V ({{{spells.lvl4.a}}})
+>> 
+<<
+/T (Wpn2 Damage )
+/V ()
+>> 
+<<
+/T (ST Dexterity)
+/V ({{{stats.dex.save}}})
+>> 
+<<
+/T (Acrobatics)
+/V ({{{skills.acrobatics.bonus}}})
+>> 
+<<
+/T (Age)
+/V ({{{age}}})
+>> 
+<<
+/T (Speed)
+/V ({{{speed.walking}}})
+>> 
+<<
+/T (Intimidation)
+/V ({{{skills.intimidation.bonus}}})
+>> 
+<<
+/T (Faction Symbol Image)
+/V /
+>> 
+<<
+/T (Check Box 3069)
+/V /
+>> 
+<<
+/T (Check Box 3068)
+/V /Off
+>> 
+<<
+/T (Check Box 3067)
+/V /Off
+>> 
+<<
+/T (Check Box 3066)
+/V /
+>> 
+<<
+/T (Check Box 3065)
+/V /
+>> 
+<<
+/T (Spells 1059)
+/V ({{{spells.lvl3.m}}})
+>> 
+<<
+/T (Check Box 3064)
+/V /
+>> 
+<<
+/T (Check Box 3063)
+/V /
+>> 
+<<
+/T (Spells 1057)
+/V ({{{spells.lvl3.k}}})
+>> 
+<<
+/T (GP)
+/V ({{{money.gold}}})
+>> 
+<<
+/T (Check Box 3062)
+/V /
+>> 
+<<
+/T (Spells 1058)
+/V ({{{spells.lvl3.l}}})
+>> 
+<<
+/T (Check Box 3061)
+/V /
+>> 
+<<
+/T (Spells 1055)
+/V ({{{spells.lvl3.i}}})
+>> 
+<<
+/T (Check Box 3060)
+/V /
+>> 
+<<
+/T (Spells 1056)
+/V ({{{spells.lvl3.j}}})
+>> 
+<<
+/T (Spells 1053)
+/V ({{{spells.lvl3.g}}})
+>> 
+<<
+/T (Initiative)
+/V ({{{initiative}}})
+>> 
+<<
+/T (Spells 1054)
+/V ({{{spells.lvl3.h}}})
+>> 
+<<
+/T (Spells 1051)
+/V ({{{spells.lvl3.e}}})
+>> 
+<<
+/T (Spells 1052)
+/V ({{{spells.lvl3.f}}})
+>> 
+<<
+/T (Spells 1050)
+/V ({{{spells.lvl3.d}}})
+>> 
+<<
+/T (Equipment)
+/V ({{#inventory}}
+wearing: {{#wearing}}
+- {{{.}}}{{/wearing}}
+
+backpack: {{#backpack}}
+- {{{.}}}{{/backpack}}
+{{/inventory}})
+>> 
+<<
+/T (XP)
+/V ()
+>> 
+<<
+/T (Wpn Name 2)
+/V ()
+>> 
+<<
+/T (Wpn Name 3)
+/V ()
+>> 
+<<
+/T (HD)
+/V ({{{hit_dice.current}}})
+>> 
+<<
+/T (WISmod)
+/V ({{{stats.wis.score}}})
+>> 
+<<
+/T (Passive)
+/V ({{{passive_perception}}})
+>> 
+<<
+/T (Check Box 309)
+/V /
+>> 
+<<
+/T (Persuasion)
+/V ({{{skills.persuasion.bonus}}})
+>> 
+<<
+/T (Wpn3 Damage )
+/V ()
+>> 
+<<
+/T (Alignment)
+/V ({{{alignment}}})
+>> 
+<<
+/T (HPMax)
+/V ({{{hp.total}}})
+>> 
+<<
+/T (Check Box 310)
+/V /Off
+>> 
+<<
+/T (Check Box 319)
+/V /Off
+>> 
+<<
+/T (Check Box 317)
+/V /Off
+>> 
+<<
+/T (Check Box 318)
+/V /Off
+>> 
+<<
+/T (Check Box 315)
+/V /
+>> 
+<<
+/T (Survival)
+/V ({{{skills.survival.bonus}}})
+>> 
+<<
+/T (Check Box 316)
+/V /Off
+>> 
+<<
+/T (Check Box 313)
+/V /Off
+>> 
+<<
+/T (Features and Traits)
+/V ({{#features}}
+- {{{.}}}
+{{/features}})
+>> 
+<<
+/T (Check Box 314)
+/V /Off
+>> 
+<<
+/T (Spells 10101)
+/V ({{{spells.lvl8.a}}})
+>> 
+<<
+/T (Spells 10102)
+/V ({{{spells.lvl8.c}}})
+>> 
+<<
+/T (Spells 10100)
+/V ({{{spells.lvl8.b}}})
+>> 
+<<
+/T (Animal)
+/V ({{{skills.animal_handling.bonus}}})
+>> 
+<<
+/T (STRmod)
+/V ({{{stats.str.score}}})
+>> 
+<<
+/T (Performance)
+/V ({{{skills.performance.bonus}}})
+>> 
+<<
+/T (Arcana)
+/V ({{{skills.arcana.bonus}}})
+>> 
+<<
+/T (ProficienciesLang)
+/V ({{#proficiencies}}
+langugages:
+{{{languages}}}
+armor:
+{{{armor}}}
+weapons:
+{{{weapons}}}
+tools:
+{{{tools}}}
+{{/proficiencies}})
+>> 
+<<
+/T (Check Box 3016)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 25)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3015)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 26)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3014)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 23)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3013)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 24)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3012)
+/V /Off
+>> 
+<<
+/T (Check Box 3011)
+/V /Off
+>> 
+<<
+/T (ProfBonus)
+/V ({{{prof}}})
+>> 
+<<
+/T (Check Box 3010)
+/V /
+>> 
+<<
+/T (SlotsRemaining 27)
+/V ({{{spells.}}})
+>> 
+<<
+/T (HPCurrent)
+/V ({{{hp.current}}})
+>> 
+<<
+/T (Check Box 3019)
+/V /Off
+>> 
+<<
+/T (Check Box 3018)
+/V /Off
+>> 
+<<
+/T (Check Box 3017)
+/V /Off
+>> 
+<<
+/T (Check Box 3027)
+/V /Off
+>> 
+<<
+/T (Check Box 3026)
+/V /Off
+>> 
+<<
+/T (Check Box 3025)
+/V /Off
+>> 
+<<
+/T (CON)
+/V ({{{stats.con.mod}}})
+>> 
+<<
+/T (Check Box 3024)
+/V /Off
+>> 
+<<
+/T (Check Box 3023)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 19)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3022)
+/V /Off
+>> 
+<<
+/T (Check Box 3021)
+/V /Off
+>> 
+<<
+/T (Check Box 3020)
+/V /Off
+>> 
+<<
+/T (Spells 1099)
+/V ({{{spells.lvl7.i}}})
+>> 
+<<
+/T (Spells 1097)
+/V ({{{spells.lvl7.g}}})
+>> 
+<<
+/T (Spells 1098)
+/V ({{{spells.lvl7.h}}})
+>> 
+<<
+/T (Feat+Traits)
+/V ()
+>> 
+<<
+/T (Spells 1095)
+/V ({{{spells.lvl7.e}}})
+>> 
+<<
+/T (Spells 1096)
+/V ({{{spells.lvl7.f}}})
+>> 
+<<
+/T (Spells 1093)
+/V ({{{spells.lvl7.c}}})
+>> 
+<<
+/T (Spells 1094)
+/V ({{{spells.lvl7.d}}})
+>> 
+<<
+/T (Spells 1091)
+/V ({{{spells.lvl7.b}}})
+>> 
+<<
+/T (Spells 1092)
+/V ({{{spells.lvl7.a}}})
+>> 
+<<
+/T (Spells 1090)
+/V ({{{spells.lvl6.i}}})
+>> 
+<<
+/T (SlotsRemaining 21)
+/V ({{{spells.}}})
+>> 
+<<
+/T (SlotsRemaining 22)
+/V ({{{spells.}}})
+>> 
+<<
+/T (ClassLevel)
+/V ({{{class}}} yml:level)
+>> 
+<<
+/T (Check Box 3029)
+/V /Off
+>> 
+<<
+/T (SlotsRemaining 20)
+/V ({{{spells.}}})
+>> 
+<<
+/T (Check Box 3028)
+/V /Off
+>> 
+<<
+/T (Check Box 35)
+/V /
+>> 
+<<
+/T (Check Box 34)
+/V /
+>> 
+<<
+/T (Check Box 33)
+/V /
+>> 
+<<
+/T (Check Box 32)
+/V /
+>> 
+<<
+/T (Check Box 31)
+/V /
+>> 
+<<
+/T (Check Box 30)
+/V /
+>> 
+<<
+/T (CHARACTER IMAGE)
+/V /
+>> 
+<<
+/T (HPTemp)
+/V ({{{temp_hp}}})
+>> 
+<<
+/T (SpellcastingAbility 2)
+/V ({{{spells.stat}}})
+>> 
+<<
+/T (Check Box 39)
+/V /
+>> 
+<<
+/T (Check Box 38)
+/V /
+>> 
+<<
+/T (Check Box 37)
+/V /
+>> 
+<<
+/T (Check Box 36)
+/V /
+>> 
+<<
+/T (Check Box 24)
+/V /
+>> 
+<<
+/T (Check Box 23)
+/V /
+>> 
+<<
+/T (Check Box 22)
+/V /
+>> 
+<<
+/T (Check Box 21)
+/V /
+>> 
+<<
+/T (Check Box 20)
+/V /
+>> 
+<<
+/T (Skin)
+/V ({{{skin}}})
+>> 
+<<
+/T (Check Box 29)
+/V /
+>> 
+<<
+/T (Check Box 28)
+/V /
+>> 
+<<
+/T (Check Box 27)
+/V /
+>> 
+<<
+/T (Check Box 26)
+/V /
+>> 
+<<
+/T (Check Box 25)
+/V /
+>> 
+<<
+/T (WIS)
+/V ({{{stats.wis.mod}}})
+>> 
+<<
+/T (Check Box 322)
+/V /Off
+>> 
+<<
+/T (Investigation )
+/V ({{{skills.investigation.bonus}}})
+>> 
+<<
+/T (Check Box 323)
+/V /Off
+>> 
+<<
+/T (Check Box 320)
+/V /
+>> 
+<<
+/T (Check Box 321)
+/V /
+>> 
+<<
+/T (Spells 10109)
+/V ({{{spells.lvl9.c}}})
+>> 
+<<
+/T (Spells 10107)
+/V ({{{spells.lvl9.b}}})
+>> 
+<<
+/T (Spells 10108)
+/V ({{{spells.lvl9.a}}})
+>> 
+<<
+/T (Spells 10105)
+/V ({{{spells.lvl8.f}}})
+>> 
+<<
+/T (Check Box 326)
+/V /
+>> 
+<<
+/T (ST Wisdom)
+/V (ynl:stats.wis.save)
+>> 
+<<
+/T (Spells 10106)
+/V ({{{spells.lvl8.g}}})
+>> 
+<<
+/T (Check Box 327)
+/V /
+>> 
+<<
+/T (INT)
+/V ({{{stats.int.mod}}})
+>> 
+<<
+/T (Spells 10103)
+/V ({{{spells.lvl8.d}}})
+>> 
+<<
+/T (Check Box 324)
+/V /Off
+>> 
+<<
+/T (Spells 10104)
+/V ({{{spells.lvl8.e}}})
+>> 
+<<
+/T (Check Box 325)
+/V /
+>> 
+<<
+/T (ST Charisma)
+/V ({{{stats.cha.save}}})
+>> 
+<<
+/T (INTmod)
+/V ({{{stats.int.score}}})
+>> 
+<<
+/T (CharacterName)
+/V ({{{character_title}}})
+>> 
+<<
+/T (Height)
+/V ({{{height}}})
+>> 
+<<
+/T (PersonalityTraits )
+/V ({{{personality_traits}}})
+>> 
+<<
+/T (Check Box 40)
+/V /
+>> 
+<<
+/T (Wpn1 AtkBonus)
+/V ()
+>> 
+<<
+/T (DEX)
+/V ({{{stats.dex.mod}}})
+>> 
+<<
+/T (Spells 101013)
+/V ({{{spells.lvl9.g}}})
+>> 
+<<
+/T (SpellAtkBonus 2)
+/V ({{{spells.attack_bonus}}})
+>> 
+<<
+/T (Spells 101012)
+/V ({{{spells.lvl9.f}}})
+>> 
+<<
+/T (Spells 101011)
+/V ({{{spells.lvl9.e}}})
+>> 
+<<
+/T (Spells 101010)
+/V ({{{spells.lvl9.d}}})
+>> 
+<<
+/T (Race )
+/V ({{{race}}})
+>>]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF

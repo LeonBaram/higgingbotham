@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crucial-bonito-382823",
+  "private_key_id": "5333eb85d7756ba4fe35f6614c8423b7ef310f4a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCdAu7Dd/foT151\nIsCGX9ek7DpiZy9ckQNy4RbpvU8Y52e8T/6MbmTCoZH/evAjZ7YUpsUHeupwKLdl\nqfQX96WQ2oJBwxsYwl0pVCKPtrABMFmxs057ndPWYCS9NJ/6IHkHjA2RWN9W8fUs\n+CW04/0XFxIV7i6aoTViZfD19mznHMCIyb9i0iSfcfyqYljBpXz5XuBH+hde6bIu\nNr9woPTumbvJQxLCCkEg6hIuNUaOhdbANMAhjJeZ1WKUkgnF9xck3JWXohMAFL3Y\nYjMN5ddTxVFYTKnJYVZA99qRU5QX1ridezjQ6xUrnh3Kme5G16ajwAUteVdF2zex\ndDbEXYHvAgMBAAECggEARSIr8Gxr/2GnJSt6mxArWuZa5MYrT/ZYDua2WI/u+ne1\nsPCGE95txlcu+k9u2iAJx7kQqzT/cggzjHOTU1RLFedokD0wuqumKpLtrtrRT4yz\nCa/6YCrDwjJOKvM3d4KB2AVeWf/IQzfBbR4MOERkxZx2baqU4agW4e8h9KMfG3lY\nN/+C0WrjMMXXMboylHrmc3EFNJv99zkDyu4S8pf3fBlMbRt6vCTPrXQk5i7lmybl\nomfBcX6Hm2lU00jcU3A88gNGsvGHyrzEKBNJCgEZLGJ1tmK9dOoPtto/kuSPiRJ4\nPozQIVPwNnczdPSMFmy4gOgpnFg63a1IXs/x9V9kdQKBgQDSdS9CK/xbKDMM02yP\n4LS7m/Zbh8qC6Rzsyn7+joUg5PUy0CizBqP0qoZb5k8uy408pykVjMlCLritQ9N6\nefXRVdXmWtWbs8t0xNtJx5uxzg1u5P5Rv6QrkLXeIbZZEVUWpPddvN79verL4QiX\nV5io0YPugknJ6iaVp/Tbht061QKBgQC+/PYesG0Eqe7L7oc1MGXoiKy9LTk4+bpY\nR5VDH7+gUPrxbmKIFTfyXsQtbAecdNcEMrdYHlHv/J9ukrqUdRsiVFO7QsaqmXMu\nlmHFDd2jSySkyBrDFZ4g8+vAX/IpkK4BS3DVbiwKtAaGvHp2zjyp0gickgTNlYve\nOY91zrljswKBgQCJdx+KMl7gT+6gZwzXIagLjwCoopalUYyiIlY3AXJ1nPeH3C1p\nWmIHcsbWCiYYY756KpmMSOxAfXIFQnNE4ZqtxEo174js7dBsEhVGKMpKplNh5tMz\nJGEgT6JrWEvZ+5c/djtZD//7b2yJBRDugbnmMwvg41s9NuNDB3TJW1rvjQKBgEuB\nC/gD/YVrfPloWlGfyZoNdmTvnQC2UYIXAp5fzc0eVqbd4dw0r0KFTn86hyPGWT7S\nogMXMYNz1r/LCDIqvchrmBKfCpVlRtDzKMHTgnzM9zah2VqokDQs2lXaWI0wImpm\nnbvy6zxsAWyA1NVlITxtyXPEkluINJxtGxcS293bAoGBAMVR8S+w1lFX2FVOrA7j\nAT3pS3Nc4cly2iB/5wwKxhBIgByN0i7f8Ky2Bva7UoxcGXglu55EejruU6Y1765I\nT2ai5VoC0yEZuoNhSVYStQdQddMGodAlnaz8hgr/cQef+mZjTIQFvWrH+v3elUYK\nmvRRyyPXz7waPgcuEMrft4G8\n-----END PRIVATE KEY-----\n",
+  "client_email": "pythonwithsheets@crucial-bonito-382823.iam.gserviceaccount.com",
+  "client_id": "104174127017313919227",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pythonwithsheets%40crucial-bonito-382823.iam.gserviceaccount.com"
+}
