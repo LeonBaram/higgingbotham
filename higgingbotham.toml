@@ -6,7 +6,7 @@ Professor Herbert Higgingbotham, PhD, \
 Head of Anthropology at the Dunwall College of Liberal Arts \
 """
 
-level = "8"
+level = "9"
 race = "Human"
 class = "Lore Bard"
 background = "Anthropologist"
@@ -15,19 +15,21 @@ alignment = "Lawful Good"
 
 inspiration = false
 
+token_of_the_gloom = true # if you choose to succeed, you shall
+
 conditions = ""
 
-"proficiency bonus" = "+3"
-"jack of all trades" = "+1" # = "proficiency bonus" // 2
+"proficiency bonus" = "+4"
+"jack of all trades" = "+2" # = "proficiency bonus" // 2
 
-initiative = "+4"     # = dexterity.modifier + "jack of all trades"
+initiative = "+5"     # = dexterity.modifier + "jack of all trades"
 speed = 30
 
 "armor class" = 16  # = 13 + dexterity.modifier
 
 # +5 from feat "Observant"
-"passive perception" = 23    # = 10 + skills.perception + 5
-"passive investigation" = 24 # = 10 + skills.investigation + 5
+"passive perception" = 24    # = 10 + skills.perception + 5
+"passive investigation" = 25 # = 10 + skills.investigation + 5
 
 "carry capacity" = "120lbs" # 15 * stats.strength.score
 
@@ -36,59 +38,59 @@ successes = 0
 failures = 0
 
 ["hit points"]
-hp = "60 / 61"
-"temp hp" = 0
-"hit dice" = "8d8 / 8d8"
+hp = "61 / 61"
+"temp hp" = 12
+"hit dice" = "9d8 / 9d8"
 
 [resources]
-"bardic inspiration" = ["2d8 / 3d8", "short rest"]
-"revolver ammo" = 12
+"bardic inspiration" = ["1d8 / 3d8", "short rest"]
+"revolver ammo" = 61
 "un-misfire" = ["1 / 1", "short rest"]
 
 [[attacks]]
 item = "revolver"
-stats = { attack = "+6", damage = "1d10+3 piercing" }
+stats = { attack = "+7", damage = "1d10+3 piercing" }
 ranged = { range = "60/240", reload = 4, misfire = 1 }
 [[attacks]]
 item = "rapier"
-stats = { attack = "+6", damage = "1d8+3 piercing" }
+stats = { attack = "+7", damage = "1d8+3 piercing" }
 [[attacks]]
 item = "dagger"
-stats = { attack = "+6", damage = "1d4+3 piercing" }
+stats = { attack = "+7", damage = "1d4+3 piercing" }
 ranged = { range = "20/60", misfire = 7 }
 
 [stats]
 strength     = { score =  8, modifier = "-1", save = "-1" }
-dexterity    = { score = 16, modifier = "+3", save = "+6", proficient = true }
+dexterity    = { score = 16, modifier = "+3", save = "+7", proficient = true }
 constitution = { score = 14, modifier = "+2", save = "+2" }
 intelligence = { score = 16, modifier = "+3", save = "+3" }
 wisdom       = { score = 14, modifier = "+2", save = "+2" }
-charisma     = { score = 16, modifier = "+3", save = "+6", proficient = true }
+charisma     = { score = 16, modifier = "+3", save = "+7", proficient = true }
 
 [skills] # note: add "jack of all trades" to non-proficient/non-expertise skills
 # strength
-athletics           = ["+0"]
+athletics           = ["+1"]
 # dexterity
-acrobatics          = ["+4"]
-"sleight of hand"   = ["+4"]
-stealth             = ["+4"]
+acrobatics          = ["+5"]
+"sleight of hand"   = ["+5"]
+stealth             = ["+5"]
 # intelligence
-arcana              = ["+6", "proficient"]
-history             = ["+6", "proficient"]
-investigation       = ["+9", "expertise"]
-nature              = ["+6", "proficient"]
-religion            = ["+6", "proficient"]
+arcana              = ["+7", "proficient"]
+history             = ["+7", "proficient"]
+investigation       = ["+11", "expertise"]
+nature              = ["+8", "proficient"]
+religion            = ["+8", "proficient"]
 # wisdom
-"animal handling"   = ["+3"]
-insight             = ["+5", "proficient"]
-medicine            = ["+3"]
-perception          = ["+8", "expertise"]
-survival            = ["+3"]
+"animal handling"   = ["+4"]
+insight             = ["+6", "proficient"]
+medicine            = ["+4"]
+perception          = ["+10", "expertise"]
+survival            = ["+4"]
 # charisma
-deception           = ["+4"]
-intimidation        = ["+4"]
-performance         = ["+6", "proficient"]
-persuasion          = ["+6", "proficient"]
+deception           = ["+5"]
+intimidation        = ["+5"]
+performance         = ["+7", "proficient"]
+persuasion          = ["+7", "proficient"]
 
 [proficiencies]
 languages = [
@@ -114,8 +116,8 @@ tools = [
 ]
 
 [spell.stats]
-attack = "+6" # spell attack bonus = charisma.modifier + "proficiency bonus"
-save = 14     # spell save dc = 8 + spell.attack
+attack = "+7" # spell attack bonus = charisma.modifier + "proficiency bonus"
+save = 15     # spell save dc = 8 + spell.attack
 class = "Bard" # spellcasting class
 ability = "Charisma" # spellcasting ability
 cantrips_known = 3
@@ -123,10 +125,11 @@ spells_known = 11
 concentrating = "bane"
 
 [spell.slots]
-lvl1 = "2 / 4"
-lvl2 = "2 / 3"
-lvl3 = "2 / 3"
-lvl4 = "2 / 2"
+lvl1 = "3 / 4"
+lvl2 = "3 / 3"
+lvl3 = "3 / 3"
+lvl4 = "3 / 3"
+lvl5 = "1 / 1"
 
 [spell.list]
 lvl0 = [
@@ -156,6 +159,15 @@ lvl3 = [
 lvl4 = [
 "charm monster (VS)",
 ]
+lvl5 = [
+"raise dead (VSM - diamond 500gp x 0)"
+]
+# aid?
+# invisibility?
+# lesser restoration?
+# dimension door?
+# greater invis?
+# greater res?
 
 [money]
 copper = 0
@@ -178,7 +190,7 @@ platinum = 0
 "rapier" = { q=1, w=2 }
 "dagger" = { q=1, w=1 }
 
-[inventory.backpack] # total weight: 36
+[inventory.backpack] # total weight: 37
 "backpack" = { q=1, w=5 }
 "bedroll" = { q=1, w=7 }
 "hemp rope (length 50 feet)" = { q=1, w=0 }
@@ -203,6 +215,7 @@ platinum = 0
 "waterskin (capacity 4 pints)" = { q=1, w=5 }
 # potions
 "superior healing potion" = { q=1, w=1 }
+"mithril half-plate" = { q=1, w=1 }
 
 [features]
 "adept linguist" = """
@@ -238,7 +251,7 @@ you can add half your proficiency (rounded down)
 "song of rest" = """
 at the end of a short rest,
 if you and any friendlies (must be able to hear you) spend hit dice to heal,
-those people heal +1d6 hp
+those people heal +1d8 hp
 """
 countercharm = """
 as an action,
