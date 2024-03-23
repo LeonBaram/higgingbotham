@@ -39,7 +39,7 @@ failures = 0
 
 ["hit points"]
 hp = "65 / 67"
-"temp hp" = "12"
+"temp hp" = "0"
 "hit dice" = "7d8 / 10d8"
 
 [resources]
@@ -184,7 +184,7 @@ platinum = 0
 inventory.wearing = [
     "1 safari hat (0 lbs)",
     "1 round eyeglasses (left lens broken) (0 lbs)",
-    "1 dirty rags (formerly traveler's clothes) (1 lbs)",
+    "1 traveler's clothes (1 lbs)",
     "1 singing rock (bardic focus) (1 lbs)",
     "1 coin pouch (1 lbs)",
     "1 ammo pouch (1 lbs)",

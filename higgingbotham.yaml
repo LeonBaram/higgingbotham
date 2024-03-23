@@ -5,7 +5,7 @@ player_name: Leon
 
 inspiration: no
 
-level: 9
+level: 10
 race: Human
 class: Lore Bard
 background: Anthropologist
@@ -37,7 +37,6 @@ bonds: |
   I want to learn about krag culture.
   I want to become more renowned than my rival, Victoria Handforth.
 flaws: I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
-
 # proficiency bonus
 prof: 4
 
@@ -49,62 +48,61 @@ passive_investigation: 25
 
 # ability scores
 stats:
-  str: { score:  8, mod: -1, save: -1 }
-  dex: { score: 16, mod:  3, save:  7, pro: yes }
-  con: { score: 14, mod:  2, save:  2 }
-  int: { score: 16, mod:  3, save:  3 }
-  wis: { score: 14, mod:  2, save:  2 }
-  cha: { score: 16, mod:  3, save:  7, pro: yes }
+  str: { score: 8, mod: -1, save: -1 }
+  dex: { score: 16, mod: 3, save: 7, pro: yes }
+  con: { score: 14, mod: 2, save: 2 }
+  int: { score: 16, mod: 3, save: 3 }
+  wis: { score: 14, mod: 2, save: 2 }
+  cha: { score: 16, mod: 3, save: 7, pro: yes }
 
 # = stats.dex.mod + (prof // 2)
-initiative: 4
+initiative: 5
 
 speed:
   walking: 30
 
 # hit points = 45 + (stats.con.mod * level)
-hp: { current: 49, total: 61 }
-aid_hp: { current: 0, total: 10 }
+hp: { current: 65, total: 67 }
+aid_hp: { current: 0, total: 0 }
 
 # temporary hit points
 temp_hp: 0
 
 # = level * d8
-hit_dice: { current: 9d8, total: 9d8 }
+hit_dice: { current: 7d8, total: 10d8 }
 
 skills:
   # stats.str
-  athletics:        { bonus: 1 }
+  athletics: { bonus: 1 }
   # stats.dex
-  acrobatics:       { bonus: 5 }
-  sleight_of_hand:  { bonus: 5 }
-  stealth:          { bonus: 5 }
+  acrobatics: { bonus: 5 }
+  sleight_of_hand: { bonus: 5 }
+  stealth: { bonus: 5 }
   # stats.int
-  arcana:           { bonus: 7, pro: yes }
-  history:          { bonus: 7, pro: yes }
-  investigation:    { bonus: 11, expert: yes }
-  nature:           { bonus: 8, pro: yes }
-  religion:         { bonus: 8, pro: yes }
+  arcana: { bonus: 11, expert: yes }
+  history: { bonus: 7, pro: yes }
+  investigation: { bonus: 11, expert: yes }
+  nature: { bonus: 8, pro: yes }
+  religion: { bonus: 8, pro: yes }
   # stats.wis
-  animal_handling:  { bonus: 4 }
-  insight:          { bonus: 6, pro: yes }
-  medicine:         { bonus: 4 }
-  perception:       { bonus: 10, expert: yes }
-  survival:         { bonus: 4 }
+  animal_handling: { bonus: 4 }
+  insight: { bonus: 6, expert: yes }
+  medicine: { bonus: 4 }
+  perception: { bonus: 10, expert: yes }
+  survival: { bonus: 4 }
   # stats.cha
-  deception:        { bonus: 5 }
-  intimidation:     { bonus: 5 }
-  performance:      { bonus: 7, pro: yes }
-  persuasion:       { bonus: 7, pro: yes }
-
+  deception: { bonus: 5 }
+  intimidation: { bonus: 5 }
+  performance: { bonus: 7, pro: yes }
+  persuasion: { bonus: 7, pro: yes }
 
 # AC = 12 + stats.dex.mod
-armor_class: 15
+armor_class: 17
 
 attacks:
   - name: Debt Collector (+2 revolver)
     atk/dmg: +9, 1d10+5 piercing
-    ammo: 69,
+    ammo: 60,
     ranged: range 60/240, reload 6, misfire 1
     effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target is out of money... who knows?
     engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
@@ -115,6 +113,10 @@ attacks:
   - name: dagger
     atk/dmg: +7 / 1d4+3 piercing
     ranged: range 60/240
+
+  - name: electric stun baton
+    atk/dmg: +3, 1d6-1 bludgeoning
+    extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
 
 proficiencies:
   languages: |
@@ -136,25 +138,26 @@ proficiencies:
     - archaeologist's tools
 
 resources:
-  bardic_inspiration: 
+  bardic_inspiration:
     regen: short rest
     used: 3
-    total: 3d8
+    total: 3d10
   spell_slots:
     regen: long rest
-    used:   { lvl1: 0, lvl2: 1, lvl3: 0, lvl4: 0 }
-    total:  { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 2 }
+    used: { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 2, lvl5: 2 }
+    total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2 }
 
 # spellcasting
 spells:
   stat: Charisma
   attack_bonus: +6
   save_dc: 14
-  total_known: 13
+  total_known: 14
   cantrips:
     a: vicious mockery (V)
     b: friends (SM) <C>
     c: minor illusion (SM)
+    d: mage hand (VS)
   lvl1:
     a: silvery barbs (V)
     b: command (V)
@@ -172,47 +175,65 @@ spells:
     b: counterspell (S)
   lvl4:
     a: charm monster (VS)
+    b: dimension door (V)
+    c: greater invisibility (VS)
+    d: death ward (VS)
+  lvl5:
+    a: raise dead (VSM - diamond 500gp x 0)
+    b: modify memory (VS) <C>
+    c: holy weapon (VS) <C>
 
 money:
-  copper:   0
-  silver:   0
+  copper: 0
+  silver: 0
   electrum: 0
-  gold:     293
+  gold: 300
   platinum: 0
 
 inventory: # total: 2 lb. (max carry capacity 120 lb.)
   wearing:
-    -  1 x  Debt Collector (+2 revolver)
-    -  1 x  1 lb. singing rock (bardic focus)
-    -  1 x  1 lb. dirty rags (formerly traverler's clothes)
-    -  1 x  0 lb. round eyeglasses (left lens broken)
-    -  1 x  0 lb. safari hat
-    -  1 x  1 lb. coin pouch
-    -  1 x  1 lb. ammo pouch
-    -  1 x 13 lb. studded leather armor
+    - 1 safari hat (0 lbs),
+    - 1 round eyeglasses (left lens broken) (0 lbs),
+    - 1 traveler's clothes (1 lbs),
+    - 1 singing rock (bardic focus) (1 lbs),
+    - 1 coin pouch (1 lbs),
+    - 1 ammo pouch (1 lbs),
+    - 1 Debt Collector (+2 revolver) (3 lbs),
+    - 1 rapier (2 lbs),
+    - 1 dagger (1 lbs),
+    - 1 Leaz Stone,
   backpack:
-    -  1 x  4-shot revolver
-    -  1 x  7 lb. bedroll
-    -  1 x 10 lb. hemp rope (length 50 feet)
+    - 3 oil lanterns,
+    - 1 sleeping bag,
+    - 1 stun baton,
+    - 1 factory delivery notes
+    - 1 backpack (5 lbs),
+    - 1 bedroll (7 lbs),
+    - 1 hemp rope (50 feet) (0 lbs),
       # writing supplies
-    -  1 x  0 lb. ink bottle (capacity 1 ounce)
-    -  1 x  0 lb. ink pen
-    -  1 x  0 lb. sealing wax
-    -  5 x  0 lb. sheet of paper
-    -  2 x  1 lb. map/scroll case
-    -  1 x  5 lb. leather-bound diary
+    - 1 ink bottle (1 ounce) (0 lbs),
+    - 1 ink pen (0 lbs),
+    - 1 sealing wax (0 lbs),
+    - 5 sheet of paper (0 lbs),
+    - 5 map/scroll case (1 lbs),
+    - 1 leather-bound diary (5 lbs),
       # personal hygiene
-    -  1 x  0 lb. vial of perfume
-    -  1 x  0 lb. soap
+    - 1 vial of perfume (0 lbs),
+    - 1 soap (0 lbs),
       # lighting
-    -  1 x  1 lb. oil lamp
-    -  2 x  1 lb. oil flask (capacity 1 pint)
-    -  1 x  1 lb. tinderbox
-    - 10 x  1 lb. torch
+    - 1 oil lamp (1 lbs),
+    - 2 oil flask (capacity 1 pint) (1 lbs),
+    - 1 tinderbox (1 lbs),
+    - 1 torch (1 lbs),
       # food / water
-    -  1 x  1 lb. mess kit
-    -  5 x  1 lb. day's worth of rations
-    -  1 x  5 lb. waterskin (capacity 4 pints)
+    - 1 mess kit (1 lbs),
+    - 5 day's worth of rations (1 lbs),
+    - 1 waterskin (capacity 4 pints) (5 lbs),
+      # potions
+    - 1 superior healing potion (1 lbs),
+    - 1 mithril half-plate (1 lbs),
+    - 1 sapphire (worth 200gp)
+    - 1 amethyst
 
 feats:
   - name: Observant
@@ -226,6 +247,7 @@ feats:
       - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
 
 features:
+  - token of the gloom ("if you choose to succeed, you shall")
   - feat "observant"
   - bardic inspiration (d8)
   - song of rest (d6) (+1d6 hp when hit-dice healing on short rests)
@@ -233,5 +255,4 @@ features:
   - countercharm
   - cutting words
   - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
-  - token of the gloom ("if you choose to succeed, you shall")
 ---
