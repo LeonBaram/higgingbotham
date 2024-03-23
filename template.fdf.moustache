@@ -11,7 +11,7 @@
 >> 
 <<
 /T (SlotsTotal 20)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl2}}})
 >> 
 <<
 /T (Check Box 3079)
@@ -99,27 +99,27 @@
 >> 
 <<
 /T (SlotsTotal 25)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl7}}})
 >> 
 <<
 /T (SlotsTotal 26)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl8}}})
 >> 
 <<
 /T (SlotsTotal 27)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl9}}})
 >> 
 <<
 /T (SlotsTotal 21)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl3}}})
 >> 
 <<
 /T (SlotsTotal 22)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl4}}})
 >> 
 <<
 /T (SlotsTotal 23)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl5}}})
 >> 
 <<
 /T (CharacterName 2)
@@ -127,7 +127,7 @@
 >> 
 <<
 /T (SlotsTotal 24)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl6}}})
 >> 
 <<
 /T (Hair)
@@ -389,7 +389,7 @@
 >> 
 <<
 /T (SlotsTotal 19)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.total.lvl1}}})
 >> 
 <<
 /T (Perception )
@@ -962,7 +962,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 25)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl7}}})
 >> 
 <<
 /T (Check Box 3015)
@@ -970,7 +970,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 26)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl8}}})
 >> 
 <<
 /T (Check Box 3014)
@@ -978,7 +978,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 23)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl5}}})
 >> 
 <<
 /T (Check Box 3013)
@@ -986,7 +986,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 24)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl6}}})
 >> 
 <<
 /T (Check Box 3012)
@@ -1006,7 +1006,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 27)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl9}}})
 >> 
 <<
 /T (HPCurrent)
@@ -1050,7 +1050,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 19)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl1}}})
 >> 
 <<
 /T (Check Box 3022)
@@ -1110,15 +1110,15 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 21)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl3}}})
 >> 
 <<
 /T (SlotsRemaining 22)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl4}}})
 >> 
 <<
 /T (ClassLevel)
-/V ({{{class}}} yml:level)
+/V ({{{class}}} {{{level}}})
 >> 
 <<
 /T (Check Box 3029)
@@ -1126,7 +1126,7 @@ tools:
 >> 
 <<
 /T (SlotsRemaining 20)
-/V ({{{spells.}}})
+/V ({{{resources.spell_slots.used.lvl2}}})
 >> 
 <<
 /T (Check Box 3028)
@@ -1274,7 +1274,7 @@ tools:
 >> 
 <<
 /T (ST Wisdom)
-/V (ynl:stats.wis.save)
+/V ({{{stats.wis.save}}})
 >> 
 <<
 /T (Spells 10106)
