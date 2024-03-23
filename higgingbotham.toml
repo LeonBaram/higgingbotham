@@ -6,12 +6,12 @@ Professor Herbert Higgingbotham, PhD, \
 Head of Anthropology at the Dunwall College of Liberal Arts \
 """
 
-level = "9"
+level = "10"
 race = "Human"
 class = "Lore Bard"
 background = "Anthropologist"
 
-alignment = "Lawful Good"
+alignment = "Lawful Good" # moderately imperialist leanings
 
 inspiration = false
 
@@ -25,7 +25,7 @@ conditions = ""
 initiative = "+5"     # = dexterity.modifier + "jack of all trades"
 speed = 30
 
-"armor class" = 16  # = 13 + dexterity.modifier
+"armor class" = 17  # = 13 + dexterity.modifier + 1 from Leaz stone
 
 # +5 from feat "Observant"
 "passive perception" = 24    # = 10 + skills.perception + 5
@@ -38,19 +38,19 @@ successes = 0
 failures = 0
 
 ["hit points"]
-hp = "61 / 61"
-"temp hp" = 12
-"hit dice" = "9d8 / 9d8"
+hp = "65 / 67"
+"temp hp" = "12"
+"hit dice" = "7d8 / 10d8"
 
 [resources]
-"bardic inspiration" = ["1d8 / 3d8", "short rest"]
-"revolver ammo" = 61
+"bardic inspiration" = ["3d10 / 3d10", "short rest"]
 "un-misfire" = ["1 / 1", "short rest"]
 
 [[attacks]]
-item = "revolver"
-stats = { attack = "+7", damage = "1d10+3 piercing" }
-ranged = { range = "60/240", reload = 4, misfire = 1 }
+item = "Debt Collector (+2 revolver)"
+stats = { attack = "+9", damage = "1d10+5 piercing" }
+ranged = { range = "60/240", reload = 6, misfire = 1 }
+ammo = 60
 [[attacks]]
 item = "rapier"
 stats = { attack = "+7", damage = "1d8+3 piercing" }
@@ -58,6 +58,10 @@ stats = { attack = "+7", damage = "1d8+3 piercing" }
 item = "dagger"
 stats = { attack = "+7", damage = "1d4+3 piercing" }
 ranged = { range = "20/60", misfire = 7 }
+[[attacks]]
+item = "electric stun baton"
+stats = { attack = "+3", damage = "1d6-1 bludgeoning" }
+extra = "as a bonus action, activate stun setting to deal additional 2d4 lightning damage"
 
 [stats]
 strength     = { score =  8, modifier = "-1", save = "-1" }
@@ -68,25 +72,25 @@ wisdom       = { score = 14, modifier = "+2", save = "+2" }
 charisma     = { score = 16, modifier = "+3", save = "+7", proficient = true }
 
 [skills] # note: add "jack of all trades" to non-proficient/non-expertise skills
-# strength
+# str
 athletics           = ["+1"]
-# dexterity
+# dex
 acrobatics          = ["+5"]
 "sleight of hand"   = ["+5"]
 stealth             = ["+5"]
-# intelligence
-arcana              = ["+7", "proficient"]
+# int
+arcana              = ["+11", "expertise"]
 history             = ["+7", "proficient"]
 investigation       = ["+11", "expertise"]
 nature              = ["+8", "proficient"]
 religion            = ["+8", "proficient"]
-# wisdom
+# wis
 "animal handling"   = ["+4"]
-insight             = ["+6", "proficient"]
+insight             = ["+10", "expertise"]
 medicine            = ["+4"]
 perception          = ["+10", "expertise"]
 survival            = ["+4"]
-# charisma
+# cha
 deception           = ["+5"]
 intimidation        = ["+5"]
 performance         = ["+7", "proficient"]
@@ -121,15 +125,15 @@ save = 15     # spell save dc = 8 + spell.attack
 class = "Bard" # spellcasting class
 ability = "Charisma" # spellcasting ability
 cantrips_known = 3
-spells_known = 11
-concentrating = "bane"
+spells_known = 14
+concentrating = ""
 
 [spell.slots]
-lvl1 = "3 / 4"
+lvl1 = "4 / 4"
 lvl2 = "3 / 3"
 lvl3 = "3 / 3"
-lvl4 = "3 / 3"
-lvl5 = "1 / 1"
+lvl4 = "2 / 3"
+lvl5 = "0 / 2"
 
 [spell.list]
 lvl0 = [
@@ -137,6 +141,7 @@ lvl0 = [
 "vicious mockery (V)",
 "friends (SM) <C>",
 "minor illusion (SM)",
+"mage hand (VS)",
 ]
 lvl1 = [
 "silvery barbs (V)",
@@ -158,64 +163,78 @@ lvl3 = [
 ]
 lvl4 = [
 "charm monster (VS)",
+"dimension door (V)",
+"greater invisibility (VS)",
+"death ward (VS)",
 ]
 lvl5 = [
-"raise dead (VSM - diamond 500gp x 0)"
+"raise dead (VSM - diamond 500gp x 0)",
+"modify memory (VS) <C>",
+"holy weapon (VS) <C>",
 ]
-# aid?
-# invisibility?
-# lesser restoration?
-# dimension door?
-# greater invis?
-# greater res?
 
 [money]
 copper = 0
 silver = 0
 electrum = 0
-gold = 293
+gold = 300
 platinum = 0
 
-[inventory.wearing] # total weight: 9
-# format: "name" = { q=quantity, w=weight }
-# default quantity is 1
-# default weight is 0
-"safari hat" = { q=1, w=0 }
-"round eyeglasses (left lens broken)" = { q=1, w=0 }
-"dirty rags (formerly traveler's clothes)" = { q=1, w=1 }
-"singing rock (bardic focus)" = { q=1, w=1 }
-"coin pouch" = { q=1, w=1 }
-"ammo pouch" = { q=1, w=1 }
-"revolver" = { q=1, w=3 }
-"rapier" = { q=1, w=2 }
-"dagger" = { q=1, w=1 }
+# total weight: 9 lbs
+inventory.wearing = [
+    "1 safari hat (0 lbs)",
+    "1 round eyeglasses (left lens broken) (0 lbs)",
+    "1 dirty rags (formerly traveler's clothes) (1 lbs)",
+    "1 singing rock (bardic focus) (1 lbs)",
+    "1 coin pouch (1 lbs)",
+    "1 ammo pouch (1 lbs)",
+    "1 Debt Collector (+2 revolver) (3 lbs)",
+    "1 rapier (2 lbs)",
+    "1 dagger (1 lbs)",
+    "1 Leaz Stone",
+]
 
-[inventory.backpack] # total weight: 37
-"backpack" = { q=1, w=5 }
-"bedroll" = { q=1, w=7 }
-"hemp rope (length 50 feet)" = { q=1, w=0 }
-# writing supplies
-"ink bottle (capacity 1 ounce)" = { q=1, w=0 }
-"ink pen" = { q=1, w=0 }
-"sealing wax" = { q=1, w=0 }
-"sheet of paper" = { q=5, w=0 }
-"map/scroll case" = { q=2, w=1 }
-"leather-bound diary" = { q=1, w=5 }
-# personal hygiene
-"vial of perfume" = { q=1, w=0 }
-"soap" = { q=1, w=0 }
-# lighting
-"oil lamp" = { q=1, w=1 }
-"oil flask (capacity 1 pint)" = { q=2, w=1 }
-"tinderbox" = { q=1, w=1 }
-"torch" = { q=1, w=1 }
-# food / water
-"mess kit" = { q=1, w=1 }
-"day's worth of rations" = { q=5, w=1 }
-"waterskin (capacity 4 pints)" = { q=1, w=5 }
-# potions
-"superior healing potion" = { q=1, w=1 }
-"mithril half-plate" = { q=1, w=1 }
+# total weight: 37 lbs
+inventory.backpack = [
+    "3 oil lanterns",
+    "1 sleeping bag",
+    "1 stun baton",
+    "1 factory delivery notes"
+    "1 backpack (5 lbs)",
+    "1 bedroll (7 lbs)",
+    "1 hemp rope (50 feet) (0 lbs)",
+    # writing supplies
+    "1 ink bottle (1 ounce) (0 lbs)",
+    "1 ink pen (0 lbs)",
+    "1 sealing wax (0 lbs)",
+    "5 sheet of paper (0 lbs)",
+    "5 map/scroll case (1 lbs)",
+    "1 leather-bound diary (5 lbs)",
+    # personal hygiene
+    "1 vial of perfume (0 lbs)",
+    "1 soap (0 lbs)",
+    # lighting
+    "1 oil lamp (1 lbs)",
+    "2 oil flask (capacity 1 pint) (1 lbs)",
+    "1 tinderbox (1 lbs)",
+    "1 torch (1 lbs)",
+    # food / water
+    "1 mess kit (1 lbs)",
+    "5 day's worth of rations (1 lbs)",
+    "1 waterskin (capacity 4 pints) (5 lbs)",
+    # potions
+    "1 superior healing potion (1 lbs)",
+    "1 mithril half-plate (1 lbs)",
+    "1 sapphire (worth 200gp)"
+    "1 amethyst"
+]
+
+"Debt Collector" = """
++2 revolver, reload 6, misfire 1
+
+effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target is out of money... who knows?
+engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
+"""
 
 [features]
 "adept linguist" = """
@@ -315,3 +334,14 @@ bonds =  [
 flaws = [
 "I believe that I'm intellectually superior to people from other cultures, and have much to teach them.",
 ]
+
+lore = """
+- 4 "wells" that the krag need for their health
+- the wells safeguard: soul, mind, body, connection
+- I have to
+    1. find the wells
+    2. ???
+    3. "free" the krag (???)
+    4. ???
+    5. profit (fascinating)
+"""
