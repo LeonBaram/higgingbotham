@@ -142,6 +142,10 @@ resources:
     regen: short rest
     used: 3
     total: 3d10
+  cutting_words_on_saves:
+    regen: long rest
+    used: 0
+    total: 4
   spell_slots:
     regen: long rest
     used: { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 2, lvl5: 2 }
@@ -194,7 +198,12 @@ money:
 
 inventory: # total: 2 lb. (max carry capacity 120 lb.)
   wearing:
-    - 1 safari hat (0 lbs),
+    - 1 hat ("The Treacherous Leech") (0 lbs),
+      # The Treacherous Leech
+      # Upon doning the hat
+      # Those of the same ɹ̷̀͊ǝ̷͊͝s̷̾͝o̵̓̇u̴̿̀ɐ̷͌́u̵͝ɔǝ sᴉƃuɐʇnɹǝ as the original host
+      # Finds that their words cut deeper then ever before
+      # The cutting words ability may now be used on saving throws a number of times equal to your proficiency bonus  (resets upon a long rest)
     - 1 round eyeglasses (left lens broken) (0 lbs),
     - 1 traveler's clothes (1 lbs),
     - 1 singing rock (bardic focus) (1 lbs),
