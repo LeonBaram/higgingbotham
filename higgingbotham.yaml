@@ -62,8 +62,8 @@ speed:
   walking: 30
 
 # hit points = 45 + (stats.con.mod * level)
-hp: { current: 77, total: 77 }
-aid_hp: { current: 0, total: 0 }
+hp: { current: 25, total: 77 }
+aid_hp: { current: 10, total: 10 }
 
 # temporary hit points
 temp_hp: 0
@@ -104,7 +104,7 @@ attacks:
     atk/dmg: +9, 1d10+5 piercing
     ammo: 60,
     ranged: range 60/240, reload 6, misfire 1
-    effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target is out of money... who knows?
+    effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
     engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
 
   - name: rapier
@@ -138,9 +138,13 @@ proficiencies:
     - archaeologist's tools
 
 resources:
+  attunements:
+    - cloakma nuts
+    - none
+    - none
   bardic_inspiration:
     regen: short rest
-    used: 3
+    used: 2
     total: 3d10
   cutting_words_on_saves:
     regen: long rest
@@ -148,8 +152,8 @@ resources:
     total: 4
   spell_slots:
     regen: long rest
-    used: { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 2, lvl5: 2 }
-    total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2 }
+    used: { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 2, lvl5: 0, lvl6: 0 }
+    total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2, lvl6: 1 }
 
 # spellcasting
 spells:
@@ -180,7 +184,7 @@ spells:
   lvl4:
     a: charm monster (VS)
     b: dimension door (V)
-    c: greater invisibility (VS)
+    c: greater invisibility (VS) <C>
     d: death ward (VS)
   lvl5:
     a: raise dead (VSM - diamond 500gp x 0)
@@ -193,7 +197,7 @@ money:
   copper: 0
   silver: 0
   electrum: 0
-  gold: 300
+  gold: 355
   platinum: 0
 
 inventory: # total: 2 lb. (max carry capacity 120 lb.)
@@ -260,7 +264,7 @@ feats:
 features:
   - token of the gloom ("if you choose to succeed, you shall")
   - feat "observant"
-  - bardic inspiration (d8)
+  - bardic inspiration (d10)
   - song of rest (d6) (+1d6 hp when hit-dice healing on short rests)
   - expertise (choose 2)
   - countercharm

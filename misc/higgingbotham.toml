@@ -43,7 +43,7 @@ hp = "65 / 67"
 "hit dice" = "7d8 / 10d8"
 
 [resources]
-"bardic inspiration" = ["3d10 / 3d10", "short rest"]
+"bardic inspiration" = ["1d10 / 3d10", "short rest"]
 "un-misfire" = ["1 / 1", "short rest"]
 
 [[attacks]]
@@ -130,7 +130,7 @@ concentrating = ""
 
 [spell.slots]
 lvl1 = "4 / 4"
-lvl2 = "3 / 3"
+lvl2 = "2 / 3"
 lvl3 = "3 / 3"
 lvl4 = "2 / 3"
 lvl5 = "0 / 2"
@@ -177,7 +177,7 @@ lvl5 = [
 copper = 0
 silver = 0
 electrum = 0
-gold = 300
+gold = 2690
 platinum = 0
 
 # total weight: 9 lbs
@@ -196,6 +196,7 @@ inventory.wearing = [
 
 # total weight: 37 lbs
 inventory.backpack = [
+    "1 book of krag experiments",
     "3 oil lanterns",
     "1 sleeping bag",
     "1 stun baton",
