@@ -5,20 +5,20 @@ player_name: Leon
 
 inspiration: no
 
-level: 11
+level: 13
 race: Human
 class: Lore Bard
 background: Anthropologist
 alignment: Lawful Good # (moderately imperialist leanings)
 
 death_saves:
-  successes: 0
-  failures: 0
+    successes: 0
+    failures: 0
 
-conditions: ""
+conditions: immune to lightning + poison
 
 # appearance & traits
-age: 42
+age: 52
 eyes: blue
 hair: dark brown
 skin: white
@@ -27,18 +27,18 @@ weight: 140lbs
 height: 6ft
 
 personality_traits: |
-  I have Stage 4 British.
-  I'm a stickler when it comes to observing proper etiquette and local customs.
-  When I arrive at a new settlement for the first time, I must learn all its customs.
+    I have Stage 4 British.
+    I'm a stickler when it comes to observing proper etiquette and local customs.
+    When I arrive at a new settlement for the first time, I must learn all its customs.
 ideals: |
-  Discovery. I want to be the first person to discover a lost culture.
-  Protection. I must do everything possible to save a society facing extinction.
+    Discovery. I want to be the first person to discover a lost culture.
+    Protection. I must do everything possible to save a society facing extinction.
 bonds: |
-  I want to learn about krag culture.
-  I want to become more renowned than my rival, Victoria Handforth.
+    I want to learn about krag culture.
+    I want to become more renowned than my rival, Victoria Handforth.
 flaws: I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
-# proficiency bonus
-prof: 4
+
+proficiency_bonus: 4
 
 # = skills.perception + 15
 passive_perception: 24
@@ -48,226 +48,256 @@ passive_investigation: 25
 
 # ability scores
 stats:
-  str: { score: 8, mod: -1, save: -1 }
-  dex: { score: 16, mod: 3, save: 7, pro: yes }
-  con: { score: 14, mod: 2, save: 2 }
-  int: { score: 16, mod: 3, save: 3 }
-  wis: { score: 14, mod: 2, save: 2 }
-  cha: { score: 16, mod: 3, save: 7, pro: yes }
+    str: { score: 8, mod: -1, save: -1 }
+    dex: { score: 16, mod: 3, save: 7, pro: yes }
+    con: { score: 14, mod: 2, save: 2 }
+    int: { score: 16, mod: 3, save: 3 }
+    wis: { score: 14, mod: 2, save: 2 }
+    cha: { score: 16, mod: 3, save: 7, pro: yes }
 
 # = stats.dex.mod + (prof // 2)
 initiative: 5
 
 speed:
-  walking: 30
+    walking: 30
 
 # hit points = 45 + (stats.con.mod * level)
-hp: { current: 25, total: 77 }
-aid_hp: { current: 10, total: 10 }
+hp: { left: 17, total: 96 }
+bonus_hp: { left: 0, total: 0 }
 
 # temporary hit points
-temp_hp: 0
+temp_hp: 16
 
 # = level * d8
-hit_dice: { current: 11d8, total: 10d9 }
+hit_dice: { current: 13d8, total: 13d8 }
 
 skills:
-  # stats.str
-  athletics: { bonus: 1 }
-  # stats.dex
-  acrobatics: { bonus: 5 }
-  sleight_of_hand: { bonus: 5 }
-  stealth: { bonus: 5 }
-  # stats.int
-  arcana: { bonus: 11, expert: yes }
-  history: { bonus: 7, pro: yes }
-  investigation: { bonus: 11, expert: yes }
-  nature: { bonus: 8, pro: yes }
-  religion: { bonus: 8, pro: yes }
-  # stats.wis
-  animal_handling: { bonus: 4 }
-  insight: { bonus: 6, expert: yes }
-  medicine: { bonus: 4 }
-  perception: { bonus: 10, expert: yes }
-  survival: { bonus: 4 }
-  # stats.cha
-  deception: { bonus: 5 }
-  intimidation: { bonus: 5 }
-  performance: { bonus: 7, pro: yes }
-  persuasion: { bonus: 7, pro: yes }
+    # stats.str
+    athletics: { bonus: 1 }
+    # stats.dex
+    acrobatics: { bonus: 5 }
+    sleight_of_hand: { bonus: 5 }
+    stealth: { bonus: 5 }
+    # stats.int
+    arcana: { bonus: 11, expert: yes }
+    history: { bonus: 7, pro: yes }
+    investigation: { bonus: 11, expert: yes }
+    nature: { bonus: 8, pro: yes }
+    religion: { bonus: 8, pro: yes }
+    # stats.wis
+    animal_handling: { bonus: 4 }
+    insight: { bonus: 6, expert: yes }
+    medicine: { bonus: 4 }
+    perception: { bonus: 10, expert: yes }
+    survival: { bonus: 4 }
+    # stats.cha
+    deception: { bonus: 5 }
+    intimidation: { bonus: 5 }
+    performance: { bonus: 7, pro: yes }
+    persuasion: { bonus: 7, pro: yes }
 
-# AC = 12 + stats.dex.mod
-armor_class: 17
+# AC = 12 + stats.dex.mod (+ 1 from earring of protection)
+armor_class: 18
 
 attacks:
-  - name: Debt Collector (+2 revolver)
-    atk/dmg: +9, 1d10+5 piercing
-    ammo: 60,
-    ranged: range 60/240, reload 6, misfire 1
-    effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
-    engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
+    - name: Debt Collector (+2 revolver)
+      atk/dmg: +9, 1d10+5 piercing
+      ammo:
+          - normal: 59
+          - silver: 49 (+1 ammo, +1d4 radiant)
+      ranged: range 60/240, reload 6, misfire 1
+      effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
+      engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
+      people-killed-without-money: 0/3 # fragment count: 1?
 
-  - name: rapier
-    atk/dmg: +7, 1d8+3 piercing
+    - name: rapier
+      atk/dmg: +7, 1d8+3 piercing
 
-  - name: dagger
-    atk/dmg: +7 / 1d4+3 piercing
-    ranged: range 60/240
+    - name: dagger
+      atk/dmg: +7 / 1d4+3 piercing
+      ranged: range 60/240
 
-  - name: electric stun baton
-    atk/dmg: +3, 1d6-1 bludgeoning
-    extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
+    - name: electric stun baton
+      atk/dmg: +3, 1d6-1 bludgeoning
+      extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
 
 proficiencies:
-  languages: |
-    - shalben common
-    - graveltalk
-    - elvish
-    - arcanum
-  armor: |
-    - light armor
-  weapons: |
-    - simple weapons
-    - firearms
-    - longswords
-    - rapiers
-    - shortsword
-  tools: |
-    - singing stone (musical instrument)
-    - tinker's tools
-    - archaeologist's tools
+    languages: |
+        - shalben common
+        - graveltalk
+        - elvish
+        - arcanum
+    armor: |
+        - light armor
+    weapons: |
+        - simple weapons
+        - firearms
+        - longswords
+        - rapiers
+        - shortsword
+    tools: |
+        - singing stone (musical instrument)
+        - tinker's tools
+        - archaeologist's tools
 
 resources:
-  attunements:
-    - cloakma nuts
-    - none
-    - none
-  bardic_inspiration:
-    regen: short rest
-    used: 2
-    total: 3d10
-  cutting_words_on_saves:
-    regen: long rest
-    used: 0
-    total: 4
-  spell_slots:
-    regen: long rest
-    used: { lvl1: 0, lvl2: 0, lvl3: 0, lvl4: 2, lvl5: 0, lvl6: 0 }
-    total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2, lvl6: 1 }
+    potions: []
+    attunements:
+        - cloakma nuts
+        - james's dual holsters
+        - earring of protection
+    bardic_inspiration:
+        regen: short rest
+        left: 2
+        total: 4d10
+    cutting_words_on_saves: # treacherous leech
+        regen: long rest
+        left: 3
+        total: 4
+    spell_slots:
+        regen: long rest
+        left: { lvl1: 4, lvl2: 0, lvl3: 1, lvl4: 2, lvl5: 0, lvl6: 0, lvl7: 0 }
+        total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2, lvl6: 1, lvl7: 1 }
 
 # spellcasting
 spells:
-  stat: Charisma
-  attack_bonus: +6
-  save_dc: 14
-  total_known: 14
-  cantrips:
-    a: vicious mockery (V)
-    b: friends (SM) <C>
-    c: minor illusion (SM)
-    d: mage hand (VS)
-  lvl1:
-    a: silvery barbs (V)
-    b: command (V)
-    c: bane (VSM) <C>
-    d: tasha's hideous laughter (VSM) <C>
-  lvl2:
-    a: calm emotions (VS) <C>
-    b: suggestion (VM)
-    c: silence (VS) <C>
-    d: shatter (VSM)
-    e: heat metal (VSM) <C>
-    f: mirror image (VS)
-  lvl3:
-    a: dispel magic (VS)
-    b: counterspell (S)
-  lvl4:
-    a: charm monster (VS)
-    b: dimension door (V)
-    c: greater invisibility (VS) <C>
-    d: death ward (VS)
-  lvl5:
-    a: raise dead (VSM - diamond 500gp x 0)
-    b: modify memory (VS) <C>
-    c: holy weapon (VS) <C>
-  lvl6:
-    a: mass suggestion (VM)
+    concentrating: holy weapon
+    stat: cha
+    attack_bonus: +7
+    save_dc: 15
+    total_known: 16
+    cantrips:
+        a: vicious mockery (V)
+        b: friends (SM) <C>
+        c: minor illusion (SM)
+        d: mage hand (VS)
+    lvl1:
+        a: silvery barbs (V)
+        b: command (V)
+        c: bane (VSM) <C>
+        d: tasha's hideous laughter (VSM) <C>
+    lvl2:
+        a: calm emotions (VS) <C>
+        b: suggestion (VM)
+        c: silence (VS) <C>
+        d: shatter (VSM)
+        e: heat metal (VSM) <C>
+        f: mirror image (VS)
+    lvl3:
+        a: dispel magic (VS)
+        b: counterspell (S)
+    lvl4:
+        a: charm monster (VS)
+        b: dimension door (V)
+        c: greater invisibility (VS) <C>
+        d: death ward (VS)
+    lvl5:
+        a: raise dead (VSM - diamond 500gp x 0)
+        b: modify memory (VS) <C>
+        c: holy weapon (VS) <C>
+    lvl6:
+        a: mass suggestion (VM)
+    lvl7: etherealness (VS)
+lvl7: etherealness (VS)
 
 money:
-  copper: 0
-  silver: 0
-  electrum: 0
-  gold: 355
-  platinum: 0
+    copper: 0
+    silver: 0
+    electrum: 0
+    gold: 475
+    platinum: 0
 
 inventory: # total: 2 lb. (max carry capacity 120 lb.)
-  wearing:
-    - 1 hat ("The Treacherous Leech") (0 lbs),
-      # The Treacherous Leech
-      # Upon doning the hat
-      # Those of the same ɹ̷̀͊ǝ̷͊͝s̷̾͝o̵̓̇u̴̿̀ɐ̷͌́u̵͝ɔǝ sᴉƃuɐʇnɹǝ as the original host
-      # Finds that their words cut deeper then ever before
-      # The cutting words ability may now be used on saving throws a number of times equal to your proficiency bonus  (resets upon a long rest)
-    - 1 round eyeglasses (left lens broken) (0 lbs),
-    - 1 traveler's clothes (1 lbs),
-    - 1 singing rock (bardic focus) (1 lbs),
-    - 1 coin pouch (1 lbs),
-    - 1 ammo pouch (1 lbs),
-    - 1 Debt Collector (+2 revolver) (3 lbs),
-    - 1 rapier (2 lbs),
-    - 1 dagger (1 lbs),
-    - 1 Leaz Stone,
-  backpack:
-    - 3 oil lanterns,
-    - 1 sleeping bag,
-    - 1 stun baton,
-    - 1 factory delivery notes
-    - 1 backpack (5 lbs),
-    - 1 bedroll (7 lbs),
-    - 1 hemp rope (50 feet) (0 lbs),
-      # writing supplies
-    - 1 ink bottle (1 ounce) (0 lbs),
-    - 1 ink pen (0 lbs),
-    - 1 sealing wax (0 lbs),
-    - 5 sheet of paper (0 lbs),
-    - 5 map/scroll case (1 lbs),
-    - 1 leather-bound diary (5 lbs),
-      # personal hygiene
-    - 1 vial of perfume (0 lbs),
-    - 1 soap (0 lbs),
-      # lighting
-    - 1 oil lamp (1 lbs),
-    - 2 oil flask (capacity 1 pint) (1 lbs),
-    - 1 tinderbox (1 lbs),
-    - 1 torch (1 lbs),
-      # food / water
-    - 1 mess kit (1 lbs),
-    - 5 day's worth of rations (1 lbs),
-    - 1 waterskin (capacity 4 pints) (5 lbs),
-      # potions
-    - 1 superior healing potion (1 lbs),
-    - 1 mithril half-plate (1 lbs),
-    - 1 sapphire (worth 200gp)
-    - 1 amethyst
+    wearing:
+        - 1 earring of protection
+        - 1 hat ("The Treacherous Leech") (0 lbs),
+          # The Treacherous Leech
+          # Upon doning the hat
+          # Those of the same ɹ̷̀͊ǝ̷͊͝s̷̾͝o̵̓̇u̴̿̀ɐ̷͌́u̵͝ɔǝ sᴉƃuɐʇnɹǝ as the original host
+          # Finds that their words cut deeper then ever before
+          # The cutting words ability may now be used on saving throws a number of times equal to your proficiency bonus  (resets upon a long rest)
+        - 1 round eyeglasses (left lens broken) (0 lbs),
+        - 1 traveler's clothes (1 lbs),
+        - 1 singing rock (bardic focus) (1 lbs),
+        - 1 coin pouch (1 lbs),
+        - 1 ammo pouch (1 lbs),
+        - 1 Debt Collector (+2 revolver) (3 lbs),
+        - 1 rapier (2 lbs),
+        - 1 dagger (1 lbs),
+        - 1 Leaz Stone,
+    backpack:
+        - 37 small pieces of coal
+        - 1 calcified fragment
+        - 3 oil lanterns,
+        - 1 sleeping bag,
+        - 1 stun baton,
+        - 1 factory delivery notes
+        - 1 backpack (5 lbs),
+        - 1 bedroll (7 lbs),
+        - 1 hemp rope (50 feet) (0 lbs),
+          # writing supplies
+        - 1 ink bottle (1 ounce) (0 lbs),
+        - 1 ink pen (0 lbs),
+        - 1 sealing wax (0 lbs),
+        - 5 sheet of paper (0 lbs),
+        - 5 map/scroll case (1 lbs),
+        - 1 leather-bound diary (5 lbs),
+          # personal hygiene
+        - 1 vial of perfume (0 lbs),
+        - 1 soap (0 lbs),
+          # lighting
+        - 1 oil lamp (1 lbs),
+        - 2 oil flask (capacity 1 pint) (1 lbs),
+        - 1 tinderbox (1 lbs),
+        - 1 torch (1 lbs),
+          # food / water
+        - 1 mess kit (1 lbs),
+        - 5 day's worth of rations (1 lbs),
+        - 1 waterskin (capacity 4 pints) (5 lbs),
+          # potions
+        - 1 superior healing potion (1 lbs),
+        - 1 mithril half-plate (1 lbs),
+        - 1 sapphire (worth 200gp)
+        - 1 amethyst
 
 feats:
-  - name: Observant
-    benefits:
-      - +1 Intelligence
-      - ability to read lips
-      - +5 to passive Perception & passive Investigation
-  - name: Firearm Specialist
-    benefits:
-      - if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
-      - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
+    - name: Observant
+      benefits:
+          - +1 Intelligence
+          - ability to read lips
+          - +5 to passive Perception & passive Investigation
+    - name: Firearm Specialist
+      benefits:
+          - if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
+          - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
+    - name: Warcaster
+      benefits:
+          - advantage on concentration checks
+          - can do somatic components even when hands are occupied by 2 weapons and/or shield(s)
+          - when making opportunity attack, can cast a single-target spell instead of a melee attack
+    - name: Sharpshooter
+      benefits:
+          - can attack at long range without disadvantage
+          - ranged attacks ignore 1/2- and 3/4-cover
+          - before ranged attack*, can choose to get -5 on the attack roll, and +10 on the damage
+          - * must have proficiency
 
 features:
-  - token of the gloom ("if you choose to succeed, you shall")
-  - feat "observant"
-  - bardic inspiration (d10)
-  - song of rest (d6) (+1d6 hp when hit-dice healing on short rests)
-  - expertise (choose 2)
-  - countercharm
-  - cutting words
-  - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
+    - token of the gloom ("if you choose to succeed, you shall")
+    - feat "observant"
+    - bardic inspiration (d10)
+    - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
+    - expertise (choose 2)
+    - countercharm
+    # countercharm
+    # as an action, until end of next turn, ${targets} have advantage on saves against frighten/charm effects
+    # ${targets} == myself, and any friendlies in 30ft who can hear me
+    - cutting words
+    # cutting words
+    # as a reaction to ${event}, you can spend a bardic inspiration die to roll it, and subtract the roll from ${target}'s ${roll}
+    # ${event} == when a ${target} makes a ${roll} (can be after the roll is made, but before the DM says whether it succeeds/fails)
+    # ${target} == creature I can see in 60ft
+    # ${roll} == attack roll, ability check, or damage roll (can also be save due to treacherous leech, see above)
+    - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
+    - james's dual holsters - spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon
 ---
