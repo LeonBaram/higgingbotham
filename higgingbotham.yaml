@@ -146,10 +146,10 @@ resources:
         - cloakma nuts
         - james's dual holsters
         - earring of protection
-    bardic_inspiration:
+    bardic_inspiration: # note - lasts for 1 hour, not 10 minutes
         regen: short rest
-        left: 4
-        total: 4d10
+        left: 2
+        total: 3d10
     cutting_words_on_saves: # treacherous leech
         regen: long rest
         left: 4
