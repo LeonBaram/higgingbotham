@@ -62,11 +62,11 @@ speed:
     walking: 30
 
 # hit points = 45 + (stats.con.mod * level)
-hp: { left: 17, total: 96 }
+hp: { left: 96, total: 96 }
 bonus_hp: { left: 0, total: 0 }
 
 # temporary hit points
-temp_hp: 16
+temp_hp: 0
 
 # = level * d8
 hit_dice: { current: 13d8, total: 13d8 }
@@ -148,16 +148,21 @@ resources:
         - earring of protection
     bardic_inspiration:
         regen: short rest
-        left: 2
+        left: 4
         total: 4d10
     cutting_words_on_saves: # treacherous leech
         regen: long rest
-        left: 3
+        left: 4
         total: 4
     spell_slots:
         regen: long rest
-        left: { lvl1: 4, lvl2: 0, lvl3: 1, lvl4: 2, lvl5: 0, lvl6: 0, lvl7: 0 }
-        total: { lvl1: 4, lvl2: 3, lvl3: 3, lvl4: 3, lvl5: 2, lvl6: 1, lvl7: 1 }
+        lvl1: 4/4
+        lvl2: 3/3
+        lvl3: 3/3
+        lvl4: 3/3
+        lvl5: 2/2
+        lvl6: 1/1
+        lvl7: 1/1
 
 # spellcasting
 spells:
