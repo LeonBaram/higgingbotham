@@ -5,7 +5,7 @@ player_name: Leon
 
 inspiration: no
 
-level: 13
+level: 14
 race: Human
 class: Lore Bard
 background: Anthropologist
@@ -38,13 +38,13 @@ bonds: |
     I want to become more renowned than my rival, Victoria Handforth.
 flaws: I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
 
-proficiency_bonus: 4
+proficiency_bonus: 5
 
 # = skills.perception + 15
-passive_perception: 24
+passive_perception: 27
 
 # = skills.investigation + 15
-passive_investigation: 25
+passive_investigation: 28
 
 # ability scores
 stats:
@@ -62,14 +62,14 @@ speed:
     walking: 30
 
 # hit points = 45 + (stats.con.mod * level)
-hp: { left: 96, total: 96 }
+hp: { left: 100, total: 100 }
 bonus_hp: { left: 0, total: 0 }
 
 # temporary hit points
 temp_hp: 0
 
 # = level * d8
-hit_dice: { current: 13d8, total: 13d8 }
+hit_dice: { current: 14d8, total: 14d8 }
 
 skills:
     # stats.str
@@ -79,29 +79,29 @@ skills:
     sleight_of_hand: { bonus: 5 }
     stealth: { bonus: 5 }
     # stats.int
-    arcana: { bonus: 11, expert: yes }
-    history: { bonus: 7, pro: yes }
-    investigation: { bonus: 11, expert: yes }
+    arcana: { bonus: 13, expert: yes }
+    history: { bonus: 8, pro: yes }
+    investigation: { bonus: 13, expert: yes }
     nature: { bonus: 8, pro: yes }
     religion: { bonus: 8, pro: yes }
     # stats.wis
     animal_handling: { bonus: 4 }
-    insight: { bonus: 6, expert: yes }
+    insight: { bonus: 8, expert: yes }
     medicine: { bonus: 4 }
-    perception: { bonus: 10, expert: yes }
+    perception: { bonus: 12, expert: yes }
     survival: { bonus: 4 }
     # stats.cha
     deception: { bonus: 5 }
     intimidation: { bonus: 5 }
-    performance: { bonus: 7, pro: yes }
-    persuasion: { bonus: 7, pro: yes }
+    performance: { bonus: 8, pro: yes }
+    persuasion: { bonus: 8, pro: yes }
 
 # AC = 12 + stats.dex.mod (+ 1 from earring of protection)
-armor_class: 18
+armor_class: 16
 
 attacks:
     - name: Debt Collector (+2 revolver)
-      atk/dmg: +9, 1d10+5 piercing
+      atk/dmg: +10, 1d10+5 piercing
       ammo:
           - normal: 59
           - silver: 49 (+1 ammo, +1d4 radiant)
@@ -111,14 +111,14 @@ attacks:
       people-killed-without-money: 0/3 # fragment count: 1?
 
     - name: rapier
-      atk/dmg: +7, 1d8+3 piercing
+      atk/dmg: +8, 1d8+3 piercing
 
     - name: dagger
-      atk/dmg: +7 / 1d4+3 piercing
+      atk/dmg: +8 / 1d4+3 piercing
       ranged: range 60/240
 
     - name: electric stun baton
-      atk/dmg: +3, 1d6-1 bludgeoning
+      atk/dmg: +4, 1d6-1 bludgeoning
       extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
 
 proficiencies:
@@ -148,12 +148,12 @@ resources:
         - earring of protection
     bardic_inspiration: # note - lasts for 1 hour, not 10 minutes
         regen: short rest
-        left: 2
+        left: 3
         total: 3d10
     cutting_words_on_saves: # treacherous leech
         regen: long rest
-        left: 4
-        total: 4
+        left: 5
+        total: 5
     spell_slots:
         regen: long rest
         lvl1: 4/4
@@ -168,8 +168,8 @@ resources:
 spells:
     concentrating: holy weapon
     stat: cha
-    attack_bonus: +7
-    save_dc: 15
+    attack_bonus: +8
+    save_dc: 16
     total_known: 16
     cantrips:
         a: vicious mockery (V)
@@ -180,7 +180,7 @@ spells:
         a: silvery barbs (V)
         b: command (V)
         c: bane (VSM) <C>
-        d: tasha's hideous laughter (VSM) <C>
+        d: unseen servant (VSM)
     lvl2:
         a: calm emotions (VS) <C>
         b: suggestion (VM)
@@ -200,10 +200,16 @@ spells:
         a: raise dead (VSM - diamond 500gp x 0)
         b: modify memory (VS) <C>
         c: holy weapon (VS) <C>
+        d: hold monster (VSM) <C>
+        e: greater restoration (VSM - diamond dust worth at least 100gp, which the spell consumes)
+        f: sunbeam (VSM) <C>
     lvl6:
         a: mass suggestion (VM)
-    lvl7: etherealness (VS)
-lvl7: etherealness (VS)
+    lvl7:
+        a: etherealness (VS)
+        b: simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
+        c: regenerate (VSM)
+        d: teleport (V)
 
 money:
     copper: 0
@@ -285,12 +291,13 @@ feats:
           - can attack at long range without disadvantage
           - ranged attacks ignore 1/2- and 3/4-cover
           - before ranged attack*, can choose to get -5 on the attack roll, and +10 on the damage
-          - * must have proficiency
+          - \* must have proficiency
 
 features:
     - token of the gloom ("if you choose to succeed, you shall")
     - feat "observant"
     - bardic inspiration (d10)
+      - peerless skill (can use bardic on own ability checks)
     - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
     - expertise (choose 2)
     - countercharm
