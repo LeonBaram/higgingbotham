@@ -312,4 +312,10 @@ features:
     # ${roll} == attack roll, ability check, or damage roll (can also be save due to treacherous leech, see above)
     - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
     - james's dual holsters - spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon
+    - MODIFIED SIMULACRUM
+      - can create more than 1 simulacrum
+      - each additional simulacrum has 1hp
+      - each additional simulacrum cannot cast spells
+      - each additional simulacrum inherits some limited subset of my mental capabilities
+      - current count is 1 main, 10 additional
 ---
