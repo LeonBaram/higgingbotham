@@ -141,6 +141,9 @@ proficiencies:
         - archaeologist's tools
 
 resources:
+    spell-storing tattoos:
+        - 5x lvl3 absorb elements (1 per element)
+        - 2x lvl1 gift of alacritty
     potions: []
     attunements:
         - cloakma nuts
