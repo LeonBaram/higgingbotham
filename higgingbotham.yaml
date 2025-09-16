@@ -216,49 +216,48 @@ spells:
   save_dc: 17 #= 8+cha+prof +3 -2
   total_known: 16
   cantrips:
-    a: vicious mockery (V)
-    b: friends (SM) <C>
-    c: minor illusion (SM)
-    d: mage hand (VS)
+    - vicious mockery (V)
+    - friends (SM) <C>
+    - minor illusion (SM)
+    - mage hand (VS)
   lvl1:
-    a: silvery barbs (V)
-    b: command (V)
-    c: bane (VSM) <C>
-    d: unseen servant (VSM)
+    - silvery barbs (V)
+    - command (V)
+    - bane (VSM) <C>
+    - unseen servant (VSM)
   lvl2:
-    a: calm emotions (VS) <C>
-    b: suggestion (VM)
-    c: silence (VS) <C>
-    d: shatter (VSM)
-    e: heat metal (VSM) <C>
-    f: mirror image (VS)
+    - calm emotions (VS) <C>
+    - suggestion (VM)
+    - silence (VS) <C>
+    - shatter (VSM)
+    - heat metal (VSM) <C>
+    - mirror image (VS)
   lvl3:
-    a: dispel magic (VS)
-    b: counterspell (S)
+    - dispel magic (VS)
+    - counterspell (S)
   lvl4:
-    a: charm monster (VS)
-    b: dimension door (V)
-    c: greater invisibility (VS) <C>
-    d: death ward (VS)
+    - charm monster (VS)
+    - dimension door (V)
+    - greater invisibility (VS) <C>
+    - death ward (VS)
   lvl5:
-    a: raise dead (VSM - diamond 500gp x 1)
-    b: modify memory (VS) <C>
-    c: holy weapon (VS) <C>
-    d: hold monster (VSM) <C>
-    e: greater restoration (VSM - diamond dust worth at least 100gp, which the 
+    - raise dead (VSM - diamond 500gp x 1)
+    - modify memory (VS) <C>
+    - holy weapon (VS) <C>
+    - hold monster (VSM) <C>
+    - greater restoration (VSM - diamond dust worth at least 100gp, which the 
       spell consumes)
-    f: sunbeam (VSM) <C>
+    - sunbeam (VSM) <C>
   lvl6:
-    a: mass suggestion (VM)
+    - mass suggestion (VM)
   lvl7:
-    a: etherealness (VS)
-    b: simulacrum (VSM - snow or ice in quantities sufficient to make a 
-      life-size copy of the duplicated creature; some hair, fingernail 
-      clippings, or other piece of that creature's body placed inside the snow 
-      or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and 
-      consumed by the spell)
-    c: regenerate (VSM)
-    d: teleport (V)
+    - etherealness (VS)
+    - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size
+      copy of the duplicated creature; some hair, fingernail clippings, or other
+      piece of that creature's body placed inside the snow or ice; and powdered 
+      ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
+    - regenerate (VSM)
+    - teleport (V)
 
 money:
   copper: 0
