@@ -1,5 +1,5 @@
 character_name: Herbert Higgingbotham, PhD
-character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at
+character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at 
   the Dunwall College of Liberal Arts
 player_name: Leon
 
@@ -22,7 +22,7 @@ temp_conditions:
       - portable holes / bags of holding reset
       - betrayer's tear is only a +1 focus (-2 on spell attacks and save DC)
       - earrings of protection disabled
-      - on each long rest, max hp reduced by X, where X is a roll of your hit
+      - on each long rest, max hp reduced by X, where X is a roll of your hit 
         dice - current reduction of 1 hp
 
 # appearance & traits
@@ -56,12 +56,12 @@ passive_investigation: 28
 
 # ability scores - +1 to all saves from earring of protection
 stats:
-  str: { score: 8, mod: -1, save: 0 }
-  dex: { score: 16, mod: 3, save: 8, pro: yes }
-  con: { score: 14, mod: 2, save: 3 }
-  int: { score: 16, mod: 3, save: 4 }
-  wis: { score: 14, mod: 2, save: 3 }
-  cha: { score: 16, mod: 3, save: 8, pro: yes }
+  str: {score: 8, mod: -1, save: 0}
+  dex: {score: 16, mod: 3, save: 8, pro: yes}
+  con: {score: 14, mod: 2, save: 3}
+  int: {score: 16, mod: 3, save: 4}
+  wis: {score: 14, mod: 2, save: 3}
+  cha: {score: 16, mod: 3, save: 8, pro: yes}
 
 # = stats.dex.mod + (prof // 2)
 initiative: 5
@@ -70,39 +70,39 @@ speed:
   walking: 30
 
 # hit points = 45 + (stats.con.mod * level) (-1 temp reduction)
-hp: { left: 99, total: 99 }
-bonus_hp: { left: 0, total: 0 }
+hp: {left: 99, total: 99}
+bonus_hp: {left: 0, total: 0}
 
 # temporary hit points
 temp_hp: 0
 
 # = level * d8
-hit_dice: { current: 14d8, total: 14d8 }
+hit_dice: {current: 14d8, total: 14d8}
 
 skills:
   # stats.str
-  athletics: { bonus: 1 }
+  athletics: 1 #= stats.str.mod + proficiency_bonus//2
   # stats.dex
-  acrobatics: { bonus: 5 }
-  sleight_of_hand: { bonus: 5 }
-  stealth: { bonus: 5 }
+  acrobatics: {bonus: 5}
+  sleight_of_hand: {bonus: 5}
+  stealth: {bonus: 5}
   # stats.int
-  arcana: { bonus: 13, expert: yes }
-  history: { bonus: 8, pro: yes }
-  investigation: { bonus: 13, expert: yes }
-  nature: { bonus: 8, pro: yes }
-  religion: { bonus: 8, pro: yes }
+  arcana: {bonus: 13, expert: yes}
+  history: {bonus: 8, pro: yes}
+  investigation: {bonus: 13, expert: yes}
+  nature: {bonus: 8, pro: yes}
+  religion: {bonus: 8, pro: yes}
   # stats.wis
-  animal_handling: { bonus: 4 }
-  insight: { bonus: 8, expert: yes }
-  medicine: { bonus: 4 }
-  perception: { bonus: 12, expert: yes }
-  survival: { bonus: 4 }
+  animal_handling: {bonus: 4}
+  insight: {bonus: 8, expert: yes}
+  medicine: {bonus: 4}
+  perception: {bonus: 12, expert: yes}
+  survival: {bonus: 4}
   # stats.cha
-  deception: { bonus: 5 }
-  intimidation: { bonus: 5 }
-  performance: { bonus: 8, pro: yes }
-  persuasion: { bonus: 8, pro: yes }
+  deception: {bonus: 5}
+  intimidation: {bonus: 5}
+  performance: {bonus: 8, pro: yes}
+  persuasion: {bonus: 8, pro: yes}
 
 # AC = 12 + stats.dex.mod (+ 1 from earring of protection)
 armor_class: 16
@@ -114,10 +114,10 @@ attacks:
       - normal: 156
       - silver: 49 (+1 ammo, +1d4 radiant)
     ranged: range 60/240, reload 6, misfire 1
-    effect: on a hit, target loses an amount of coins such that their "dollar"
-      value is equal to the damage of the hit. The gun "makes change" in their
-      pockets if necessary. The lost coins are transferred to your coin pouch
-      (or equivalent). If the target has no material wealth (money, gems, etc),
+    effect: on a hit, target loses an amount of coins such that their "dollar" 
+      value is equal to the damage of the hit. The gun "makes change" in their 
+      pockets if necessary. The lost coins are transferred to your coin pouch 
+      (or equivalent). If the target has no material wealth (money, gems, etc), 
       the gun deals an additional 3d10 force damage, and if the creature dies as
       a result, you receive a fragment of their soul (???)
     engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
@@ -132,7 +132,7 @@ attacks:
 
   - name: electric stun baton
     atk/dmg: +4, 1d6-1 bludgeoning
-    extra: as a bonus action, activate stun setting to deal additional 2d4
+    extra: as a bonus action, activate stun setting to deal additional 2d4 
       lightning damage
 
 proficiencies:
@@ -226,17 +226,17 @@ spells:
     b: modify memory (VS) <C>
     c: holy weapon (VS) <C>
     d: hold monster (VSM) <C>
-    e: greater restoration (VSM - diamond dust worth at least 100gp, which the
+    e: greater restoration (VSM - diamond dust worth at least 100gp, which the 
       spell consumes)
     f: sunbeam (VSM) <C>
   lvl6:
     a: mass suggestion (VM)
   lvl7:
     a: etherealness (VS)
-    b: simulacrum (VSM - snow or ice in quantities sufficient to make a
-      life-size copy of the duplicated creature; some hair, fingernail
-      clippings, or other piece of that creature's body placed inside the snow
-      or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and
+    b: simulacrum (VSM - snow or ice in quantities sufficient to make a 
+      life-size copy of the duplicated creature; some hair, fingernail 
+      clippings, or other piece of that creature's body placed inside the snow 
+      or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and 
       consumed by the spell)
     c: regenerate (VSM)
     d: teleport (V)
@@ -312,27 +312,27 @@ feats:
     benefits:
       - if you misfire, you can use a reaction to roll a d20. if you roll higher
         than the misfire score, there is no misfire.
-      - when you attack with a one-handed weapon, if you're holding a loaded,
+      - when you attack with a one-handed weapon, if you're holding a loaded, 
         light firearm, you can use a bonus action to attack with it
   - name: Warcaster
     benefits:
       - advantage on concentration checks
-      - can do somatic components even when hands are occupied by 2 weapons
+      - can do somatic components even when hands are occupied by 2 weapons 
         and/or shield(s)
-      - when making opportunity attack, can cast a single-target spell instead
+      - when making opportunity attack, can cast a single-target spell instead 
         of a melee attack
   - name: Sharpshooter
     benefits:
       - can attack at long range without disadvantage
       - ranged attacks ignore 1/2- and 3/4-cover
-      - before ranged attack*, can choose to get -5 on the attack roll, and +10
+      - before ranged attack*, can choose to get -5 on the attack roll, and +10 
         on the damage
       - \* must have proficiency
 
 features:
   - token of the gloom ("if you choose to succeed, you shall")
   - feat "observant"
-  - bardic inspiration (d10) - peerless skill (can use bardic on own ability
+  - bardic inspiration (d10) - peerless skill (can use bardic on own ability 
     checks)
   - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
   - expertise (choose 2)
@@ -347,17 +347,17 @@ features:
   # ${target} == creature I can see in 60ft
   # ${roll} == attack roll, ability check, or damage roll (can also be save due to treacherous leech, see above)
   - after observing humanoids interacting with one another for at least 1 day, I
-    can learn a small amount of important words/expressions/gestures -- enough
+    can learn a small amount of important words/expressions/gestures -- enough 
     for simple/basic communication
   # - james's dual holsters - spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon
-  - MODIFIED SIMULACRUM - can create more than 1 simulacrum - each additional
-    simulacrum has 1hp - each additional simulacrum cannot cast spells - each
+  - MODIFIED SIMULACRUM - can create more than 1 simulacrum - each additional 
+    simulacrum has 1hp - each additional simulacrum cannot cast spells - each 
     additional simulacrum inherits some limited subset of my mental capabilities
     - current count is 1 main, 10 additional
-  - betrayer's last tear - +3 spell attack and save DC - Whispers of Doubt -
-    When You roll initiative you can use your reaction to give a number of
+  - betrayer's last tear - +3 spell attack and save DC - Whispers of Doubt - 
+    When You roll initiative you can use your reaction to give a number of 
     creatures equal to your Cha Modifier that you can see within 60 feet of you,
-    disadvantage on their initiative roll Once you use this feature, you can't
+    disadvantage on their initiative roll Once you use this feature, you can't 
     do so again until you finish a long rest. - Lingering Malice - Once per Long
-    rest you may spend ten minutes communing with the Red to summon the focus
+    rest you may spend ten minutes communing with the Red to summon the focus 
     onto your person regardless of attunement
