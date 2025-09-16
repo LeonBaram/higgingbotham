@@ -46,70 +46,84 @@ bonds: |
   I want to become more renowned than my rival, Victoria Handforth.
 flaws: I believe that I'm intellectually superior to people from other cultures,
   and have much to teach them.
-proficiency_bonus: 5
+# proficiency bonus
+prof: 5
 
-# = skills.perception + 15
-passive_perception: 27
+# +5 from Observant
+passive_perception: 27 #= 10+skills.perception +5
+passive_investigation: 28 #= 10+skills.investigation +5
 
-# = skills.investigation + 15
-passive_investigation: 28
+# ability scores
+str_score: 8
+dex_score: 16
+con_score: 14
+int_score: 16
+wis_score: 14
+cha_score: 16
 
-# ability scores - +1 to all saves from earring of protection
-stats:
-  str: {score: 8, mod: -1, save: 0}
-  dex: {score: 16, mod: 3, save: 8, pro: yes}
-  con: {score: 14, mod: 2, save: 3}
-  int: {score: 16, mod: 3, save: 4}
-  wis: {score: 14, mod: 2, save: 3}
-  cha: {score: 16, mod: 3, save: 8, pro: yes}
+# modifiers aka stats
+str: -1 #= (str_score-10)//2
+dex: 3 #= (dex_score-10)//2
+con: 2 #= (con_score-10)//2
+int: 3 #= (int_score-10)//2
+wis: 2 #= (wis_score-10)//2
+cha: 3 #= (cha_score-10)//2
 
-# = stats.dex.mod + (prof // 2)
-initiative: 5
+# +1 to all saves from earring of protection
+str_save: 0 #= str +1
+dex_save: 9 #= dex+prof +1
+con_save: 3 #= con +1
+int_save: 4 #= int +1
+wis_save: 3 #= wis +1
+cha_save: 9 #= cha+prof +1
+
+initiative: 5 #= dex + prof//2
 
 speed:
   walking: 30
 
-# hit points = 45 + (stats.con.mod * level) (-1 temp reduction)
 hp: {left: 99, total: 99}
 bonus_hp: {left: 0, total: 0}
 
 # temporary hit points
 temp_hp: 0
 
-# = level * d8
-hit_dice: {current: 14d8, total: 14d8}
+hit_dice:
+  current: 14d8
+  total: 14d8 #= f"{level}d8"
 
 skills:
   # stats.str
-  athletics: 1 #= stats.str.mod + proficiency_bonus//2
+  athletics: 1 #= str + prof//2
   # stats.dex
-  acrobatics: {bonus: 5}
-  sleight_of_hand: {bonus: 5}
-  stealth: {bonus: 5}
+  acrobatics: 5 #= dex + prof//2
+  sleight_of_hand: 5 #= dex + prof//2
+  stealth: 5 #= dex + prof//2
   # stats.int
-  arcana: {bonus: 13, expert: yes}
-  history: {bonus: 8, pro: yes}
-  investigation: {bonus: 13, expert: yes}
-  nature: {bonus: 8, pro: yes}
-  religion: {bonus: 8, pro: yes}
+  arcana: 13 #= int + prof*2
+  history: 8 #= int + prof
+  investigation: 13 #= int + prof*2
+  nature: 8 #= int + prof
+  religion: 8 #= int + prof
   # stats.wis
-  animal_handling: {bonus: 4}
-  insight: {bonus: 8, expert: yes}
-  medicine: {bonus: 4}
-  perception: {bonus: 12, expert: yes}
-  survival: {bonus: 4}
+  animal_handling: 4 #= wis + prof//2
+  insight: 12 #= wis + prof*2
+  medicine: 4 #= wis + prof//2
+  perception: 12 #= wis + prof*2
+  survival: 4 #= wis + prof//2
   # stats.cha
-  deception: {bonus: 5}
-  intimidation: {bonus: 5}
-  performance: {bonus: 8, pro: yes}
-  persuasion: {bonus: 8, pro: yes}
+  deception: 5 #= cha + prof//2
+  intimidation: 5 #= cha + prof//2
+  performance: 8 #= cha + prof
+  persuasion: 8 #= cha + prof
 
-# AC = 12 + stats.dex.mod (+ 1 from earring of protection)
-armor_class: 16
+armor_class: 16 #= 12 + dex +1 # from earring of protection
 
-attacks:
-  - name: Debt Collector (+2 revolver)
-    atk/dmg: +10, 1d10+5 piercing
+atks:
+  debt_collector:
+    name: Debt Collector (+2 revolver)
+    attack_bonus: 10 #= dex + prof +2
+    damage: 1d10+5 piercing #= f"1d10+{dex +2} piercing"
     ammo:
       - normal: 156
       - silver: 49 (+1 ammo, +1d4 radiant)
@@ -122,16 +136,19 @@ attacks:
       a result, you receive a fragment of their soul (???)
     engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
     people-killed-without-money: 0/3 # fragment count: 1?
-
-  - name: rapier
-    atk/dmg: +8, 1d8+3 piercing
-
-  - name: dagger
-    atk/dmg: +8 / 1d4+3 piercing
+  rapier:
+    name: rapier
+    attack_bonus: 8 #= dex + prof
+    damage: 1d8+3 piercing #= f"1d8+{dex} piercing"
+  dagger:
+    name: dagger
+    attack_bonus: 8 #= dex + prof
+    damage: 1d4+3 piercing #= f"1d4+{dex} piercing"
     ranged: range 60/240
-
-  - name: electric stun baton
-    atk/dmg: +4, 1d6-1 bludgeoning
+  stun_batton:
+    name: electric stun baton
+    attack_bonus: 4 #= str + prof
+    damage: 1d6-1 bludgeoning #= f"1d6+{str} bludgeoning".replace("+-", "-")
     extra: as a bonus action, activate stun setting to deal additional 2d4 
       lightning damage
 
@@ -170,15 +187,15 @@ resources:
   bardic_inspiration: # note - lasts for 1 hour, not 10 minutes
     regen: short rest
     left: 3
-    total: 3d10
+    total: 3d10 #= f"{cha}d10"
   cutting_words_on_saves: # treacherous leech
     regen: long rest
     left: 5
-    total: 5
+    total: 5 #= prof
   initiative_disadvantage: # betrayer's last tear
     regen: long rest
     left: 3
-    total: 3 #CHA mod
+    total: 3 #= cha
   spell_slots:
     regen: long rest
     lvl1: 4/4
@@ -193,8 +210,10 @@ resources:
 spells:
   concentrating: none
   stat: cha
-  attack_bonus: 11
-  save_dc: 19
+  # +3 from Betrayer's Tear
+  # -2 from ALTERNATE REALITY
+  attack_bonus: 9 #= cha+prof +3 -2
+  save_dc: 17 #= 8+cha+prof +3 -2
   total_known: 16
   cantrips:
     a: vicious mockery (V)
