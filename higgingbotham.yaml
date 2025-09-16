@@ -1,6 +1,6 @@
----
 character_name: Herbert Higgingbotham, PhD
-character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall College of Liberal Arts
+character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at
+  the Dunwall College of Liberal Arts
 player_name: Leon
 
 inspiration: no
@@ -22,8 +22,8 @@ temp_conditions:
       - portable holes / bags of holding reset
       - betrayer's tear is only a +1 focus (-2 on spell attacks and save DC)
       - earrings of protection disabled
-      - on each long rest, max hp reduced by X, where X is a roll of your hit dice
-        - current reduction of 1 hp
+      - on each long rest, max hp reduced by X, where X is a roll of your hit
+        dice - current reduction of 1 hp
 
 # appearance & traits
 age: 52
@@ -44,7 +44,8 @@ ideals: |
 bonds: |
   I want to learn about krag culture.
   I want to become more renowned than my rival, Victoria Handforth.
-flaws: I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
+flaws: I believe that I'm intellectually superior to people from other cultures,
+  and have much to teach them.
 proficiency_bonus: 5
 
 # = skills.perception + 15
@@ -113,8 +114,13 @@ attacks:
       - normal: 156
       - silver: 49 (+1 ammo, +1d4 radiant)
     ranged: range 60/240, reload 6, misfire 1
-    effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
-    engraving: "D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH"
+    effect: on a hit, target loses an amount of coins such that their "dollar"
+      value is equal to the damage of the hit. The gun "makes change" in their
+      pockets if necessary. The lost coins are transferred to your coin pouch
+      (or equivalent). If the target has no material wealth (money, gems, etc),
+      the gun deals an additional 3d10 force damage, and if the creature dies as
+      a result, you receive a fragment of their soul (???)
+    engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
     people-killed-without-money: 0/3 # fragment count: 1?
 
   - name: rapier
@@ -126,7 +132,8 @@ attacks:
 
   - name: electric stun baton
     atk/dmg: +4, 1d6-1 bludgeoning
-    extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
+    extra: as a bonus action, activate stun setting to deal additional 2d4
+      lightning damage
 
 proficiencies:
   languages: |
@@ -186,7 +193,7 @@ resources:
 spells:
   concentrating: none
   stat: cha
-  attack_bonus: +11
+  attack_bonus: 11
   save_dc: 19
   total_known: 16
   cantrips:
@@ -219,13 +226,18 @@ spells:
     b: modify memory (VS) <C>
     c: holy weapon (VS) <C>
     d: hold monster (VSM) <C>
-    e: greater restoration (VSM - diamond dust worth at least 100gp, which the spell consumes)
+    e: greater restoration (VSM - diamond dust worth at least 100gp, which the
+      spell consumes)
     f: sunbeam (VSM) <C>
   lvl6:
     a: mass suggestion (VM)
   lvl7:
     a: etherealness (VS)
-    b: simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
+    b: simulacrum (VSM - snow or ice in quantities sufficient to make a
+      life-size copy of the duplicated creature; some hair, fingernail
+      clippings, or other piece of that creature's body placed inside the snow
+      or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and
+      consumed by the spell)
     c: regenerate (VSM)
     d: teleport (V)
 
@@ -298,25 +310,30 @@ feats:
       - +5 to passive Perception & passive Investigation
   - name: Firearm Specialist
     benefits:
-      - if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
-      - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
+      - if you misfire, you can use a reaction to roll a d20. if you roll higher
+        than the misfire score, there is no misfire.
+      - when you attack with a one-handed weapon, if you're holding a loaded,
+        light firearm, you can use a bonus action to attack with it
   - name: Warcaster
     benefits:
       - advantage on concentration checks
-      - can do somatic components even when hands are occupied by 2 weapons and/or shield(s)
-      - when making opportunity attack, can cast a single-target spell instead of a melee attack
+      - can do somatic components even when hands are occupied by 2 weapons
+        and/or shield(s)
+      - when making opportunity attack, can cast a single-target spell instead
+        of a melee attack
   - name: Sharpshooter
     benefits:
       - can attack at long range without disadvantage
       - ranged attacks ignore 1/2- and 3/4-cover
-      - before ranged attack*, can choose to get -5 on the attack roll, and +10 on the damage
+      - before ranged attack*, can choose to get -5 on the attack roll, and +10
+        on the damage
       - \* must have proficiency
 
 features:
   - token of the gloom ("if you choose to succeed, you shall")
   - feat "observant"
-  - bardic inspiration (d10)
-    - peerless skill (can use bardic on own ability checks)
+  - bardic inspiration (d10) - peerless skill (can use bardic on own ability
+    checks)
   - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
   - expertise (choose 2)
   - countercharm
@@ -329,17 +346,18 @@ features:
   # ${event} == when a ${target} makes a ${roll} (can be after the roll is made, but before the DM says whether it succeeds/fails)
   # ${target} == creature I can see in 60ft
   # ${roll} == attack roll, ability check, or damage roll (can also be save due to treacherous leech, see above)
-  - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
+  - after observing humanoids interacting with one another for at least 1 day, I
+    can learn a small amount of important words/expressions/gestures -- enough
+    for simple/basic communication
   # - james's dual holsters - spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon
-  - MODIFIED SIMULACRUM
-    - can create more than 1 simulacrum
-    - each additional simulacrum has 1hp
-    - each additional simulacrum cannot cast spells
-    - each additional simulacrum inherits some limited subset of my mental capabilities
+  - MODIFIED SIMULACRUM - can create more than 1 simulacrum - each additional
+    simulacrum has 1hp - each additional simulacrum cannot cast spells - each
+    additional simulacrum inherits some limited subset of my mental capabilities
     - current count is 1 main, 10 additional
-  - betrayer's last tear
-    - +3 spell attack and save DC
-    - Whispers of Doubt - When You roll initiative you can use your reaction to give a number of creatures equal to your Cha Modifier that you can see within 60 feet of you, disadvantage on their initiative roll Once you use this feature, you can't do so again until you finish a long rest.
-    - Lingering Malice - Once per Long rest you may spend ten minutes communing with the Red to summon the focus onto your person regardless of attunement
----
-
+  - betrayer's last tear - +3 spell attack and save DC - Whispers of Doubt -
+    When You roll initiative you can use your reaction to give a number of
+    creatures equal to your Cha Modifier that you can see within 60 feet of you,
+    disadvantage on their initiative roll Once you use this feature, you can't
+    do so again until you finish a long rest. - Lingering Malice - Once per Long
+    rest you may spend ten minutes communing with the Red to summon the focus
+    onto your person regardless of attunement
