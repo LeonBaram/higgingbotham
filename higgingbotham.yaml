@@ -1,6 +1,5 @@
 character_name: Herbert Higgingbotham, PhD
-character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at 
-  the Dunwall College of Liberal Arts
+character_title: Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall College of Liberal Arts
 player_name: Leon
 
 inspiration: no
@@ -22,8 +21,7 @@ temp_conditions:
       - portable holes / bags of holding reset
       - betrayer's tear is only a +1 focus (-2 on spell attacks and save DC)
       - earrings of protection disabled
-      - on each long rest, max hp reduced by X, where X is a roll of your hit 
-        dice - current reduction of 1 hp
+      - on each long rest, max hp reduced by X, where X is a roll of your hit dice - current reduction of 1 hp
 
 # appearance & traits
 age: 52
@@ -31,7 +29,7 @@ eyes: blue
 hair: dark brown
 skin: white
 distinguishing_marks: round eyeglasses; left lens is fully broken
-weight: 140lbs
+naked_weight: 140lbs
 height: 6ft
 
 personality_traits: |
@@ -44,8 +42,7 @@ ideals: |
 bonds: |
   I want to learn about krag culture.
   I want to become more renowned than my rival, Victoria Handforth.
-flaws: I believe that I'm intellectually superior to people from other cultures,
-  and have much to teach them.
+flaws: I believe that I'm intellectually superior to people from other cultures, and have much to teach them.
 # proficiency bonus
 prof: 5
 
@@ -62,12 +59,12 @@ wis_score: 14
 cha_score: 16
 
 # modifiers aka stats
-str: -1 #= (str_score-10)//2
-dex: 3 #= (dex_score-10)//2
-con: 2 #= (con_score-10)//2
-int: 3 #= (int_score-10)//2
-wis: 2 #= (wis_score-10)//2
-cha: 3 #= (cha_score-10)//2
+str: -1 #= mod(str_score)
+dex: 3 #= mod(dex_score)
+con: 2 #= mod(con_score)
+int: 3 #= mod(int_score)
+wis: 2 #= mod(wis_score)
+cha: 3 #= mod(cha_score)
 
 # +1 to all saves from earring of protection
 str_save: 0 #= str +1
@@ -82,42 +79,41 @@ initiative: 5 #= dex + prof//2
 speed:
   walking: 30
 
-hp: {left: 99, total: 99}
-bonus_hp: {left: 0, total: 0}
+TEMP_PENALTY: 1 # temporary penalty from alternate universe BS
+TEMP_BONUS: 0 # temporary bonus, e.g. from Aid
+hp: 99 / 99 #= counter(_, max=100 -TEMP_PENALTY +TEMP_BONUS, reset=longrest)
 
 # temporary hit points
 temp_hp: 0
 
-hit_dice:
-  current: 14d8
-  total: 14d8 #= f"{level}d8"
+hit_dice2: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
 
 skills:
-  # stats.str
-  athletics: 1 #= str + prof//2
-  # stats.dex
-  acrobatics: 5 #= dex + prof//2
+  # strength
+  athletics: 1 #=       str + prof//2
+  # dexterity
+  acrobatics: 5 #=      dex + prof//2
   sleight_of_hand: 5 #= dex + prof//2
-  stealth: 5 #= dex + prof//2
-  # stats.int
-  arcana: 13 #= int + prof*2
-  history: 8 #= int + prof
-  investigation: 13 #= int + prof*2
-  nature: 8 #= int + prof
-  religion: 8 #= int + prof
-  # stats.wis
+  stealth: 5 #=         dex + prof//2
+  # intelligence
+  arcana: 13 #=         int + prof*2
+  history: 8 #=         int + prof
+  investigation: 13 #=  int + prof*2
+  nature: 8 #=          int + prof
+  religion: 8 #=        int + prof
+  # wisdom
   animal_handling: 4 #= wis + prof//2
-  insight: 12 #= wis + prof*2
-  medicine: 4 #= wis + prof//2
-  perception: 12 #= wis + prof*2
-  survival: 4 #= wis + prof//2
-  # stats.cha
-  deception: 5 #= cha + prof//2
-  intimidation: 5 #= cha + prof//2
-  performance: 8 #= cha + prof
-  persuasion: 8 #= cha + prof
+  insight: 12 #=        wis + prof*2
+  medicine: 4 #=        wis + prof//2
+  perception: 12 #=     wis + prof*2
+  survival: 4 #=        wis + prof//2
+  # charisma
+  deception: 5 #=       cha + prof//2
+  intimidation: 5 #=    cha + prof//2
+  performance: 8 #=     cha + prof
+  persuasion: 8 #=      cha + prof
 
-armor_class: 16 #= 12 + dex +1 # from earring of protection
+armor_class: 16 #= 12 + dex +1 # +1 from earring of protection
 
 atks:
   debt_collector:
@@ -128,12 +124,7 @@ atks:
       - normal: 156
       - silver: 49 (+1 ammo, +1d4 radiant)
     ranged: range 60/240, reload 6, misfire 1
-    effect: on a hit, target loses an amount of coins such that their "dollar" 
-      value is equal to the damage of the hit. The gun "makes change" in their 
-      pockets if necessary. The lost coins are transferred to your coin pouch 
-      (or equivalent). If the target has no material wealth (money, gems, etc), 
-      the gun deals an additional 3d10 force damage, and if the creature dies as
-      a result, you receive a fragment of their soul (???)
+    effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
     engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
     people-killed-without-money: 0/3 # fragment count: 1?
   rapier:
@@ -149,8 +140,7 @@ atks:
     name: electric stun baton
     attack_bonus: 4 #= str + prof
     damage: 1d6-1 bludgeoning #= f"1d6+{str} bludgeoning".replace("+-", "-")
-    extra: as a bonus action, activate stun setting to deal additional 2d4 
-      lightning damage
+    extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
 
 proficiencies:
   languages: |
@@ -184,27 +174,24 @@ resources:
     - earring of protection
     - betrayer's last tear (gemstone) (+3 spellcasting focus)
     # - james's dual holsters
-  bardic_inspiration: # note - lasts for 1 hour, not 10 minutes
-    regen: short rest
-    left: 3
-    total: 3d10 #= f"{cha}d10"
-  cutting_words_on_saves: # treacherous leech
-    regen: long rest
-    left: 5
-    total: 5 #= prof
-  initiative_disadvantage: # betrayer's last tear
-    regen: long rest
-    left: 3
-    total: 3 #= cha
+
+  # note - lasts for 1 hour, not 10 minutes
+  bardic_inspiration: 3d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
+
+  # use Cutting Words on someone's saving throw
+  treacherous_leech: 5 / 5 #= counter(_, max=prof, reset=longrest)
+
+  # give someone disadvantage on their initiative
+  betrayers_last_tear: 3 / 3 #= counter(_, max=cha, reset=longrest)
+
   spell_slots:
-    regen: long rest
-    lvl1: 4/4
-    lvl2: 3/3
-    lvl3: 3/3
-    lvl4: 0/3
-    lvl5: 0/2
-    lvl6: 0/1
-    lvl7: 0/1
+    lvl1: 4 / 4 #= counter(_, max=4, reset=longrest)
+    lvl2: 3 / 3 #= counter(_, max=3, reset=longrest)
+    lvl3: 3 / 3 #= counter(_, max=3, reset=longrest)
+    lvl4: 0 / 3 #= counter(_, max=3, reset=None) # temporarily disabled due to alt. universe BS
+    lvl5: 0 / 2 #= counter(_, max=2, reset=None) # temporarily disabled due to alt. universe BS
+    lvl6: 0 / 1 #= counter(_, max=1, reset=None) # temporarily disabled due to alt. universe BS
+    lvl7: 0 / 1 #= counter(_, max=1, reset=None) # temporarily disabled due to alt. universe BS
 
 # spellcasting
 spells:
@@ -245,17 +232,13 @@ spells:
     - modify memory (VS) <C>
     - holy weapon (VS) <C>
     - hold monster (VSM) <C>
-    - greater restoration (VSM - diamond dust worth at least 100gp, which the 
-      spell consumes)
+    - greater restoration (VSM - diamond dust worth at least 100gp, which the spell consumes)
     - sunbeam (VSM) <C>
   lvl6:
     - mass suggestion (VM)
   lvl7:
     - etherealness (VS)
-    - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size
-      copy of the duplicated creature; some hair, fingernail clippings, or other
-      piece of that creature's body placed inside the snow or ice; and powdered 
-      ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
+    - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
     - regenerate (VSM)
     - teleport (V)
 
@@ -266,60 +249,64 @@ money:
   gold: 486
   platinum: 0
 
-inventory: # total: 2 lb. (max carry capacity 120 lb.)
+inv_total_weight: 80.7825lb #= f"{sum(map(weight, inventory.wearing + inventory.backpack))}lb"
+inv_max_weight: 120lb #= f"{str_score * 15}lb"
+
+inventory:
   wearing:
-    - 1 betrayer's last tear (2 lbs) (+3 SPELLCASTING FOCUS),
-    - 1 earring of protection
-    - 1 hat ("The Treacherous Leech") (0 lbs),
+    - 2lb betrayer's last tear (+3 SPELLCASTING FOCUS)
+    - earring of protection
+    - hat ("The Treacherous Leech")
       # The Treacherous Leech
       # Upon doning the hat
       # Those of the same ɹ̷̀͊ǝ̷͊͝s̷̾͝o̵̓̇u̴̿̀ɐ̷͌́u̵͝ɔǝ sᴉƃuɐʇnɹǝ as the original host
       # Finds that their words cut deeper then ever before
       # The cutting words ability may now be used on saving throws a number of times equal to your proficiency bonus  (resets upon a long rest)
-    - 1 round eyeglasses (left lens broken) (0 lbs),
-    - 1 traveler's clothes (1 lbs),
-    - 1 singing rock (bardic focus) (1 lbs),
-    - 1 coin pouch (1 lbs),
-    - 1 ammo pouch (1 lbs),
-    - 1 Debt Collector (+2 revolver) (3 lbs),
-    - 1 rapier (2 lbs),
-    - 1 dagger (1 lbs),
-    - 1 Leaz Stone,
+    - round eyeglasses (left lens broken)
+    - 1lb traveler's clothes
+    - 1lb singing rock (bardic focus)
+    - 1lb coin pouch
+    - 486x 0.02lb coins #= f"{sum(money.values())}x 0.02lb coins"
+    - 1lb ammo pouch
+    - 3lb Debt Collector (+2 revolver)
+    - 2lb rapier
+    - 1lb dagger
+    - Leaz Stone
   backpack:
-    - 1 The Map (magic map from Anteverse B-1)
-    - 1 sleeping bag,
-    - 1 backpack (5 lbs),
-    - 1 bedroll (7 lbs),
-    - 1 hemp rope (50 feet) (0 lbs),
+    - The Map (magic map from Anteverse B-1)
+    - sleeping bag
+    - 5lb backpack
+    - 7lb bedroll
+    - 10lb hemp rope (50 feet)
       # writing supplies
-    - 1 ink bottle (1 ounce) (0 lbs),
-    - 1 ink pen (0 lbs),
-    - 1 sealing wax (0 lbs),
-    - 5 sheet of paper (0 lbs),
-    - 5 map/scroll case (1 lbs),
-    - 1 leather-bound diary (5 lbs),
+    - 0.0625lb ink bottle (1 ounce)
+    - ink pen
+    - sealing wax
+    - 5x sheet of paper
+    - 5x 1lb map/scroll case
+    - 5lb leather-bound diary
       # personal hygiene
-    - 1 vial of perfume (0 lbs),
-    - 1 soap (0 lbs),
+    - vial of perfume
+    - soap
       # lighting
-    - 3 oil lanterns,
-    - 1 factory delivery notes
-    - 1 oil lamp (1 lbs),
-    - 2 oil flask (capacity 1 pint) (1 lbs),
-    - 1 tinderbox (1 lbs),
-    - 1 torch (1 lbs),
+    - 3x 2lb oil lanterns
+    - factory delivery notes
+    - 1lb oil lamp
+    - 2x 1lb oil flask (capacity 1 pint)
+    - 1lb tinderbox
+    - 1lb torch
       # food / water
-    - 1 mess kit (1 lbs),
-    - 5 day's worth of rations (1 lbs),
-    - 1 waterskin (capacity 4 pints) (5 lbs),
-      # potions
-    - 1 sapphire (worth 200gp)
-    - 1 amethyst
+    - 1lb mess kit
+    - 5x 2lb day's worth of rations
+    - 5lb waterskin (capacity 4 pints)
+      # gems
+    - sapphire (worth 200gp)
+    - amethyst
   left_at_home:
-    - 1 mithril half-plate (1 lbs),
-    - 37 small pieces of coal
-    - 1 calcified fragment
-    - 1 stun baton,
+    - 1lb mithril half-plate
+    - 37x small pieces of coal
+    - calcified fragment
+    - stun baton
 feats:
   - name: Observant
     benefits:
@@ -328,30 +315,24 @@ feats:
       - +5 to passive Perception & passive Investigation
   - name: Firearm Specialist
     benefits:
-      - if you misfire, you can use a reaction to roll a d20. if you roll higher
-        than the misfire score, there is no misfire.
-      - when you attack with a one-handed weapon, if you're holding a loaded, 
-        light firearm, you can use a bonus action to attack with it
+      - if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
+      - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
   - name: Warcaster
     benefits:
       - advantage on concentration checks
-      - can do somatic components even when hands are occupied by 2 weapons 
-        and/or shield(s)
-      - when making opportunity attack, can cast a single-target spell instead 
-        of a melee attack
+      - can do somatic components even when hands are occupied by 2 weapons and/or shield(s)
+      - when making opportunity attack, can cast a single-target spell instead of a melee attack
   - name: Sharpshooter
     benefits:
       - can attack at long range without disadvantage
       - ranged attacks ignore 1/2- and 3/4-cover
-      - before ranged attack*, can choose to get -5 on the attack roll, and +10 
-        on the damage
+      - before ranged attack*, can choose to get -5 on the attack roll, and +10 on the damage
       - \* must have proficiency
 
 features:
   - token of the gloom ("if you choose to succeed, you shall")
   - feat "observant"
-  - bardic inspiration (d10) - peerless skill (can use bardic on own ability 
-    checks)
+  - bardic inspiration (d10) - peerless skill (can use bardic on own ability checks)
   - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
   - expertise (choose 2)
   - countercharm
@@ -364,18 +345,10 @@ features:
   # ${event} == when a ${target} makes a ${roll} (can be after the roll is made, but before the DM says whether it succeeds/fails)
   # ${target} == creature I can see in 60ft
   # ${roll} == attack roll, ability check, or damage roll (can also be save due to treacherous leech, see above)
-  - after observing humanoids interacting with one another for at least 1 day, I
-    can learn a small amount of important words/expressions/gestures -- enough 
-    for simple/basic communication
+  - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
   # - james's dual holsters - spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon
-  - MODIFIED SIMULACRUM - can create more than 1 simulacrum - each additional 
-    simulacrum has 1hp - each additional simulacrum cannot cast spells - each 
-    additional simulacrum inherits some limited subset of my mental capabilities
-    - current count is 1 main, 10 additional
-  - betrayer's last tear - +3 spell attack and save DC - Whispers of Doubt - 
-    When You roll initiative you can use your reaction to give a number of 
-    creatures equal to your Cha Modifier that you can see within 60 feet of you,
-    disadvantage on their initiative roll Once you use this feature, you can't 
-    do so again until you finish a long rest. - Lingering Malice - Once per Long
-    rest you may spend ten minutes communing with the Red to summon the focus 
-    onto your person regardless of attunement
+  - MODIFIED SIMULACRUM - can create more than 1 simulacrum - each additional simulacrum has 1hp - each additional simulacrum cannot cast spells - each additional simulacrum inherits some limited subset of my mental capabilities - current count is 1 main, 10 additional
+  - betrayer's last tear - +3 spell attack and save DC - Whispers of Doubt - When You roll initiative you can use your reaction to give a number of creatures equal to your Cha Modifier that you can see within 60 feet of you, disadvantage on their initiative roll Once you use this feature, you can't do so again until you finish a long rest. - Lingering Malice - Once per Long rest you may spend ten minutes communing with the Red to summon the focus onto your person regardless of attunement
+
+shortrest: false
+longrest: false
