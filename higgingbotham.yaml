@@ -67,20 +67,23 @@ wis: 2 #= mod(wis_score)
 cha: 3 #= mod(cha_score)
 
 # +1 to all saves from earring of protection
-str_save: 0 #= str +1
-dex_save: 9 #= dex+prof +1
-con_save: 3 #= con +1
-int_save: 4 #= int +1
-wis_save: 3 #= wis +1
-cha_save: 9 #= cha+prof +1
+EARRING_SAVE_BONUS: 0 # temporarily disabled by alt. universe BS
+
+str_save: -1 #= str +EARRING_SAVE_BONUS
+dex_save: 8 #= dex+prof +EARRING_SAVE_BONUS
+con_save: 2 #= con +EARRING_SAVE_BONUS
+int_save: 3 #= int +EARRING_SAVE_BONUS
+wis_save: 2 #= wis +EARRING_SAVE_BONUS
+cha_save: 8 #= cha+prof +EARRING_SAVE_BONUS
 
 initiative: 5 #= dex + prof//2
 
 speed:
   walking: 30
 
-TEMP_PENALTY: 1 # temporary penalty from alternate universe BS
+TEMP_PENALTY: 1 # temporary penalty from alt. universe BS
 TEMP_BONUS: 0 # temporary bonus, e.g. from Aid
+
 hp: 99 / 99 #= counter(_, max=100 -TEMP_PENALTY +TEMP_BONUS, reset=longrest)
 
 # temporary hit points
@@ -88,32 +91,41 @@ temp_hp: 0
 
 hit_dice2: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
 
+# jack of all trades -- add half-proficiency to all non-proficient skills
+JACK: 2 #= prof//2
+
+# expertise -- double proficiency
+EXPERT: 10 #= prof*2
+
 skills:
   # strength
-  athletics: 1 #=       str + prof//2
+  athletics: 1 #=       str + JACK
   # dexterity
-  acrobatics: 5 #=      dex + prof//2
-  sleight_of_hand: 5 #= dex + prof//2
-  stealth: 5 #=         dex + prof//2
+  acrobatics: 5 #=      dex + JACK
+  sleight_of_hand: 5 #= dex + JACK
+  stealth: 5 #=         dex + JACK
   # intelligence
-  arcana: 13 #=         int + prof*2
+  arcana: 13 #=         int + EXPERT
   history: 8 #=         int + prof
-  investigation: 13 #=  int + prof*2
+  investigation: 13 #=  int + EXPERT
   nature: 8 #=          int + prof
   religion: 8 #=        int + prof
   # wisdom
-  animal_handling: 4 #= wis + prof//2
-  insight: 12 #=        wis + prof*2
-  medicine: 4 #=        wis + prof//2
-  perception: 12 #=     wis + prof*2
-  survival: 4 #=        wis + prof//2
+  animal_handling: 4 #= wis + JACK
+  insight: 12 #=        wis + EXPERT
+  medicine: 4 #=        wis + JACK
+  perception: 12 #=     wis + EXPERT
+  survival: 4 #=        wis + JACK
   # charisma
-  deception: 5 #=       cha + prof//2
-  intimidation: 5 #=    cha + prof//2
+  deception: 5 #=       cha + JACK
+  intimidation: 5 #=    cha + JACK
   performance: 8 #=     cha + prof
   persuasion: 8 #=      cha + prof
 
-armor_class: 16 #= 12 + dex +1 # +1 from earring of protection
+# +1 to AC from earring of protection
+EARRING_AC_BONUS: 0 # temporarily disabled by alt. universe BS
+
+armor_class: 15 #= 12 + dex +EARRING_AC_BONUS
 
 atks:
   debt_collector:
@@ -161,19 +173,18 @@ proficiencies:
     - tinker's tools
     - archaeologist's tools
 
+attunements:
+  - treachorous leech (hat)
+  - earring of protection
+  - betrayer's last tear (gemstone) (+3 spellcasting focus)
+  # - james's dual holsters
+
 resources:
   spell-storing tattoos:
     - 1x lvl3 absorb elements (fire)
     - 1x lvl3 absorb elements (1 per element)
     - 1x lvl1 gift of alacritty
-    - one-time use
-  potions:
-    - 1 superior healing potion (1 lbs)
-  attunements:
-    - treachorous leech (hat)
-    - earring of protection
-    - betrayer's last tear (gemstone) (+3 spellcasting focus)
-    # - james's dual holsters
+    - all tattoos are one-time use
 
   # note - lasts for 1 hour, not 10 minutes
   bardic_inspiration: 3d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
@@ -197,8 +208,8 @@ resources:
 spells:
   concentrating: none
   stat: cha
-  # +3 from Betrayer's Tear
-  # -2 from ALTERNATE REALITY
+  # +3 to spell attack and spell save DC
+  BETRAYERS_TEAR_BONUS: 1 # temporarily reduces by alt. universe BS
   attack_bonus: 9 #= cha+prof +3 -2
   save_dc: 17 #= 8+cha+prof +3 -2
   total_known: 16
@@ -255,7 +266,7 @@ inv_max_weight: 120lb #= f"{str_score * 15}lb"
 inventory:
   wearing:
     - 2lb betrayer's last tear (+3 SPELLCASTING FOCUS)
-    - earring of protection
+    - earring of protection # +1 to saves and AC
     - hat ("The Treacherous Leech")
       # The Treacherous Leech
       # Upon doning the hat
