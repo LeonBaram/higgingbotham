@@ -11,7 +11,7 @@
 >> 
 <<
 /T (SlotsTotal 20)
-/V ({{{resources.spell_slots.total.lvl2}}})
+/V ({{{resources.spell_slots.lvl2}}})
 >> 
 <<
 /T (Check Box 3079)
@@ -27,7 +27,7 @@
 >> 
 <<
 /T (Spells 1048)
-/V ({{{spells.lvl3.a}}})
+/V ({{{spells.lvl3.0}}})
 >> 
 <<
 /T (Check Box 3076)
@@ -35,7 +35,7 @@
 >> 
 <<
 /T (Spells 1049)
-/V ({{{spells.lvl3.c}}})
+/V ({{{spells.lvl3.2}}})
 >> 
 <<
 /T (Check Box 3075)
@@ -43,7 +43,7 @@
 >> 
 <<
 /T (Spells 1046)
-/V ({{{spells.lvl1.a}}})
+/V ({{{spells.lvl1.0}}})
 >> 
 <<
 /T (Check Box 3074)
@@ -51,7 +51,7 @@
 >> 
 <<
 /T (Spells 1047)
-/V ({{{spells.lvl3.b}}})
+/V ({{{spells.lvl3.1}}})
 >> 
 <<
 /T (Check Box 3073)
@@ -59,7 +59,7 @@
 >> 
 <<
 /T (Spells 1044)
-/V ({{{spells.lvl1.l}}})
+/V ({{{spells.lvl1.11}}})
 >> 
 <<
 /T (Check Box 3072)
@@ -67,7 +67,7 @@
 >> 
 <<
 /T (Spells 1045)
-/V ({{{spells.lvl1.m}}})
+/V ({{{spells.lvl1.13}}})
 >> 
 <<
 /T (Check Box 3071)
@@ -75,7 +75,7 @@
 >> 
 <<
 /T (Spells 1042)
-/V ({{{spells.lvl1.j}}})
+/V ({{{spells.lvl1.9}}})
 >> 
 <<
 /T (Check Box 3070)
@@ -83,43 +83,43 @@
 >> 
 <<
 /T (Spells 1043)
-/V ({{{spells.lvl1.k}}})
+/V ({{{spells.lvl1.10}}})
 >> 
 <<
 /T (Spells 1040)
-/V ({{{spells.lvl1.h}}})
+/V ({{{spells.lvl1.7}}})
 >> 
 <<
 /T (Spells 1041)
-/V ({{{spells.lvl1.i}}})
+/V ({{{spells.lvl1.8}}})
 >> 
 <<
 /T (STR)
-/V ({{{stats.str.mod}}})
+/V ({{{str}}})
 >> 
 <<
 /T (SlotsTotal 25)
-/V ({{{resources.spell_slots.total.lvl7}}})
+/V ({{{resources.spell_slots.lvl7}}})
 >> 
 <<
 /T (SlotsTotal 26)
-/V ({{{resources.spell_slots.total.lvl8}}})
+/V ({{{resources.spell_slots.lvl8}}})
 >> 
 <<
 /T (SlotsTotal 27)
-/V ({{{resources.spell_slots.total.lvl9}}})
+/V ({{{resources.spell_slots.lvl9}}})
 >> 
 <<
 /T (SlotsTotal 21)
-/V ({{{resources.spell_slots.total.lvl3}}})
+/V ({{{resources.spell_slots.lvl3}}})
 >> 
 <<
 /T (SlotsTotal 22)
-/V ({{{resources.spell_slots.total.lvl4}}})
+/V ({{{resources.spell_slots.lvl4}}})
 >> 
 <<
 /T (SlotsTotal 23)
-/V ({{{resources.spell_slots.total.lvl5}}})
+/V ({{{resources.spell_slots.lvl5}}})
 >> 
 <<
 /T (CharacterName 2)
@@ -127,7 +127,7 @@
 >> 
 <<
 /T (SlotsTotal 24)
-/V ({{{resources.spell_slots.total.lvl6}}})
+/V ({{{resources.spell_slots.lvl6}}})
 >> 
 <<
 /T (Hair)
@@ -143,11 +143,11 @@
 >> 
 <<
 /T (DEXmod )
-/V ({{{stats.dex.score}}})
+/V ({{{dex_score}}})
 >> 
 <<
 /T (Spells 1039)
-/V ({{{spells.lvl1.g}}})
+/V ({{{spells.lvl1.6}}})
 >> 
 <<
 /T (Wpn2 AtkBonus )
@@ -159,23 +159,23 @@
 >> 
 <<
 /T (Spells 1037)
-/V ({{{spells.lvl1.e}}})
+/V ({{{spells.lvl1.4}}})
 >> 
 <<
 /T (Spells 1038)
-/V ({{{spells.lvl1.f}}})
+/V ({{{spells.lvl1.5}}})
 >> 
 <<
 /T (Spells 1035)
-/V ({{{spells.lvl1.c}}})
+/V ({{{spells.lvl1.2}}})
 >> 
 <<
 /T (Spells 1036)
-/V ({{{spells.lvl1.d}}})
+/V ({{{spells.lvl1.3}}})
 >> 
 <<
 /T (Spells 1033)
-/V ({{{spells.lvl1.l}}})
+/V ({{{spells.lvl1.11}}})
 >> 
 <<
 /T (Check Box 3083)
@@ -183,7 +183,7 @@
 >> 
 <<
 /T (Spells 1034)
-/V ({{{spells.lvl1.b}}})
+/V ({{{spells.lvl1.1}}})
 >> 
 <<
 /T (Check Box 3082)
@@ -191,11 +191,11 @@
 >> 
 <<
 /T (ST Strength)
-/V ({{{stats.str.save}}})
+/V ({{{str_save}}})
 >> 
 <<
 /T (Spells 1031)
-/V ({{{spells.lvl1.j}}})
+/V ({{{spells.lvl1.9}}})
 >> 
 <<
 /T (Check Box 3081)
@@ -203,7 +203,7 @@
 >> 
 <<
 /T (Spells 1032)
-/V ({{{spells.lvl1.k}}})
+/V ({{{spells.lvl1.10}}})
 >> 
 <<
 /T (Check Box 3080)
@@ -211,15 +211,15 @@
 >> 
 <<
 /T (Spells 1030)
-/V ({{{spells.lvl1.i}}})
+/V ({{{spells.lvl1.8}}})
 >> 
 <<
 /T (ST Constitution)
-/V ({{{stats.con.save}}})
+/V ({{{con_save}}})
 >> 
 <<
 /T (HDTotal)
-/V ({{{hit_dice.total}}})
+/V ({{{hit_dice}}})
 >> 
 <<
 /T (Check Box 13)
@@ -243,7 +243,7 @@
 >> 
 <<
 /T (Spells 1028)
-/V ({{{spells.lvl1.g}}})
+/V ({{{spells.lvl1.6}}})
 >> 
 <<
 /T (Wpn1 Damage)
@@ -251,43 +251,43 @@
 >> 
 <<
 /T (Spells 1029)
-/V ({{{spells.lvl1.h}}})
+/V ({{{spells.lvl1.7}}})
 >> 
 <<
 /T (Spells 1026)
-/V ({{{spells.lvl1.e}}})
+/V ({{{spells.lvl1.4}}})
 >> 
 <<
 /T (Spells 1027)
-/V ({{{spells.lvl1.f}}})
+/V ({{{spells.lvl1.5}}})
 >> 
 <<
 /T (Spells 1024)
-/V ({{{spells.lvl1.c}}})
+/V ({{{spells.lvl1.2}}})
 >> 
 <<
 /T (Spells 1025)
-/V ({{{spells.lvl1.d}}})
+/V ({{{spells.lvl1.3}}})
 >> 
 <<
 /T (Spells 1022)
-/V ({{{spells.cantrips.h}}})
+/V ({{{spells.cantrips.7}}})
 >> 
 <<
 /T (Spells 1023)
-/V ({{{spells.lvl1.b}}})
+/V ({{{spells.lvl1.1}}})
 >> 
 <<
 /T (Spells 1020)
-/V ({{{spells.cantrips.f}}})
+/V ({{{spells.cantrips.5}}})
 >> 
 <<
 /T (Spells 1021)
-/V ({{{spells.cantrips.g}}})
+/V ({{{spells.cantrips.6}}})
 >> 
 <<
 /T (Athletics)
-/V ({{{skills.athletics.bonus}}})
+/V ({{{skills.athletics}}})
 >> 
 <<
 /T (Wpn3 AtkBonus  )
@@ -303,12 +303,12 @@
 >> 
 <<
 /T (SleightofHand)
-/V ({{{skills.sleight_of_hand.bonus}}})
+/V ({{{skills.sleight_of_hand}}})
 >> 
 <<
 /T (AttacksSpellcasting)
 /V ({{#attacks}}
-{{{name}}}: {{{ammo}}} ammo, {{{atk/dmg}}}, {{{ranged}}}
+{{{name}}}: +{{attack_bonus}}, {{damage}}; {{ammo}} {{ranged}}
 {{/attacks}})
 >> 
 <<
@@ -337,27 +337,27 @@
 >> 
 <<
 /T (Nature)
-/V ({{{skills.nature.bonus}}})
+/V ({{{skills.nature}}})
 >> 
 <<
 /T (Spells 1019)
-/V ({{{spells.cantrips.e}}})
+/V ({{{spells.cantrips.4}}})
 >> 
 <<
 /T (Spells 1017)
-/V ({{{spells.cantrips.c}}})
+/V ({{{spells.cantrips.2}}})
 >> 
 <<
 /T (Spells 1018)
-/V ({{{spells.cantrips.d}}})
+/V ({{{spells.cantrips.3}}})
 >> 
 <<
 /T (Spells 1015)
-/V ({{{spells.lvl1.a}}})
+/V ({{{spells.lvl1.0}}})
 >> 
 <<
 /T (Spells 1016)
-/V ({{{spells.cantrips.b}}})
+/V ({{{spells.cantrips.1}}})
 >> 
 <<
 /T (Check Box 251)
@@ -365,11 +365,11 @@
 >> 
 <<
 /T (Religion)
-/V ({{{skills.religion.bonus}}})
+/V ({{{skills.religion}}})
 >> 
 <<
 /T (Spells 1014)
-/V ({{{spells.cantrips.a}}})
+/V ({{{spells.cantrips.0}}})
 >> 
 <<
 /T (CP)
@@ -385,19 +385,19 @@
 >> 
 <<
 /T (Medicine)
-/V ({{{skills.medicine.bonus}}})
+/V ({{{skills.medicine}}})
 >> 
 <<
 /T (SlotsTotal 19)
-/V ({{{resources.spell_slots.total.lvl1}}})
+/V ({{{resources.spell_slots.lvl1}}})
 >> 
 <<
 /T (Perception )
-/V ({{{skills.perception.bonus}}})
+/V ({{{skills.perception}}})
 >> 
 <<
 /T (CHA)
-/V ({{{stats.cha.mod}}})
+/V ({{{cha}}})
 >> 
 <<
 /T (Treasure)
@@ -409,7 +409,7 @@
 >> 
 <<
 /T (Deception )
-/V ({{{skills.deception.bonus}}})
+/V ({{{skills.deception}}})
 >> 
 <<
 /T (Check Box 3037)
@@ -445,7 +445,7 @@
 >> 
 <<
 /T (Spells 1088)
-/V ({{{spells.lvl6.g}}})
+/V ({{{spells.lvl6.6}}})
 >> 
 <<
 /T (Wpn Name)
@@ -453,39 +453,39 @@
 >> 
 <<
 /T (Spells 1089)
-/V ({{{spells.lvl6.h}}})
+/V ({{{spells.lvl6.7}}})
 >> 
 <<
 /T (Spells 1086)
-/V ({{{spells.lvl6.e}}})
+/V ({{{spells.lvl6.4}}})
 >> 
 <<
 /T (Spells 1087)
-/V ({{{spells.lvl6.f}}})
+/V ({{{spells.lvl6.5}}})
 >> 
 <<
 /T (Spells 1084)
-/V ({{{spells.lvl6.c}}})
+/V ({{{spells.lvl6.2}}})
 >> 
 <<
 /T (Spells 1085)
-/V ({{{spells.lvl6.d}}})
+/V ({{{spells.lvl6.3}}})
 >> 
 <<
 /T (Spells 1082)
-/V ({{{spells.lvl6.b}}})
+/V ({{{spells.lvl6.1}}})
 >> 
 <<
 /T (Spells 1083)
-/V ({{{spells.lvl6.a}}})
+/V ({{{spells.lvl6.0}}})
 >> 
 <<
 /T (Spells 1080)
-/V ({{{spells.lvl5.h}}})
+/V ({{{spells.lvl5.7}}})
 >> 
 <<
 /T (Spells 1081)
-/V ({{{spells.lvl5.i}}})
+/V ({{{spells.lvl5.8}}})
 >> 
 <<
 /T (PlayerName)
@@ -493,11 +493,11 @@
 >> 
 <<
 /T (ST Intelligence)
-/V ({{{stats.int.save}}})
+/V ({{{int}}})
 >> 
 <<
 /T (Insight)
-/V ({{{skills.insight.bonus}}})
+/V ({{{skills.insight}}})
 >> 
 <<
 /T (Ideals)
@@ -505,7 +505,7 @@
 >> 
 <<
 /T (CHamod)
-/V ({{{stats.cha.score}}})
+/V ({{{cha}}})
 >> 
 <<
 /T (Check Box 3039)
@@ -521,7 +521,7 @@
 >> 
 <<
 /T (Spellcasting Class 2)
-/V ({{{class}}})
+/V ({{character_class}})
 >> 
 <<
 /T (Check Box 3047)
@@ -557,7 +557,7 @@
 >> 
 <<
 /T (Spells 1079)
-/V ({{{spells.lvl5.g}}})
+/V ({{{spells.lvl5.6}}})
 >> 
 <<
 /T (Check Box 3040)
@@ -565,11 +565,11 @@
 >> 
 <<
 /T (Stealth )
-/V ({{{skills.stealth.bonus}}})
+/V ({{{skills.stealth}}})
 >> 
 <<
 /T (Spells 1077)
-/V ({{{spells.lvl5.e}}})
+/V ({{{spells.lvl5.4}}})
 >> 
 <<
 /T (EP)
@@ -577,43 +577,43 @@
 >> 
 <<
 /T (Spells 1078)
-/V ({{{spells.lvl5.f}}})
+/V ({{{spells.lvl5.5}}})
 >> 
 <<
 /T (Spells 1075)
-/V ({{{spells.lvl5.c}}})
+/V ({{{spells.lvl5.2}}})
 >> 
 <<
 /T (Spells 1076)
-/V ({{{spells.lvl5.d}}})
+/V ({{{spells.lvl5.3}}})
 >> 
 <<
 /T (Weight)
-/V ({{{weight}}})
+/V ({{{inv_total_weight}}} / {{{inv_max_weight}}})
 >> 
 <<
 /T (Spells 1073)
-/V ({{{spells.lvl5.b}}})
+/V ({{{spells.lvl5.1}}})
 >> 
 <<
 /T (Spells 1074)
-/V ({{{spells.lvl5.a}}})
+/V ({{{spells.lvl5.0}}})
 >> 
 <<
 /T (Spells 1071)
-/V ({{{spells.lvl4.l}}})
+/V ({{{spells.lvl4.1}}})
 >> 
 <<
 /T (Spells 1072)
-/V ({{{spells.lvl4.m}}})
+/V ({{{spells.lvl4.1}}})
 >> 
 <<
 /T (CONmod)
-/V ({{{stats.con.score}}})
+/V ({{{con_score}}})
 >> 
 <<
 /T (Spells 1070)
-/V ({{{spells.lvl4.k}}})
+/V ({{{spells.lvl4.1}}})
 >> 
 <<
 /T (Allies)
@@ -621,7 +621,7 @@
 >> 
 <<
 /T (History )
-/V ({{{skills.history.bonus}}})
+/V ({{{skills.history}}})
 >> 
 <<
 /T (Check Box 3059)
@@ -653,7 +653,7 @@
 >> 
 <<
 /T (Spells 1068)
-/V ({{{spells.lvl4.i}}})
+/V ({{{spells.lvl4.8}}})
 >> 
 <<
 /T (Check Box 3052)
@@ -661,7 +661,7 @@
 >> 
 <<
 /T (Spells 1069)
-/V ({{{spells.lvl4.j}}})
+/V ({{{spells.lvl4.9}}})
 >> 
 <<
 /T (Check Box 3051)
@@ -669,7 +669,7 @@
 >> 
 <<
 /T (Spells 1066)
-/V ({{{spells.lvl4.g}}})
+/V ({{{spells.lvl4.6}}})
 >> 
 <<
 /T (Check Box 3050)
@@ -677,31 +677,31 @@
 >> 
 <<
 /T (Spells 1067)
-/V ({{{spells.lvl4.h}}})
+/V ({{{spells.lvl4.7}}})
 >> 
 <<
 /T (Spells 1064)
-/V ({{{spells.lvl4.e}}})
+/V ({{{spells.lvl4.4}}})
 >> 
 <<
 /T (Spells 1065)
-/V ({{{spells.lvl4.f}}})
+/V ({{{spells.lvl4.5}}})
 >> 
 <<
 /T (Spells 1062)
-/V ({{{spells.lvl4.c}}})
+/V ({{{spells.lvl4.2}}})
 >> 
 <<
 /T (Spells 1063)
-/V ({{{spells.lvl4.d}}})
+/V ({{{spells.lvl4.3}}})
 >> 
 <<
 /T (Spells 1060)
-/V ({{{spells.lvl4.b}}})
+/V ({{{spells.lvl4.1}}})
 >> 
 <<
 /T (Spells 1061)
-/V ({{{spells.lvl4.a}}})
+/V ({{{spells.lvl4.0}}})
 >> 
 <<
 /T (Wpn2 Damage )
@@ -709,11 +709,11 @@
 >> 
 <<
 /T (ST Dexterity)
-/V ({{{stats.dex.save}}})
+/V ({{{dex_save}}})
 >> 
 <<
 /T (Acrobatics)
-/V ({{{skills.acrobatics.bonus}}})
+/V ({{{skills.acrobatics}}})
 >> 
 <<
 /T (Age)
@@ -725,7 +725,7 @@
 >> 
 <<
 /T (Intimidation)
-/V ({{{skills.intimidation.bonus}}})
+/V ({{{skills.intimidation}}})
 >> 
 <<
 /T (Faction Symbol Image)
@@ -753,7 +753,7 @@
 >> 
 <<
 /T (Spells 1059)
-/V ({{{spells.lvl3.m}}})
+/V ({{{spells.lvl3.12}}})
 >> 
 <<
 /T (Check Box 3064)
@@ -765,7 +765,7 @@
 >> 
 <<
 /T (Spells 1057)
-/V ({{{spells.lvl3.k}}})
+/V ({{{spells.lvl3.10}}})
 >> 
 <<
 /T (GP)
@@ -777,7 +777,7 @@
 >> 
 <<
 /T (Spells 1058)
-/V ({{{spells.lvl3.l}}})
+/V ({{{spells.lvl3.11}}})
 >> 
 <<
 /T (Check Box 3061)
@@ -785,7 +785,7 @@
 >> 
 <<
 /T (Spells 1055)
-/V ({{{spells.lvl3.i}}})
+/V ({{{spells.lvl3.8}}})
 >> 
 <<
 /T (Check Box 3060)
@@ -793,11 +793,11 @@
 >> 
 <<
 /T (Spells 1056)
-/V ({{{spells.lvl3.j}}})
+/V ({{{spells.lvl3.9}}})
 >> 
 <<
 /T (Spells 1053)
-/V ({{{spells.lvl3.g}}})
+/V ({{{spells.lvl3.6}}})
 >> 
 <<
 /T (Initiative)
@@ -805,19 +805,19 @@
 >> 
 <<
 /T (Spells 1054)
-/V ({{{spells.lvl3.h}}})
+/V ({{{spells.lvl3.7}}})
 >> 
 <<
 /T (Spells 1051)
-/V ({{{spells.lvl3.e}}})
+/V ({{{spells.lvl3.4}}})
 >> 
 <<
 /T (Spells 1052)
-/V ({{{spells.lvl3.f}}})
+/V ({{{spells.lvl3.5}}})
 >> 
 <<
 /T (Spells 1050)
-/V ({{{spells.lvl3.d}}})
+/V ({{{spells.lvl3.3}}})
 >> 
 <<
 /T (Equipment)
@@ -847,7 +847,7 @@ backpack: {{#backpack}}
 >> 
 <<
 /T (WISmod)
-/V ({{{stats.wis.score}}})
+/V ({{{wis_score}}})
 >> 
 <<
 /T (Passive)
@@ -859,7 +859,7 @@ backpack: {{#backpack}}
 >> 
 <<
 /T (Persuasion)
-/V ({{{skills.persuasion.bonus}}})
+/V ({{{skills.persuasion}}})
 >> 
 <<
 /T (Wpn3 Damage )
@@ -871,7 +871,7 @@ backpack: {{#backpack}}
 >> 
 <<
 /T (HPMax)
-/V ({{{hp.total}}})
+/V ({{{hp}}})
 >> 
 <<
 /T (Check Box 310)
@@ -895,7 +895,7 @@ backpack: {{#backpack}}
 >> 
 <<
 /T (Survival)
-/V ({{{skills.survival.bonus}}})
+/V ({{{skills.survival}}})
 >> 
 <<
 /T (Check Box 316)
@@ -917,31 +917,31 @@ backpack: {{#backpack}}
 >> 
 <<
 /T (Spells 10101)
-/V ({{{spells.lvl8.a}}})
+/V ({{{spells.lvl8.0}}})
 >> 
 <<
 /T (Spells 10102)
-/V ({{{spells.lvl8.c}}})
+/V ({{{spells.lvl8.2}}})
 >> 
 <<
 /T (Spells 10100)
-/V ({{{spells.lvl8.b}}})
+/V ({{{spells.lvl8.1}}})
 >> 
 <<
 /T (Animal)
-/V ({{{skills.animal_handling.bonus}}})
+/V ({{{skills.animal_handling}}})
 >> 
 <<
 /T (STRmod)
-/V ({{{stats.str.score}}})
+/V ({{{str_score}}})
 >> 
 <<
 /T (Performance)
-/V ({{{skills.performance.bonus}}})
+/V ({{{skills.performance}}})
 >> 
 <<
 /T (Arcana)
-/V ({{{skills.arcana.bonus}}})
+/V ({{{skills.arcana}}})
 >> 
 <<
 /T (ProficienciesLang)
@@ -1038,7 +1038,7 @@ tools:
 >> 
 <<
 /T (CON)
-/V ({{{stats.con.mod}}})
+/V ({{{con}}})
 >> 
 <<
 /T (Check Box 3024)
@@ -1066,15 +1066,15 @@ tools:
 >> 
 <<
 /T (Spells 1099)
-/V ({{{spells.lvl7.i}}})
+/V ({{{spells.lvl7.8}}})
 >> 
 <<
 /T (Spells 1097)
-/V ({{{spells.lvl7.g}}})
+/V ({{{spells.lvl7.6}}})
 >> 
 <<
 /T (Spells 1098)
-/V ({{{spells.lvl7.h}}})
+/V ({{{spells.lvl7.7}}})
 >> 
 <<
 /T (Feat+Traits)
@@ -1082,31 +1082,31 @@ tools:
 >> 
 <<
 /T (Spells 1095)
-/V ({{{spells.lvl7.e}}})
+/V ({{{spells.lvl7.4}}})
 >> 
 <<
 /T (Spells 1096)
-/V ({{{spells.lvl7.f}}})
+/V ({{{spells.lvl7.5}}})
 >> 
 <<
 /T (Spells 1093)
-/V ({{{spells.lvl7.c}}})
+/V ({{{spells.lvl7.2}}})
 >> 
 <<
 /T (Spells 1094)
-/V ({{{spells.lvl7.d}}})
+/V ({{{spells.lvl7.3}}})
 >> 
 <<
 /T (Spells 1091)
-/V ({{{spells.lvl7.b}}})
+/V ({{{spells.lvl7.1}}})
 >> 
 <<
 /T (Spells 1092)
-/V ({{{spells.lvl7.a}}})
+/V ({{{spells.lvl7.0}}})
 >> 
 <<
 /T (Spells 1090)
-/V ({{{spells.lvl6.i}}})
+/V ({{{spells.lvl6.8}}})
 >> 
 <<
 /T (SlotsRemaining 21)
@@ -1118,7 +1118,7 @@ tools:
 >> 
 <<
 /T (ClassLevel)
-/V ({{{class}}} {{{level}}})
+/V ({{character_class}} {{level}})
 >> 
 <<
 /T (Check Box 3029)
@@ -1230,7 +1230,7 @@ tools:
 >> 
 <<
 /T (WIS)
-/V ({{{stats.wis.mod}}})
+/V ({{{wis}}})
 >> 
 <<
 /T (Check Box 322)
@@ -1238,7 +1238,7 @@ tools:
 >> 
 <<
 /T (Investigation )
-/V ({{{skills.investigation.bonus}}})
+/V ({{{skills.investigation}}})
 >> 
 <<
 /T (Check Box 323)
@@ -1254,19 +1254,19 @@ tools:
 >> 
 <<
 /T (Spells 10109)
-/V ({{{spells.lvl9.c}}})
+/V ({{{spells.lvl9.2}}})
 >> 
 <<
 /T (Spells 10107)
-/V ({{{spells.lvl9.b}}})
+/V ({{{spells.lvl9.1}}})
 >> 
 <<
 /T (Spells 10108)
-/V ({{{spells.lvl9.a}}})
+/V ({{{spells.lvl9.0}}})
 >> 
 <<
 /T (Spells 10105)
-/V ({{{spells.lvl8.f}}})
+/V ({{{spells.lvl8.5}}})
 >> 
 <<
 /T (Check Box 326)
@@ -1274,11 +1274,11 @@ tools:
 >> 
 <<
 /T (ST Wisdom)
-/V ({{{stats.wis.save}}})
+/V ({{{wis_save}}})
 >> 
 <<
 /T (Spells 10106)
-/V ({{{spells.lvl8.g}}})
+/V ({{{spells.lvl8.6}}})
 >> 
 <<
 /T (Check Box 327)
@@ -1286,11 +1286,11 @@ tools:
 >> 
 <<
 /T (INT)
-/V ({{{stats.int.mod}}})
+/V ({{{int}}})
 >> 
 <<
 /T (Spells 10103)
-/V ({{{spells.lvl8.d}}})
+/V ({{{spells.lvl8.3}}})
 >> 
 <<
 /T (Check Box 324)
@@ -1298,7 +1298,7 @@ tools:
 >> 
 <<
 /T (Spells 10104)
-/V ({{{spells.lvl8.e}}})
+/V ({{{spells.lvl8.4}}})
 >> 
 <<
 /T (Check Box 325)
@@ -1306,15 +1306,15 @@ tools:
 >> 
 <<
 /T (ST Charisma)
-/V ({{{stats.cha.save}}})
+/V ({{{cha_save}}})
 >> 
 <<
 /T (INTmod)
-/V ({{{stats.int.score}}})
+/V ({{{int_score}}})
 >> 
 <<
 /T (CharacterName)
-/V ({{{character_title}}})
+/V ({{character_title}})
 >> 
 <<
 /T (Height)
@@ -1334,11 +1334,11 @@ tools:
 >> 
 <<
 /T (DEX)
-/V ({{{stats.dex.mod}}})
+/V ({{{dex}}})
 >> 
 <<
 /T (Spells 101013)
-/V ({{{spells.lvl9.g}}})
+/V ({{{spells.lvl9.6}}})
 >> 
 <<
 /T (SpellAtkBonus 2)
@@ -1346,15 +1346,15 @@ tools:
 >> 
 <<
 /T (Spells 101012)
-/V ({{{spells.lvl9.f}}})
+/V ({{{spells.lvl9.5}}})
 >> 
 <<
 /T (Spells 101011)
-/V ({{{spells.lvl9.e}}})
+/V ({{{spells.lvl9.4}}})
 >> 
 <<
 /T (Spells 101010)
-/V ({{{spells.lvl9.d}}})
+/V ({{{spells.lvl9.3}}})
 >> 
 <<
 /T (Race )
