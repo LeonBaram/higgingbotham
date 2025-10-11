@@ -43,7 +43,7 @@
 >> 
 <<
 /T (Spells 1046)
-/V ({{{spells.lvl1.0}}})
+/V ({{{spells.lvl2.0}}})
 >> 
 <<
 /T (Check Box 3074)
@@ -159,7 +159,7 @@
 >> 
 <<
 /T (Spells 1037)
-/V ({{{spells.lvl1.4}}})
+/V ({{{spells.lvl2.4}}})
 >> 
 <<
 /T (Spells 1038)
@@ -167,11 +167,11 @@
 >> 
 <<
 /T (Spells 1035)
-/V ({{{spells.lvl1.2}}})
+/V ({{{spells.lvl2.2}}})
 >> 
 <<
 /T (Spells 1036)
-/V ({{{spells.lvl1.3}}})
+/V ({{{spells.lvl2.3}}})
 >> 
 <<
 /T (Spells 1033)
@@ -183,7 +183,7 @@
 >> 
 <<
 /T (Spells 1034)
-/V ({{{spells.lvl1.1}}})
+/V ({{{spells.lvl2.1}}})
 >> 
 <<
 /T (Check Box 3082)
