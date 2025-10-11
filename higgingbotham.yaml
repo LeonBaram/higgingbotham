@@ -7,7 +7,7 @@ inspiration: no
 
 level: 14
 race: Human
-class: Lore Bard
+character_class: Lore Bard
 background: Anthropologist
 alignment: Lawful Good # (moderately imperialist leanings)
 
@@ -90,7 +90,7 @@ hp: 99 / 99 #= counter(_, max=100 -TEMP_PENALTY +TEMP_BONUS, reset=longrest)
 # temporary hit points
 temp_hp: 0
 
-hit_dice2: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
+hit_dice: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
 
 # jack of all trades -- add half-proficiency to all non-proficient skills
 JACK: 2 #= prof//2
@@ -128,29 +128,23 @@ EARRING_AC_BONUS: 0 # temporarily disabled by alt. universe BS
 
 armor_class: 15 #= 12 + dex +EARRING_AC_BONUS
 
-atks:
-  debt_collector:
-    name: Debt Collector (+2 revolver)
+attacks:
+  - name: Debt Collector (+2 revolver)
     attack_bonus: 10 #= dex + prof +2
     damage: 1d10+5 piercing #= f"1d10+{dex +2} piercing"
-    ammo:
-      - normal: 156
-      - silver: 49 (+1 ammo, +1d4 radiant)
+    ammo: 156 bullets; 49 silver bullets (+1 ammo, +1d4 radiant)
     ranged: range 60/240, reload 6, misfire 1
     effect: on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul (???)
     engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
     people-killed-without-money: 0/3 # fragment count: 1?
-  rapier:
-    name: rapier
+  - name: rapier
     attack_bonus: 8 #= dex + prof
     damage: 1d8+3 piercing #= f"1d8+{dex} piercing"
-  dagger:
-    name: dagger
+  - name: dagger
     attack_bonus: 8 #= dex + prof
     damage: 1d4+3 piercing #= f"1d4+{dex} piercing"
     ranged: range 60/240
-  stun_batton:
-    name: electric stun baton
+  - name: electric stun baton
     attack_bonus: 4 #= str + prof
     damage: 1d6-1 bludgeoning #= f"1d6+{str} bludgeoning".replace("+-", "-")
     extra: as a bonus action, activate stun setting to deal additional 2d4 lightning damage
@@ -185,7 +179,7 @@ resources:
     - 1x lvl3 absorb elements (fire)
     - 1x lvl3 absorb elements (1 per element)
     - 1x lvl1 gift of alacritty
-    - all tattoos are one-time use
+    - all tattoos are one-time use (missing due to alt. universe BS)
 
   # note - lasts for 1 hour, not 10 minutes
   bardic_inspiration: 3d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
@@ -258,10 +252,12 @@ money:
   copper: 0
   silver: 0
   electrum: 0
-  gold: 486
+  gold: 0
   platinum: 0
 
-inv_total_weight: 80.7825lb #= f"{sum(map(weight, inventory.wearing + inventory.backpack))}lb"
+gold_with_matilda: 486
+
+inv_total_weight: 71.0625lb #= f"{sum(map(weight, inventory.wearing + inventory.backpack))}lb"
 inv_max_weight: 120lb #= f"{str_score * 15}lb"
 
 inventory:
@@ -278,7 +274,7 @@ inventory:
     - 1lb traveler's clothes
     - 1lb singing rock (bardic focus)
     - 1lb coin pouch
-    - 486x 0.02lb coins #= f"{sum(money.values())}x 0.02lb coins"
+    - 0x 0.02lb coins #= f"{sum(money.values())}x 0.02lb coins"
     - 1lb ammo pouch
     - 3lb Debt Collector (+2 revolver)
     - 2lb rapier
