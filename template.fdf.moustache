@@ -308,7 +308,7 @@
 <<
 /T (AttacksSpellcasting)
 /V ({{#attacks}}
-{{{name}}}: +{{attack_bonus}}, {{damage}}; {{ammo}} {{ranged}}
+{{{name}}}: +{{attack_bonus}} to hit, {{damage}}; {{ammo}} {{{ranged}}}
 {{/attacks}})
 >> 
 <<
