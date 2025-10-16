@@ -21,9 +21,9 @@ def weight(item):
     match = re.fullmatch(pattern, item)
     if not match:
         return 0
-    q, w = match.groups()
-    q = q if q else "1"
-    w = w if w else "0"
-    q = float(q.strip(" x"))
-    w = float(w.strip(" lb"))
-    return q * w
+    quantity, weight = match.groups()
+    quantity = quantity if quantity else "1"
+    weight = weight if weight else "0"
+    quantity = float(quantity.strip(" x"))
+    weight = float(weight.strip(" lb"))
+    return quantity * weight
