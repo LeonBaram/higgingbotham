@@ -180,8 +180,10 @@ resources:
     - 1x lvl3 absorb elements (1 per element)
     - 1x lvl1 gift of alacritty
     - all tattoos are one-time use (missing due to alt. universe BS)
+    - may not actually be missing?? ask Alex
 
   # note - lasts for 1 hour, not 10 minutes
+  # (was this a houserule? ask Alex)
   bardic_inspiration: 3d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
 
   # use Cutting Words on someone's saving throw
