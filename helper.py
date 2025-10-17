@@ -27,3 +27,6 @@ def weight(item):
     quantity = float(quantity.strip(" x"))
     weight = float(weight.strip(" lb"))
     return quantity * weight
+
+
+integer = int

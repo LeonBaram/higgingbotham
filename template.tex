@@ -1,0 +1,263 @@
+\documentclass[letterpaper,openany,oneside,twocolumn]{book}
+\usepackage{bookmark}
+\usepackage[justified]{dnd}
+\usepackage{ifthen}
+\usepackage{geometry}
+\usepackage{pstricks}
+
+\usepackage{dndtemplate}
+
+\setlength\oddsidemargin{\dimexpr(\paperwidth-\textwidth)/2 - 1in\relax}
+\setlength\evensidemargin{\oddsidemargin}
+
+% change mustache delimeters to "<>"
+% {{=< >=}}
+
+% Headline
+\CharacterName{<& character_name>}
+
+% adds only main class and total level to prevent overflow
+\Class{<& character_class>}
+\Background{<& background>}
+\PlayerName{<& player_name>}
+\Race{<& race>}
+\Alignment{<& alignment>}
+\XP{<& xp>}
+
+% Ability scores
+\StrengthScore{<& str_score>}
+\DexterityScore{<& dex_score>}
+\ConstitutionScore{<& con_score >}
+\IntelligenceScore{<& int_score>}
+\WisdomScore{<& wis_score>}
+\CharismaScore{<& cha_score>}
+
+% Ability modifiers
+\StrengthModifier{<& str>}
+\DexterityModifier{<& dex>}
+\ConstitutionModifier{<& con>}
+\IntelligenceModifier{<& int>}
+\WisdomModifier{<& wis>}
+\CharismaModifier{<& cha>}
+
+% Saving Throws
+\StrengthSavingThrowModifier{<& str_save>}
+\DexteritySavingThrowModifier{<& dex_save>}
+\ConstitutionSavingThrowModifier{<& con_save>}
+\IntelligenceSavingThrowModifier{<& int_save>}
+\WisdomSavingThrowModifier{<& wis_save>}
+\CharismaSavingThrowModifier{<& cha_save>}
+
+<#skills>
+\AcrobaticsSkillModifier{<& acrobatics>}
+\AnimalHandlingSkillModifier{<& animal_handling>}
+\ArcanaSkillModifier{<& arcana>}
+\AthleticsSkillModifier{<& athletics>}
+\DeceptionSkillModifier{<& deception>}
+\HistorySkillModifier{<& history>}
+\InsightSkillModifier{<& insight>}
+\IntimidationSkillModifier{<& intimidation>}
+\InvestigationSkillModifier{<& investigation>}
+\MedicineSkillModifier{<& medicine>}
+\NatureSkillModifier{<& nature>}
+\PerceptionSkillModifier{<& perception>}
+\PerformanceSkillModifier{<& performance>}
+\PersuasionSkillModifier{<& persuasion>}
+\ReligionSkillModifier{<& religion>}
+\SleightOfHandSkillModifier{<& sleight_of_hand>}
+\StealthSkillModifier{<& stealth>}
+\SurvivalSkillModifier{<& survival>}
+</skills>
+
+<#is_save_proficient>
+\SetStrengthProficiency{<& str>}
+\SetDexterityProficiency{<& dex>}
+\SetConstitutionProficiency{<& con>}
+\SetIntelligenceProficiency{<& int>}
+\SetWisdomProficiency{<& wis>}
+\SetCharismaProficiency{<& cha>}
+</is_save_proficient>
+
+<#skillmods>
+\SetAcrobaticsProficiency{<& acrobatics>}
+\SetAnimalHandlingProficiency{<& animal_handling>}
+\SetArcanaProficiency{<& arcana>}
+\SetAthleticsProficiency{<& athletics>}
+\SetDeceptionProficiency{<& deception>}
+\SetHistoryProficiency{<& history>}
+\SetInsightProficiency{<& insight>}
+\SetIntimidationProficiency{<& intimidation>}
+\SetInvestigationProficiency{<& investigation>}
+\SetMedicineProficiency{<& medicine>}
+\SetNatureProficiency{<& nature>}
+\SetPerceptionProficiency{<& perception>}
+\SetPerformanceProficiency{<& performance>}
+\SetPersuasionProficiency{<& persuasion>}
+\SetReligionProficiency{<& religion>}
+\SetSleightOfHandProficiency{<& sleight_of_hand>}
+\SetStealthProficiency{<& stealth>}
+\SetSurvivalProficiency{<& survival>}
+</skillmods>
+
+\Inspiration{<& inspiration>}
+\Proficiency{<& prof>}
+\Perception{<& passive_perception>}
+
+\ArmorClass{<& armor_class>}
+\Initiative{<& initiative>}
+\Speed{<& speed.walking>}
+\MaxHitPoints{<& hit_point_maximum>}
+
+
+\MaxHitDice{<& hit_die_maximum>}
+\CurrentHitDice{<& hit_die_total>}
+
+<#money>
+\CP{<& copper>}
+\SP{<& silver>}
+\GP{<& gold>}
+\EP{<& electrum>}
+\PP{<& platinum>}
+</money>
+
+<#attacks>
+\AddWeapon{<& name>}{+<& attack_bonus>}{<& damage>}
+</attacks>
+
+\AttacksAdditional{\textbf{Armor}: <& worn_armor> \\ }
+
+<#proficiencies>
+\OtherProficienciesLanguages{\textbf{Languages:} <& languages> \\
+\textbf{Weapons}: <& weapons> \\
+\textbf{Armor}: <& armor> \\
+\textbf{Other}: <& tools> \\}
+</proficiencies>
+
+\Equipment{
+<#inventory.wearing>
+<& .> \\
+</inventory.wearing>
+\textbf{Weight:} <& inv_total_weight> \\
+\textbf{Capacity:} <& inv_max_weight>
+}
+
+\PersonalityTraits{<& personality_traits>}
+
+\Ideals{<& ideals>}
+
+\Bonds{<& bonds>}
+
+\Flaws{<& flaws>}
+
+\FeaturesTraits{
+\textbf{Feats} \\
+<#feats>
+<& name> \\
+</feats>
+\textbf{Features} \\
+<#features>
+<& .> \\
+</features>
+}
+
+
+% Appearance
+
+\Age{<& age>}
+\Height{<& height>}
+\Weight{<& naked_weight>}
+\Eyes{<& eyes>}
+\Skin{<& skin>}
+\Hair{<& hair>}
+
+% background
+
+\CharacterAppearance{
+Herbert Higgingbotham is a human male.
+}
+\AdditionalFeaturesAndTraits{
+}
+
+\Characterbackground{
+ }
+
+\Treasure{
+}
+
+\AlliesAndOrganizations{
+}
+
+\OrganizationName{Shadow Thieves
+}
+
+\OrganizationSymbol{
+}
+
+
+%Magic
+\SpellcastingClass{<& character_class>}
+\SpellcastingAbility{<& spells.stat>}
+\SpellSaveDC{<& spells.save_dc>}
+\SpellAttackBonus{+<& spells.attack_bonus>}
+
+\FirstLevelSpellSlotsTotal{<& spell_slots.lvl1>}
+\SecondLevelSpellSlotsTotal{<& spell_slots.lvl2>}
+\ThirdLevelSpellSlotsTotal{<& spell_slots.lvl3>}
+\FourthLevelSpellSlotsTotal{<& spell_slots.lvl4>}
+\FifthLevelSpellSlotsTotal{<& spell_slots.lvl5>}
+\SixthLevelSpellSlotsTotal{<& spell_slots.lvl6>}
+\SeventhLevelSpellSlotsTotal{<& spell_slots.lvl7>}
+\EighthLevelSpellSlotsTotal{<& spell_slots.lvl8>}
+\NinthLevelSpellSlotsTotal{<& spell_slots.lvl9>}
+
+<#magic_templating.templates>
+<#cantrip_template>
+<& .>
+</cantrip_template>
+<#lvl1_template>
+<& .>
+</lvl1_template>
+<#lvl2_template>
+<& .>
+</lvl2_template>
+<#lvl3_template>
+<& .>
+</lvl3_template>
+<#lvl4_template>
+<& .>
+</lvl4_template>
+<#lvl5_template>
+<& .>
+</lvl5_template>
+<#lvl6_template>
+<& .>
+</lvl6_template>
+<#lvl7_template>
+<& .>
+</lvl7_template>
+</magic_templating.templates>
+
+\newcommand{\spellsheetchoice}{\renderspellsheet}
+
+
+
+\begin{document}
+\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
+\onecolumn
+
+
+% CHARACTER PAGE
+\pdfbookmark[0]{Character Sheet}{Character Sheet}
+\rendercharactersheet
+
+% BACKSTORY PAGE
+\pdfbookmark[0]{Background Sheet}{Background Sheet}
+\renderbackgroundsheet
+
+
+% SPELLCASTING PAGE
+\pdfbookmark[0]{Spellcasting Sheet}{Spellcasting Sheet}
+\spellsheetchoice
+
+
+\end{document}
