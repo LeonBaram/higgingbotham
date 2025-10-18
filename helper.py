@@ -29,4 +29,5 @@ def weight(item):
     return quantity * weight
 
 
+# alias needed since "int" is used for "intelligence" in the character sheet
 integer = int
