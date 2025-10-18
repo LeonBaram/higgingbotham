@@ -262,7 +262,7 @@ inventory:
     - 2lb rapier
     - 1lb dagger
     - Leaz Stone
-    - 13lb leather armor
+    - 13lb studded leather armor (AC=12+dex)
   backpack:
     - The Map (magic map from Anteverse B-1)
     - sleeping bag
