@@ -93,38 +93,28 @@ temp_hp: 20
 hit_dice: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
 
 # jack of all trades -- add half-proficiency to all non-proficient skills
-JACK: 2 #= prof//2
-
-# expertise -- double proficiency
-EXPERT: 10 #= prof*2
-
+skills: #= {skill: bonus(root, skill) for skill in SKILLS}
+  athletics: 1
+  acrobatics: 5
+  sleight_of_hand: 5
+  stealth: 5
+  arcana: 13
+  history: 8
+  investigation: 13
+  nature: 8
+  religion: 8
+  animal_handling: 4
+  insight: 12
+  medicine: 4
+  perception: 12
+  survival: 4
+  deception: 5
+  intimidation: 5
+  performance: 8
+  persuasion: 8
 skill_profs:
   expertise: [arcana, investigation, insight, perception]
   proficiency: [history, nature, religion, performance, persuasion]
-skills:
-  # strength
-  athletics: 1 #=       str + JACK
-  # dexterity
-  acrobatics: 5 #=      dex + JACK
-  sleight_of_hand: 5 #= dex + JACK
-  stealth: 5 #=         dex + JACK
-  # intelligence
-  arcana: 13 #=         int + EXPERT
-  history: 8 #=         int + prof
-  investigation: 13 #=  int + EXPERT
-  nature: 8 #=          int + prof
-  religion: 8 #=        int + prof
-  # wisdom
-  animal_handling: 4 #= wis + JACK
-  insight: 12 #=        wis + EXPERT
-  medicine: 4 #=        wis + JACK
-  perception: 12 #=     wis + EXPERT
-  survival: 4 #=        wis + JACK
-  # charisma
-  deception: 5 #=       cha + JACK
-  intimidation: 5 #=    cha + JACK
-  performance: 8 #=     cha + prof
-  persuasion: 8 #=      cha + prof
 
 # +1 to AC from earring of protection
 EARRING_AC_BONUS: 0 # temporarily disabled by alt. universe BS

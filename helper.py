@@ -31,3 +31,31 @@ def weight(item):
 
 # alias needed since "int" is used for "intelligence" in the character sheet
 integer = int
+
+SKILLS = {"athletics": "str",  # strength
+          "acrobatics": "dex",  # dexterity
+          "sleight_of_hand": "dex",
+          "stealth": "dex",
+          "arcana": "int",  # intelligence
+          "history": "int",
+          "investigation": "int",
+          "nature": "int",
+          "religion": "int",
+          "animal_handling": "wis",  # wisdom
+          "insight": "wis",
+          "medicine": "wis",
+          "perception": "wis",
+          "survival": "wis",
+          "deception": "cha",  # charisma
+          "intimidation": "cha",
+          "performance": "cha",
+          "persuasion": "cha"}
+
+
+def bonus(root, skill):
+    if skill in root.skill_profs.expertise:
+        return root[SKILLS[skill]] + root.prof * 2
+    elif skill in root.skill_profs.proficiency:
+        return root[SKILLS[skill]] + root.prof
+    else:
+        return root[SKILLS[skill]] + root.prof // 2
