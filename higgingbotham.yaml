@@ -358,22 +358,22 @@ longrest: false
 # used for templating purposes
 # set TEMPLATE_MODE to true to enable additional details for template rendering
 TEMPLATE_MODE: false
-is_save_proficient: false #= {key: key in saves for key in ['str','dex','con','int','wis','cha']} if TEMPLATE_MODE else False
-skillmods: false #= {key: 2 if key in skill_profs.expertise else 1 if key in skill_profs.proficiency else 0.5 for key in skills} if TEMPLATE_MODE else False
-hit_point_total: false #= integer(hp.split("/")[0].strip()) if TEMPLATE_MODE else False
-hit_point_maximum: false #= integer(hp.split("/")[1].strip()) if TEMPLATE_MODE else False
-hit_die_total: false #= hit_dice.split("/")[0].strip() if TEMPLATE_MODE else False
-hit_die_maximum: false #= hit_dice.split("/")[1].strip() if TEMPLATE_MODE else False
-worn_armor: false #= next(filter(lambda item: "armor" in item, inventory.wearing), "none") if TEMPLATE_MODE else False
+is_save_proficient: false #= TEMPLATE_MODE and {key: key in saves for key in ['str','dex','con','int','wis','cha']}
+skillmods: false #= TEMPLATE_MODE and {key: 2 if key in skill_profs.expertise else 1 if key in skill_profs.proficiency else 0.5 for key in skills}
+hit_point_total: false #= TEMPLATE_MODE and integer(hp.split("/")[0].strip())
+hit_point_maximum: false #= TEMPLATE_MODE and integer(hp.split("/")[1].strip())
+hit_die_total: false #= TEMPLATE_MODE and hit_dice.split("/")[0].strip()
+hit_die_maximum: false #= TEMPLATE_MODE and hit_dice.split("/")[1].strip()
+worn_armor: false #= TEMPLATE_MODE and next(filter(lambda item: "armor" in item, inventory.wearing), "none")
 magic_templating:
   numwords: [First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth]
   numletters: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z]
   templates:
-    cantrip_template: false #= [f"\CantripSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.cantrips)] if TEMPLATE_MODE else False
-    lvl1_template: false #= [f"\FirstLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl1)] if TEMPLATE_MODE else False
-    lvl2_template: false #= [f"\SecondLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl2)] if TEMPLATE_MODE else False
-    lvl3_template: false #= [f"\ThirdLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl3)] if TEMPLATE_MODE else False
-    lvl4_template: false #= [f"\FourthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl4)] if TEMPLATE_MODE else False
-    lvl5_template: false #= [f"\FifthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl5)] if TEMPLATE_MODE else False
-    lvl6_template: false #= [f"\SixthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl6)] if TEMPLATE_MODE else False
-    lvl7_template: false #= [f"\SeventhLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl7)] if TEMPLATE_MODE else False
+    cantrip_template: false #= TEMPLATE_MODE and [f"\CantripSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.cantrips)]
+    lvl1_template: false #= TEMPLATE_MODE and [f"\FirstLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl1)]
+    lvl2_template: false #= TEMPLATE_MODE and [f"\SecondLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl2)]
+    lvl3_template: false #= TEMPLATE_MODE and [f"\ThirdLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl3)]
+    lvl4_template: false #= TEMPLATE_MODE and [f"\FourthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl4)]
+    lvl5_template: false #= TEMPLATE_MODE and [f"\FifthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl5)]
+    lvl6_template: false #= TEMPLATE_MODE and [f"\SixthLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl6)]
+    lvl7_template: false #= TEMPLATE_MODE and [f"\SeventhLevelSpellSlot{ch}" + "{" + f"{sp}" + "}" for ch, sp in zip(magic_templating.numletters, spells.lvl7)]
