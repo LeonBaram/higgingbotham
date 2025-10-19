@@ -345,8 +345,8 @@ features:
 shortrest: false
 longrest: false
 
-# used for templating purposes
-# set TEMPLATE_MODE to true to enable additional details for template rendering
+# used for latex templating purposes
+# set TEMPLATE_MODE to true to enable additional details for latex template rendering
 TEMPLATE_MODE: false
 is_save_proficient: false #= TEMPLATE_MODE and {key: key in saves for key in ['str','dex','con','int','wis','cha']}
 skillmods: false #= TEMPLATE_MODE and {key: 2 if key in skill_profs.expertise else 1 if key in skill_profs.proficiency else 0.5 for key in skills}
