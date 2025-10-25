@@ -92,7 +92,7 @@ speed:
 
 TEMP_BONUS_HP: 0 # temporary bonus, e.g. from Aid
 
-hp: 86 / 100 #= counter(_, max=100 +TEMP_BONUS_HP, reset=longrest)
+hp: 100 / 100 #= counter(_, max=100 +TEMP_BONUS_HP, reset=longrest)
 
 # temporary hit points
 temp_hp: 20
@@ -173,7 +173,7 @@ resources:
 
   # note - lasts for 1 hour, not 10 minutes
   # (was this a houserule? ask Alex)
-  bardic_inspiration: 0d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
+  bardic_inspiration: 3d10 / 3d10 #= counter(_, max=f"{cha}d10", reset=[shortrest,longrest])
 
   # use Cutting Words on someone's saving throw
   treacherous_leech: 5 / 5 #= counter(_, max=prof, reset=longrest)
@@ -182,9 +182,9 @@ resources:
   betrayers_last_tear: 3 / 3 #= counter(_, max=cha, reset=longrest)
 
   spell_slots:
-    lvl1: 2 / 4 #= counter(_, max=4, reset=longrest)
-    lvl2: 2 / 3 #= counter(_, max=3, reset=longrest)
-    lvl3: 2 / 3 #= counter(_, max=3, reset=longrest)
+    lvl1: 4 / 4 #= counter(_, max=4, reset=longrest)
+    lvl2: 3 / 3 #= counter(_, max=3, reset=longrest)
+    lvl3: 3 / 3 #= counter(_, max=3, reset=longrest)
     lvl4: 0 / 3 #= counter(_, max=3, reset=None) # temporarily disabled due to alt. universe BS
     lvl5: 0 / 2 #= counter(_, max=2, reset=None) # temporarily disabled due to alt. universe BS
     lvl6: 0 / 1 #= counter(_, max=1, reset=None) # temporarily disabled due to alt. universe BS
