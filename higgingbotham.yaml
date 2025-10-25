@@ -17,7 +17,7 @@ death_saves:
 
 conditions: immune to lightning + poison
 temp_conditions:
-  - planar alignment (Frontier 1):
+  - planar alignment (Frontier 0):
       # debuffs
       - only regain spell slots lvl1/lvl2/lvl3
       - portable holes / bags of holding reset
@@ -25,11 +25,11 @@ temp_conditions:
       - earrings of protection disabled
       - on each long rest, pass a CON save or max hp reduced by X, where X is a roll of your hit dice - current reduction of 0 hp
       # effects of pass without trace
-      - +10 to dex-stealth checks
-      - can't be tracked by nonmagical means
-      - leave no footprints/tracks
+      # - +10 to dex-stealth checks
+      # - can't be tracked by nonmagical means
+      # - leave no footprints/tracks
       # effects of cloak of displacement
-      - unless incapacitated/restrained/paralyzed, attackers have disadvantage on me (if I am hit, ceases to function until start of my next turn)
+      # - unless incapacitated/restrained/paralyzed, attackers have disadvantage on me (if I am hit, ceases to function until start of my next turn)
 
 # appearance & traits
 age: 52
