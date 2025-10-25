@@ -184,7 +184,7 @@ resources:
   spell_slots:
     lvl1: 4 / 4 #= counter(_, max=4, reset=longrest)
     lvl2: 3 / 3 #= counter(_, max=3, reset=longrest)
-    lvl3: 3 / 3 #= counter(_, max=3, reset=longrest)
+    lvl3: 2 / 2 #= counter(_, max=3-1, reset=longrest) #temporarily reduced due to alt. universe BS
     lvl4: 0 / 3 #= counter(_, max=3, reset=None) # temporarily disabled due to alt. universe BS
     lvl5: 0 / 2 #= counter(_, max=2, reset=None) # temporarily disabled due to alt. universe BS
     lvl6: 0 / 1 #= counter(_, max=1, reset=None) # temporarily disabled due to alt. universe BS
