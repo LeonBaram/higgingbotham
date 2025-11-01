@@ -35,24 +35,24 @@ save proficiencies: dex,cha
 
 ## Skills
 
-- athletics: 1
-- acrobatics: 5
-- sleight of hand: 5
-- stealth: 5
-- arcana: 13
-- history: 8
-- investigation: 13
-- nature: 8
-- religion: 8
-- animal handling: 4
-- insight: 12
-- medicine: 4
-- perception: 12
-- survival: 4
-- deception: 5
-- intimidation: 5
-- performance: 8
-- persuasion: 8
+- athletics: +1
+- acrobatics: +5
+- sleight of hand: +5
+- stealth: +5
+- arcana: +13
+- history: +8
+- investigation: +13
+- nature: +8
+- religion: +8
+- animal handling: +4
+- insight: +12
+- medicine: +4
+- perception: +12
+- survival: +4
+- deception: +5
+- intimidation: +5
+- performance: +8
+- persuasion: +8
 
 expertise: `arcana,investigation,insight,perception`  
 proficiencies: `history,nature,religion,performance,persuasion`

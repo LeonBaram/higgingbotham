@@ -35,24 +35,24 @@ save proficiencies: {{saves}}
 
 ## Skills
 
-- athletics: {{skills.athletics}}
-- acrobatics: {{skills.acrobatics}}
-- sleight of hand: {{skills.sleight_of_hand}}
-- stealth: {{skills.stealth}}
-- arcana: {{skills.arcana}}
-- history: {{skills.history}}
-- investigation: {{skills.investigation}}
-- nature: {{skills.nature}}
-- religion: {{skills.religion}}
-- animal handling: {{skills.animal_handling}}
-- insight: {{skills.insight}}
-- medicine: {{skills.medicine}}
-- perception: {{skills.perception}}
-- survival: {{skills.survival}}
-- deception: {{skills.deception}}
-- intimidation: {{skills.intimidation}}
-- performance: {{skills.performance}}
-- persuasion: {{skills.persuasion}}
+- athletics: +{{skills.athletics}}
+- acrobatics: +{{skills.acrobatics}}
+- sleight of hand: +{{skills.sleight_of_hand}}
+- stealth: +{{skills.stealth}}
+- arcana: +{{skills.arcana}}
+- history: +{{skills.history}}
+- investigation: +{{skills.investigation}}
+- nature: +{{skills.nature}}
+- religion: +{{skills.religion}}
+- animal handling: +{{skills.animal_handling}}
+- insight: +{{skills.insight}}
+- medicine: +{{skills.medicine}}
+- perception: +{{skills.perception}}
+- survival: +{{skills.survival}}
+- deception: +{{skills.deception}}
+- intimidation: +{{skills.intimidation}}
+- performance: +{{skills.performance}}
+- persuasion: +{{skills.persuasion}}
 
 expertise: `{{skill_profs.expertise}}`  
 proficiencies: `{{skill_profs.proficiency}}`
