@@ -6,7 +6,4 @@ _{{character_title}}_
 | --------- | ------------------- | -------- | -------------- | ------------- |
 | {{level}} | {{character_class}} | {{race}} | {{background}} | {{alignment}} |
 
-| ~       | death saves               |
-| ------- | ------------------------- |
-| passed: | {{death_saves.successes}} |
-| failed: | {{death_saves.failures}}  |
+**death saves:** {{death_saves.successes}} passed / {{death_saves.failures}} failed

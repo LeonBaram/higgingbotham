@@ -6,7 +6,4 @@ _Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall Colle
 | --------- | ------------------- | -------- | -------------- | ------------- |
 | 14 | Lore Bard | Human | Anthropologist | Lawful Good |
 
-| ~       | death saves               |
-| ------- | ------------------------- |
-| passed: | 0 |
-| failed: | 0  |
+**death saves:** 0 passed / 0 failed
