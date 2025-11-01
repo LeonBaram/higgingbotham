@@ -25,4 +25,4 @@ save proficiencies: {{saves}}
 
 |   hp   |   temp hp   |   hit dice   |                        death saves                         |
 | :----: | :---------: | :----------: | :--------------------------------------------------------: |
-| {{hp}} | {{temp_hp}} | {{hit_dice}} | {{death_saves.successes}} ✅ / {{death_saves.failures}} ❌ |
+| {{hp}} | {{temp_hp}} | {{hit_dice}} | {{death_saves.successes}} ✅ / {{death_saves.failures}} 💀 |
