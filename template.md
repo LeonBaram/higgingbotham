@@ -2,4 +2,6 @@
 
 _{{character_title}}_
 
-**Level {{level}} {{race}} {{character_class}}**
+**Level {{level}} {{character_class}}**, {{race}} ({{alignment}})
+
+background: {{background}}
