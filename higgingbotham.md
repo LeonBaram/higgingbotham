@@ -23,6 +23,6 @@ save proficiencies: dex,cha
 
 ## Hit Points
 
-| hp     | temp hp     | hit dice     | death saves     |
-| ------ | ----------- | ------------ | --------------- |
+| hp     |   temp hp   | hit dice     | death saves     |
+| ------ | :---------: | ------------ | --------------- |
 | 100 &#x2F; 100 | 20 | 14d8 &#x2F; 14d8 | [object Object] |

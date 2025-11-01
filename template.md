@@ -23,6 +23,6 @@ save proficiencies: {{saves}}
 
 ## Hit Points
 
-| hp     | temp hp     | hit dice     | death saves     |
-| ------ | ----------- | ------------ | --------------- |
+| hp     |   temp hp   | hit dice     | death saves     |
+| ------ | :---------: | ------------ | --------------- |
 | {{hp}} | {{temp_hp}} | {{hit_dice}} | {{death_saves}} |
