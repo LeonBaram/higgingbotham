@@ -2,9 +2,13 @@
 
 _{{character_title}}_
 
+## Basic Info
+
 | level     | class               | race     | background     | alignment     |
 | --------- | ------------------- | -------- | -------------- | ------------- |
 | {{level}} | {{character_class}} | {{race}} | {{background}} | {{alignment}} |
+
+## Stats
 
 | ~   | score         | mod          | save          |
 | --- | ------------- | ------------ | ------------- |
@@ -16,3 +20,9 @@ _{{character_title}}_
 | cha | {{cha_score}} | **+{{cha}}** | +{{cha_save}} |
 
 save proficiencies: {{saves}}
+
+## Hit Points
+
+| hp     | temp hp     | hit dice     | death saves     |
+| ------ | ----------- | ------------ | --------------- |
+| {{hp}} | {{temp_hp}} | {{hit_dice}} | {{death_saves}} |

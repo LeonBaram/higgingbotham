@@ -99,8 +99,6 @@ temp_hp: 20
 
 hit_dice: 14d8 / 14d8 #= counter(_, max=f"{level}d8")
 
-temp_stealth: 15 #= skills.stealth + 10
-
 # jack of all trades -- add half-proficiency to all non-proficient skills
 skills: #= {skill: bonus(root, skill) for skill in SKILLS}
     athletics: 1
