@@ -14,3 +14,5 @@ _{{character_title}}_
 | int | {{int_score}} | **+{{int}}** | +{{int_save}} |
 | wis | {{wis_score}} | **+{{wis}}** | +{{wis_save}} |
 | cha | {{cha_score}} | **+{{cha}}** | +{{cha_save}} |
+
+save proficiencies: {{saves}}
