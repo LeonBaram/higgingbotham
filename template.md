@@ -19,7 +19,7 @@ _{{character_title}}_
 | wis | {{wis_score}} | **+{{wis}}** | +{{wis_save}} |
 | cha | {{cha_score}} | **+{{cha}}** | +{{cha_save}} |
 
-save proficiencies: {{saves}}
+save proficiencies: `{{saves}}`
 
 ## Hit Points
 

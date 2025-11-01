@@ -19,7 +19,7 @@ _Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall Colle
 | wis | 14 | **+2** | +2 |
 | cha | 16 | **+3** | +8 |
 
-save proficiencies: dex,cha
+save proficiencies: `dex,cha`
 
 ## Hit Points
 
