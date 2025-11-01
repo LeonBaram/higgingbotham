@@ -4,14 +4,14 @@ _{{character_title}}_
 
 ## Basic Info
 
-| level     | class               | race     | background     | alignment     |
-| --------- | ------------------- | -------- | -------------- | ------------- |
+|   level   |        class        |   race   |   background   |   alignment   |
+| :-------: | :-----------------: | :------: | :------------: | :-----------: |
 | {{level}} | {{character_class}} | {{race}} | {{background}} | {{alignment}} |
 
 ## Stats
 
-| ~   | score         | mod          | save          |
-| --- | ------------- | ------------ | ------------- |
+|  ~  |     score     |     mod      |     save      |
+| :-: | :-----------: | :----------: | :-----------: |
 | str | {{str_score}} | **{{str}}**  | {{str_save}}  |
 | dex | {{dex_score}} | **+{{dex}}** | +{{dex_save}} |
 | con | {{con_score}} | **+{{con}}** | +{{con_save}} |
@@ -23,6 +23,6 @@ save proficiencies: {{saves}}
 
 ## Hit Points
 
-| hp     |   temp hp   | hit dice     | death saves     |
-| ------ | :---------: | ------------ | --------------- |
+|   hp   |   temp hp   |   hit dice   |   death saves   |
+| :----: | :---------: | :----------: | :-------------: |
 | {{hp}} | {{temp_hp}} | {{hit_dice}} | {{death_saves}} |
