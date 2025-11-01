@@ -266,7 +266,7 @@ inventory:
     - 1lb traveler's clothes
     - 1lb singing rock (bardic focus)
     - 1lb coin pouch
-    - 486x 0.02lb coins     #= f"{sum(money.values())}x 0.02lb coins"
+    - 486x 0.02lb coins #= f"{sum(money.values())}x 0.02lb coins"
     - 1lb ammo pouch
     - 3lb Debt Collector (+2 revolver)
     - 2lb rapier
