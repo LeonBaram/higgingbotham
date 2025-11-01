@@ -32,3 +32,27 @@ save proficiencies: {{saves}}
 |   initiative    |       speed       |
 | :-------------: | :---------------: |
 | +{{initiative}} | {{speed.walking}} |
+
+## Skills
+
+- athletics: {{athletics}}
+- acrobatics: {{acrobatics}}
+- sleight of hand: {{sleight_of_hand}}
+- stealth: {{stealth}}
+- arcana: {{arcana}}
+- history: {{history}}
+- investigation: {{investigation}}
+- nature: {{nature}}
+- religion: {{religion}}
+- animal handling: {{animal_handling}}
+- insight: {{insight}}
+- medicine: {{medicine}}
+- perception: {{perception}}
+- survival: {{survival}}
+- deception: {{deception}}
+- intimidation: {{intimidation}}
+- performance: {{performance}}
+- persuasion: {{persuasion}}
+
+expertise: `{{skill_profs.expertise}}`  
+proficiencies: `{{skill_profs.proficiency}}`

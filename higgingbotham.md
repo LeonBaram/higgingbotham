@@ -32,3 +32,27 @@ save proficiencies: dex,cha
 |   initiative    |       speed       |
 | :-------------: | :---------------: |
 | +5 | 30 |
+
+## Skills
+
+- athletics: 
+- acrobatics: 
+- sleight of hand: 
+- stealth: 
+- arcana: 
+- history: 
+- investigation: 
+- nature: 
+- religion: 
+- animal handling: 
+- insight: 
+- medicine: 
+- perception: 
+- survival: 
+- deception: 
+- intimidation: 
+- performance: 
+- persuasion: 
+
+expertise: `arcana,investigation,insight,perception`  
+proficiencies: `history,nature,religion,performance,persuasion`
