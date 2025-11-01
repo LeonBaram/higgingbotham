@@ -6,10 +6,11 @@ _{{character_title}}_
 | --------- | ------------------- | -------- | -------------- | ------------- |
 | {{level}} | {{character_class}} | {{race}} | {{background}} | {{alignment}} |
 
-| ~     | str           | dex           | con           | int           | wis           | cha           |
-| ----- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| score | {{str_score}} | {{dex_score}} | {{con_score}} | {{int_score}} | {{wis_score}} | {{cha_score}} |
-| mod   | {{str}}       | {{dex}}       | {{con}}       | {{int}}       | {{wis}}       | {{cha}}       |
-| save  | {{str_save}}  | {{dex_save}}  | {{con_save}}  | {{int_save}}  | {{wis_save}}  | {{cha_save}}  |
-
-**death saves:** {{death_saves.successes}} passed / {{death_saves.failures}} failed
+| ~   | score         | mod          | save          |
+| --- | ------------- | ------------ | ------------- |
+| str | {{str_score}} | **{{str}}**  | {{str_save}}  |
+| dex | {{dex_score}} | **+{{dex}}** | +{{dex_save}} |
+| con | {{con_score}} | **+{{con}}** | +{{con_save}} |
+| int | {{int_score}} | **+{{int}}** | +{{int_save}} |
+| wis | {{wis_score}} | **+{{wis}}** | +{{wis_save}} |
+| cha | {{cha_score}} | **+{{cha}}** | +{{cha_save}} |
