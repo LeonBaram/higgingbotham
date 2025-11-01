@@ -2,6 +2,6 @@
 
 _Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall College of Liberal Arts_
 
-**Level 14 Lore Bard**, Human _(Lawful Good)_
-
-background: Anthropologist
+| level     | class               | race     | background     | alignment     |
+| --------- | ------------------- | -------- | -------------- | ------------- |
+| 14 | Lore Bard | Human | Anthropologist | Lawful Good |
