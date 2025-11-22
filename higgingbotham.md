@@ -173,7 +173,7 @@ bonus from **Observant** feat: '+5'`:+observant_feat=5`\
 
 ## Inventory
 
-**money:** 486gp
+**money:** 486gp / 10,000 marks
 
 **max weight (lb):** '120'`:=STR*15`\
 **current weight (lb):** '90'`:=total_weight()`
@@ -214,7 +214,7 @@ inventory = [[
 5x  2lb     day's worth of rations
     5lb     waterskin (capacity 4 pints)
             sapphire (worth 200gp)
-            amethyst
+            amethyst (100gp)
 ]]
 
 left_at_home=[[
