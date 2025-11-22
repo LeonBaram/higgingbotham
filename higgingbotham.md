@@ -15,7 +15,7 @@ immune to: lightining, poison
 - portable holes / bags of holding reset
 - betrayer's tear is only a +1 focus (-2 on spell attacks and save DC)
     - '-2'`:BETRAYER_PENALTY=-2`
-- earrings of protection disabled: '-1'`:EARRING_PENALTY=-1`
+- earrings of protection disabled
 - on each long rest, pass a CON save or max hp reduced by X, where X is a roll of your hit dice - current reduction of 0 hp
 
 **proficiency bonus:** '+5'`:+prof`
@@ -29,7 +29,7 @@ immune to: lightining, poison
 | CON   | '14'`:CON`  | '+2'`:+con` | '+2'`:+=con`      |
 | INT   | '16' `:INT` | '+3'`:+int` | '+3'`:+=int`      |
 | WIS   | '14'`:WIS`  | '+2'`:+wis` | '+2'`:+=wis`      |
-| CHA\* | '16'`:CHA`  | '+3'`:+cha` | '+8'`:+=cha+prof` |
+| CHA\* | '18'`:CHA`  | '+4'`:+cha` | '+9'`:+=cha+prof` |
 
 \*proficient save
 
@@ -37,8 +37,7 @@ immune to: lightining, poison
 
 initiative: '+5'`:+=dex+prof//2`\
 speed: 30\
-earring of protection bonus: '+1'`:+earring_of_protection`\
-armor class: '15'`:=12+dex+earring_of_protection + EARRING_PENALTY`
+armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
 hp: 100 / 100\
@@ -63,7 +62,7 @@ on a hit, target loses an amount of coins such that their "dollar" value is equa
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 3d10 / '3d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 4d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -73,7 +72,7 @@ treacherous leech (cutting words on their save): 5 / '5'`:=prof`
 > Finds that their words cut deeper then ever before
 
 ''`:=reset(longrest)`\
-betrayers last tear (whispers of doubt: disadvantage on initiative to '3'`:=cha` creatures): 1 / 1\
+betrayers last tear (whispers of doubt: disadvantage on initiative to '4'`:=cha` creatures): 1 / 1\
 betrayers last tear (lingering malice: summon focus to myself): 1 / 1
 
 spell-storing tattoos:
@@ -89,8 +88,8 @@ spell-storing tattoos:
 betrayers last tear bonus (to spell attack and save DC): '+3'`:+betrayer_bonus`\
 (reduced to +1 by **planar alignment**)
 
-spell attack bonus: '+9'`:+=cha + prof + betrayer_bonus + BETRAYER_PENALTY`\
-spell save DC: '17'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
+spell attack bonus: '+10'`:+=cha + prof + betrayer_bonus + BETRAYER_PENALTY`\
+spell save DC: '18'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 
 **spell slots:**\
 (levels 4-7 disabled due to **planar alignment**)
@@ -162,10 +161,10 @@ jack of all trades: '2'`:jack=prof//2`
 | medicine        | '+4'`:+=wis+jack`       |
 | perception      | '+12'`:+=wis+expertise` |
 | survival        | '+4'`:+=wis+jack`       |
-| deception       | '+5'`:+=cha+jack`       |
-| intimidation    | '+5'`:+=cha+jack`       |
-| performance     | '+8'`:+=cha+prof`       |
-| persuasion      | '+8'`:+=cha+prof`       |
+| deception       | '+6'`:+=cha+jack`       |
+| intimidation    | '+6'`:+=cha+jack`       |
+| performance     | '+9'`:+=cha+prof`       |
+| persuasion      | '+9'`:+=cha+prof`       |
 
 bonus from **Observant** feat: '+5'`:+observant_feat=5`\
 **passive perception:** '27'`:=10+wis+expertise + observant_feat`\
@@ -178,15 +177,16 @@ tool proficiencies: singing stone (musical instrument), tinker's tools, archaeol
 
 ## Inventory
 
-**money:** 486gp / 10,000 marks
+**money:** 486gp / 3,000 marks
 
 **max weight (lb):** '120'`:=STR*15`\
-**current weight (lb):** '90'`:=total_weight()`
+**current weight (lb):** '100'`:=total_weight()`
 
 ```lua calcmd
 inventory = [[
+            compass of the vast golden serpent (MAGIC) (ATTUNED)
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
-            earring of protection (+1 to saves and AC) (MAGIC) (ATTUNED)
+            earring of protection (+1 to saves and AC) (MAGIC)
             hat ("The Treacherous Leech") (MAGIC) (ATTUNED)
             James's Dual Holsters (MAGIC)
             round eyeglasses (left lens broken)
@@ -197,6 +197,7 @@ inventory = [[
     3lb     Debt Collector (+2 revolver)
     2lb     rapier
     1lb     dagger
+    10lb    Bardic Leathers (+2 studded leather - AC=14+dex) (MAGIC)
     13lb    studded leather armor (AC=12+dex)
             The Map (magic map from Anteverse B-1)
     5lb     backpack
@@ -281,6 +282,15 @@ Once per Long rest you may spend ten minutes communing with the Red to summon th
 ### James's Dual Holsters (not currently active)
 
 Spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon.
+
+### Compass of the Vast Golden Serpent (not currently active)
+
+- can only be opened by attuned subject
+- points to location of Gilded Leviathan
+- advantage on Survival checks
+- \+2 to Charisma score
+- can cast Fortune's Favor on self once per long rest
+- **Curse of Greed:** whenever you encounter gold that does not have an obvious owner, make a DC 15 Charisma save or you must attempt to obtain it
 
 ### Anthropologist
 
