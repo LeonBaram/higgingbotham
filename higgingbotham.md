@@ -171,6 +171,11 @@ bonus from **Observant** feat: '+5'`:+observant_feat=5`\
 **passive perception:** '27'`:=10+wis+expertise + observant_feat`\
 **passive investigation:** '28'`:=10+int+expertise + observant_feat`
 
+languages known: shalben common, graveltalk, elvish, arcanum
+armor proficiencies: light armor
+weapon proficiencies: simple weapons, firearms, longsword, rapier, shortsword
+tool proficiencies: singing stone (musical instrument), tinker's tools, archaeologist's tools
+
 ## Inventory
 
 **money:** 486gp / 10,000 marks
