@@ -142,8 +142,8 @@ spell save DC: '18'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 
 ## Skills
 
-expertise bonus: '10'`:expertise=prof*2`\
-jack of all trades: '2'`:jack=prof//2`
+expertise bonus: '+10'`:+expertise=prof*2`\
+jack of all trades: '+2'`:+jack=prof//2`
 
 **Note:** Advantage on survival checks
 
