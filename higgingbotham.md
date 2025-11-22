@@ -180,9 +180,10 @@ bonus from **Observant** feat: '+5'`:+observant_feat=5`\
 
 ```lua calcmd
 inventory = [[
-    2lb     betrayer's last tear (+3 SPELLCASTING FOCUS)
-            earring of protection (+1 to saves and AC)
-            hat ("The Treacherous Leech")
+    2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
+            earring of protection (+1 to saves and AC) (MAGIC) (ATTUNED)
+            hat ("The Treacherous Leech") (MAGIC) (ATTUNED)
+            James's Dual Holsters (MAGIC)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
     1lb     singing rock (bardic focus)
@@ -271,6 +272,10 @@ When You roll initiative you can use your reaction to give a number of creatures
 ### Betrayer's Last Tear - Lingering Malice
 
 Once per Long rest you may spend ten minutes communing with the Red to summon the focus onto your person regardless of attunement.
+
+### James's Dual Holsters (not currently active)
+
+Spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon.
 
 ### Anthropologist
 
