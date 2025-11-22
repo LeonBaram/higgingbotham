@@ -37,11 +37,11 @@ immune to: lightining, poison
 
 initiative: '+5'`:+=dex+prof//2`\
 speed: 30\
-earring of protection bonus: '+1'`:+earring_of_protection`
+earring of protection bonus: '+1'`:+earring_of_protection`\
 armor class: '15'`:=12+dex+earring_of_protection + EARRING_PENALTY`
 
 ''`:=reset(longrest)`\
-hp: 100 / 100
+hp: 100 / 100\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 **attacks:**
@@ -62,17 +62,17 @@ on a hit, target loses an amount of coins such that their "dollar" value is equa
 
 ## Resources
 
-''`:=reset(longrest,shortrest)`
+''`:=reset(longrest,shortrest)`\
 **Bardic Inspiration:** 3d10 / '3d10'`:=fmt(cha,'d10')`
 
-''`:=reset(longrest)`
+''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
 
 > Upon doning the hat
 > Those of the same ɹ̷̀͊ǝ̷͊͝s̷̾͝o̵̓̇u̴̿̀ɐ̷͌́u̵͝ɔǝ sᴉƃuɐʇnɹǝ as the original host
 > Finds that their words cut deeper then ever before
 
-''`:=reset(longrest)`
+''`:=reset(longrest)`\
 betrayers last tear (whispers of doubt: disadvantage on initiative to '3'`:=cha` creatures): 1 / 1\
 betrayers last tear (lingering malice: summon focus to myself): 1 / 1
 
@@ -298,9 +298,9 @@ flaws: I believe that I'm intellectually superior to people from other cultures,
 
 ## Appearance
 
-blue eyes, dark brown hair;\
-tan skin; round eyeglasses;\
-6ft tall, 140lb body weight;
+blue eyes, dark brown hair\
+tan skin; round eyeglasses\
+6ft tall, 140lb body weight
 
 ## Utility/Helper Functions
 
