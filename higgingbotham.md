@@ -81,6 +81,9 @@ spell-storing tattoos:
 - 1x lvl3 absorb elements (1 per element)
 - 1x lvl1 gift of alacritty
 
+''`:=reset(longrest)`\
+free cast Fortune's Favor: 1 / 1
+
 ## Spells
 
 ''`:=reset(longrest)`
