@@ -97,7 +97,7 @@ spell save DC: '17'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 
 | lvl 1 | lvl 2 | lvl 3            | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
 | ----- | ----- | ---------------- | ----- | ----- | ----- | ----- |
-| 0/4   | 0/3   | 0/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
+| 4/4   | 3/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
 
 **spells:**
 
