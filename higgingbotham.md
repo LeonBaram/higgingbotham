@@ -195,7 +195,7 @@ inventory = [[
             compass of the vast golden serpent (MAGIC) (ATTUNED)
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
             earring of protection (+1 to saves and AC) (MAGIC)
-            hat ("The Treacherous Leech") (MAGIC) (ATTUNED)
+            hat ("The Treacherous Leech") (MAGIC) (ATTUNEMENT NOT REQUIRED)
             James's Dual Holsters (MAGIC)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
