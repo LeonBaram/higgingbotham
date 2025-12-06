@@ -62,7 +62,7 @@ on a hit, target loses an amount of coins such that their "dollar" value is equa
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 4d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 2d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
