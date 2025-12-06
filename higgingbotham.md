@@ -7,8 +7,6 @@ Lore Bard '14'`:lvl`\
 
 ## Conditions
 
-immune to: lightining, poison
-
 **Planar Alignment (Frontier 0):**
 
 - only regain spell slots lvl1/lvl2/lvl3
