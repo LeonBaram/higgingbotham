@@ -51,9 +51,9 @@ temp hp: 0
 - **Debt Collector (+2 revolver):**
     - to hit: '+10'`:+=dex+prof+2`
     - damage: '1d10+5'`:=fmt('1d10+',dex+2)` piercing
-    - ammo: 156 bullets; 49 silver bullets(+1 ammo, +1d4 radiant)
-    - range 60/240; reload 6; misfire 1
-    - fragment count: 0; people killed without money: 0/3
+    - ammo: 154 bullets; 49 silver bullets(+1 ammo, +1d4 radiant)
+    - range 60/240; reload 6/6; misfire 1
+    - fragment count: 0; people killed without money: 1/3
     - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
 
 **Debt Collector: Money Drain**\
@@ -196,6 +196,7 @@ inventory = [[
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
             earring of protection (+1 to saves and AC) (MAGIC)
             hat ("The Treacherous Leech") (MAGIC) (ATTUNEMENT NOT REQUIRED)
+            sol rifle (MAGIC)
             James's Dual Holsters (MAGIC)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
@@ -304,6 +305,20 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - \+2 to Charisma score
 - can cast Fortune's Favor on self once per long rest
 - **Curse of Greed:** whenever you encounter gold that does not have an obvious owner, make a DC 15 Charisma save or you must attempt to obtain it
+
+### Sol Rifle (not currently active)
+
+- "living rifle", plant-grown
+- \+2 rifle, 2d10 piercing damage
+- range: 120 / 480
+- reload 1 (bonus action)
+- 2-handed
+- \+2d8 additional damage against targets that have damaged you this round
+- once per long rest, if in bright light, can use one of:
+    - gain 5hp when starting your turn in direct sunlight
+    - ignore total cover against 1 target, if it is in direct sunlight
+- **living ammunition:** when fed "organic matter" through the ejector port, produces +0 magical ammo from a small hole in the stock
+- **vine sling:** weapon can be equipped / unequipped as a free object interaction, due to assistance from the living vine sling
 
 ### Anthropologist
 
