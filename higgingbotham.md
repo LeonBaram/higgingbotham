@@ -55,7 +55,7 @@ temp hp: 0
     - range 60/240; reload 6/6; misfire 1
     - fragment count: 0; people killed without money: 1/3
     - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
-- **Sol Rifle (+2 rifle, 2-handed):**
+- **Perfidia (+2 rifle, 2-handed):**
     - to hit: '+10'`:+=dex+prof+2`
     - damage: '2d10+5'`:=fmt('2d10+',dex+2)`
         - with payback: '2d10+2d8+5'`:=fmt('2d10+2d8+',dex+2)`
@@ -64,7 +64,7 @@ temp hp: 0
 **Debt Collector: Money Drain**\
 on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul.
 
-**Sol Rifle: Photosynthetic Resonance**\
+**Perfidia: Photosynthetic Resonance**\
 once per long rest:
 
 - if in bright light, ignore total cover against 1 target in direct sunlight; or
@@ -207,7 +207,7 @@ inventory = [[
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
             earring of protection (+1 to saves and AC) (MAGIC)
             hat ("The Treacherous Leech") (MAGIC) (ATTUNEMENT NOT REQUIRED)
-            sol rifle (MAGIC)
+            perfidia rifle (MAGIC)
             James's Dual Holsters (MAGIC)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
@@ -317,7 +317,7 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - can cast Fortune's Favor on self once per long rest
 - **Curse of Greed:** whenever you encounter gold that does not have an obvious owner, make a DC 15 Charisma save or you must attempt to obtain it
 
-### Sol Rifle
+### Perfidia
 
 - "living rifle", plant-grown
 - \+2 rifle, 2d10 piercing damage
