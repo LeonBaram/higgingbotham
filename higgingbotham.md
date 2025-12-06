@@ -256,6 +256,11 @@ stun baton
 - Your ranged weapon attacks ignore half cover and three-quarters cover.
 - Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.
 
+### Firearm Specialist
+
+- if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
+- when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
+
 ### Token of the Gloom
 
 - "if you choose to succeed, you shall"
