@@ -294,7 +294,7 @@ Once per Long rest you may spend ten minutes communing with the Red to summon th
 
 Spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon.
 
-### Compass of the Vast Golden Serpent (not currently active)
+### Compass of the Vast Golden Serpent
 
 - can only be opened by attuned subject
 - points to location of Gilded Leviathan
