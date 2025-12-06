@@ -11,8 +11,8 @@ Lore Bard '14'`:lvl`\
 
 - only regain spell slots lvl1/lvl2/lvl3
 - portable holes / bags of holding reset
-- betrayer's tear is only a +1 focus (-2 on spell attacks and save DC)
-    - '-2'`:BETRAYER_PENALTY=-2`
+- betrayer's tear is only a +2 focus (-1 on spell attacks and save DC)
+    - '-1'`:BETRAYER_PENALTY=-1`
 - earrings of protection disabled
 - on each long rest, pass a CON save or max hp reduced by X, where X is a roll of your hit dice - current reduction of 0 hp
 
