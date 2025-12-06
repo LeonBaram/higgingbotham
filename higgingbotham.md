@@ -196,7 +196,7 @@ tool proficiencies: singing stone (musical instrument), tinker's tools, archaeol
 
 ## Inventory
 
-**money:** 506gp / 3,000 marks
+**money:** 506gp / 9250 marks
 
 **max weight (lb):** '120'`:=STR*15`\
 **current weight (lb):** '100'`:=total_weight()`
