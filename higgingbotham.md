@@ -82,6 +82,9 @@ spell-storing tattoos:
 ''`:=reset(longrest)`\
 free cast Fortune's Favor: 1 / 1
 
+''`:=reset(longrest,shortrest)`\
+use reaction to attempt to prevent misfire: 0 / 1
+
 ## Spells
 
 ''`:=reset(longrest)`
