@@ -20,14 +20,14 @@ Lore Bard '14'`:lvl`\
 
 ## Stats
 
-| stat  | score       | mod         | save              |
-| ----- | ----------- | ----------- | ----------------- |
-| STR   | '8'`:STR`   | '-1'`:str`  | '-1'`:=str`       |
-| DEX\* | '16'`:DEX`  | '+3'`:+dex` | '+8'`:+=dex+prof` |
-| CON   | '14'`:CON`  | '+2'`:+con` | '+2'`:+=con`      |
-| INT   | '16' `:INT` | '+3'`:+int` | '+3'`:+=int`      |
-| WIS   | '14'`:WIS`  | '+2'`:+wis` | '+2'`:+=wis`      |
-| CHA\* | '18'`:CHA`  | '+4'`:+cha` | '+9'`:+=cha+prof` |
+| stat  | score      | mod         | save              |
+| ----- | ---------- | ----------- | ----------------- |
+| STR   | '8'`:STR`  | '-1'`:str`  | '-1'`:=str`       |
+| DEX\* | '16'`:DEX` | '+3'`:+dex` | '+8'`:+=dex+prof` |
+| CON   | '14'`:CON` | '+2'`:+con` | '+2'`:+=con`      |
+| INT   | '16'`:INT` | '+3'`:+int` | '+3'`:+=int`      |
+| WIS   | '14'`:WIS` | '+2'`:+wis` | '+2'`:+=wis`      |
+| CHA\* | '18'`:CHA` | '+4'`:+cha` | '+9'`:+=cha+prof` |
 
 \*proficient save
 
