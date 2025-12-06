@@ -7,7 +7,7 @@ Lore Bard '14'`:lvl`\
 
 ## Conditions
 
-**Planar Alignment (Frontier 0):**
+**Planar Alignment:**
 
 - only regain spell slots lvl1/lvl2/lvl3
 - portable holes / bags of holding reset
@@ -15,6 +15,15 @@ Lore Bard '14'`:lvl`\
     - '-1'`:BETRAYER_PENALTY=-1`
 - earrings of protection disabled
 - on each long rest, pass a CON save or max hp reduced by X, where X is a roll of your hit dice - current reduction of 0 hp
+
+**Planar Alignment (Kimeral 1):**
+
+- disadvantage on skill checks to recall info about the Frontier
+- can make skill checks to "recall" info about Kimeral, even if I would have no way to know it
+    - (the world fills in the blanks for me)
+- advantage on perception and investigation checks
+    - '+5'`:+KIMERAL_PASSIVE_BONUS=5`
+- gain a climbing and swimming speed equal to walking speed
 
 **proficiency bonus:** '+5'`:+prof`
 
@@ -34,7 +43,7 @@ Lore Bard '14'`:lvl`\
 ## Combat
 
 initiative: '+5'`:+=dex+prof//2`\
-speed: 30\
+speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
@@ -186,8 +195,8 @@ jack of all trades: '+2'`:+jack=prof//2`
 | persuasion      | '+9'`:+=cha+prof`       |
 
 bonus from **Observant** feat: '+5'`:+observant_feat=5`\
-**passive perception:** '27'`:=10+wis+expertise + observant_feat`\
-**passive investigation:** '28'`:=10+int+expertise + observant_feat`
+**passive perception:** '32'`:=10+wis+expertise + observant_feat + KIMERAL_PASSIVE_BONUS`\
+**passive investigation:** '33'`:=10+int+expertise + observant_feat + KIMERAL_PASSIVE_BONUS`
 
 languages known: shalben common, graveltalk, elvish, arcanum
 armor proficiencies: light armor
