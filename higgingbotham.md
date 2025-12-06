@@ -102,7 +102,7 @@ use reaction to attempt to prevent misfire: 0 / 1
 
 ''`:=reset(longrest)`
 
-betrayers last tear bonus (to spell attack and save DC): '+3'`:+=betrayer_bonus`\
+betrayers last tear bonus (to spell attack and save DC): '+3'`:+betrayer_bonus`\
 (reduced to +1 by **planar alignment**)
 
 spell attack bonus: '+11'`:+=cha + prof + betrayer_bonus + BETRAYER_PENALTY`\
