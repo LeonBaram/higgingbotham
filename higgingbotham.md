@@ -313,6 +313,10 @@ When You roll initiative you can use your reaction to give a number of creatures
 
 Once per Long rest you may spend ten minutes communing with the Red to summon the focus onto your person regardless of attunement.
 
+### Betrayer's Last Tear - Easy Come, The Words Go
+
+Automatically succeed on a Deception check a number of times equal to your Proficiency Bonus per week.
+
 ### James's Dual Holsters (not currently active)
 
 Spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon.
