@@ -332,6 +332,10 @@ Once per Long rest you may spend ten minutes communing with the Red to summon th
 
 Automatically succeed on a Deception check a number of times equal to your Proficiency Bonus per week.
 
+### Betrayer's Last Tear - Eyes Lie
+
+Able to cast See Invisibility at will
+
 ### James's Dual Holsters (not currently active)
 
 Spending an hour bonding a firearm to the holster will allow a duplicate firearm to appear in the other holster. Dual wielding said firearms allows for the wearer to make an extra attack if they do not have extra attack. the second firearm made with the holster has the same qualities as the bonded weapon.
