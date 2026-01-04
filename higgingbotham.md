@@ -227,8 +227,8 @@ tool proficiencies: singing stone (musical instrument), tinker's tools, archaeol
 inventory = [[
             compass of the vast golden serpent (MAGIC) (ATTUNED)
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
-            hat ("The Treacherous Leech") (MAGIC) (ATTUNEMENT NOT REQUIRED)
-            perfidia rifle (MAGIC)
+            hat ("The Treacherous Leech") (MAGIC)
+            perfidia rifle (MAGIC) (ATTUNED)
             James's Dual Holsters (MAGIC)
             Parrot of the Cryptozoologist (MAGIC)
             Cloak of Camouflage (MAGIC)
