@@ -375,6 +375,10 @@ blue eyes, dark brown hair\
 tan skin; round eyeglasses\
 6ft tall, 140lb body weight
 
+## Notes
+
+- learned how photography works from Alt Universe B
+
 ## Utility/Helper Functions
 
 ```lua calcmd
