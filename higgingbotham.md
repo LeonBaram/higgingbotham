@@ -250,6 +250,7 @@ inventory = [[
     5lb     waterskin (capacity 4 pints)
             sapphire (worth 200gp)
             amethyst (100gp)
+            teleport focus for oriana household
 ]]
 
 left_at_home=[[
