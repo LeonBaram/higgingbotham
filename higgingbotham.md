@@ -111,6 +111,12 @@ free cast Fortune's Favor: 1 / 1
 ''`:=reset(longrest,shortrest)`\
 use reaction to attempt to prevent misfire: 1 / 1
 
+''`:=reset(longrest)`\
+use bonus action to cast Invisibility: 1 / 1
+
+''`:=reset(week)`\
+cast Find Familiar (Owl) using magic parrot: 1 / 1
+
 ## Spells
 
 ''`:=reset(longrest)`
@@ -175,7 +181,10 @@ spell save DC: '19'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 expertise bonus: '+10'`:+expertise=prof*2`\
 jack of all trades: '+2'`:+jack=prof//2`
 
-**Note:** Advantage on survival checks
+**Notes:**
+
+- advantage on survival checks
+- advantage on stealth checks in nature or urban envs
 
 | skill           | bonus                   |
 | --------------- | ----------------------- |
@@ -221,6 +230,8 @@ inventory = [[
             hat ("The Treacherous Leech") (MAGIC) (ATTUNEMENT NOT REQUIRED)
             perfidia rifle (MAGIC)
             James's Dual Holsters (MAGIC)
+            Parrot of the Cryptozoologist (MAGIC)
+            Cloak of Camouflage (MAGIC)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
     1lb     singing rock (bardic focus)
@@ -347,6 +358,22 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
     - ignore total cover against 1 target, if it is in direct sunlight
 - **living ammunition:** when fed "organic matter" through the ejector port, produces +0 magical ammo from a small hole in the stock
 - **vine sling:** weapon can be equipped / unequipped as a free object interaction, due to assistance from the living vine sling
+
+### Parrot of the Cryptozoologist
+
+- figurine of wondrous power, rare
+- jade figure shaped like a parrot
+- once per week, becomes a living parrot (equivalent to Find Familiar with Owl form)
+- while it is alive, I cannot be surprised
+
+### Cloak of Camouflage
+
+- very rare
+- one side is mossy/dirty; other side is urban camo
+- advantage on stealth checks in natural or urban environments
+- if motionless since last turn, am Lightly Obscured
+- if prone and motionless, Heavily Obscured; DC 20 Perception to detect
+- once per long rest, can cast Invisibility on self as bonus action
 
 ### Anthropologist
 
