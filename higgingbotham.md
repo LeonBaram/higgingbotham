@@ -60,7 +60,6 @@ temp hp: 0
 - **Debt Collector (+2 revolver):**
     - to hit: '+10'`:+=dex+prof+2`
     - damage: '1d10+5'`:=fmt('1d10+',dex+2)` piercing
-    - ammo: 154 bullets; 49 silver bullets(+1 ammo, +1d4 radiant)
     - range 60/240; reload 6/6; misfire 1
     - fragment count: 0; people killed without money: 1/3
     - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
@@ -69,6 +68,12 @@ temp hp: 0
     - damage: '2d10+5'`:=fmt('2d10+',dex+2)`
         - with payback: '2d10+2d8+5'`:=fmt('2d10+2d8+',dex+2)`
     - range 120/480; reload 1; NO MISFIRE
+
+**ammo:**
+
+- 154 regular
+- 110 poop bullets (+0 magical ammo)
+- 49 silver bullets (+1 magical ammo, +1d4 radiant)
 
 **Debt Collector: Money Drain**\
 on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul.
