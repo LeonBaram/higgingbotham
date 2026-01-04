@@ -47,7 +47,7 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 14 / 100\
+hp: 100 / 100\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
@@ -82,7 +82,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 2d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 4d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -105,7 +105,7 @@ spell-storing tattoos:
 free cast Fortune's Favor: 1 / 1
 
 ''`:=reset(longrest,shortrest)`\
-use reaction to attempt to prevent misfire: 0 / 1
+use reaction to attempt to prevent misfire: 1 / 1
 
 ## Spells
 
