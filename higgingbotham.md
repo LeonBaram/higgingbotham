@@ -46,10 +46,10 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 86 / '86'`:=100-14`\
+hp: 74 / '74'`:=100-26`\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
-temp hp: 5
+temp hp: 0
 
 **attacks:**
 
@@ -73,7 +73,7 @@ temp hp: 5
 
 - 154 regular
 - 110 poop bullets (+0 magical ammo)
-- 49 silver bullets (+1 magical ammo, +1d4 radiant)
+- 47 silver bullets (+1 magical ammo, +1d4 radiant)
 
 **Debt Collector: Money Drain**\
 on a hit, target loses an amount of coins such that their "dollar" value is equal to the damage of the hit. The gun "makes change" in their pockets if necessary. The lost coins are transferred to your coin pouch (or equivalent). If the target has no material wealth (money, gems, etc), the gun deals an additional 3d10 force damage, and if the creature dies as a result, you receive a fragment of their soul.
