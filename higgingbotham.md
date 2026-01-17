@@ -59,6 +59,7 @@ temp hp: 0
 - **Debt Collector (+2 revolver):**
     - to hit: '+10'`:+=dex+prof+2`
     - damage: '1d10+5'`:=fmt('1d10+',dex+2)` piercing
+    - damage when no money: '4d10+5'`:=fmt('4d10+',dex+2)` force
     - range 60/240; reload 6/6; misfire 1
     - fragment count: 0; people killed without money: 1/3
     - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
