@@ -46,10 +46,10 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 74 / '74'`:=100-26`\
+hp: 60 / '84'`:=100-26+10`\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
-temp hp: 0
+temp hp: 17
 
 **attacks:**
 
@@ -72,7 +72,7 @@ temp hp: 0
 **ammo:**
 
 - 154 regular
-- 110 poop bullets (+0 magical ammo)
+- 106 poop bullets (+0 magical ammo)
 - 47 silver bullets (+1 magical ammo, +1d4 radiant)
 
 **Debt Collector: Money Drain**\
@@ -87,7 +87,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 4d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 0d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -104,7 +104,6 @@ spell-storing tattoos:
 
 - 1x lvl3 absorb elements (fire)
 - 1x lvl3 absorb elements (1 per element)
-- 1x lvl1 gift of alacritty
 
 ''`:=reset(longrest)`\
 free cast Fortune's Favor: 1 / 1
@@ -133,7 +132,7 @@ spell save DC: '19'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 
 | lvl 1 | lvl 2 | lvl 3            | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
 | ----- | ----- | ---------------- | ----- | ----- | ----- | ----- |
-| 4/4   | 3/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
+| 2/4   | 2/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
 
 **spells:**
 
@@ -219,7 +218,7 @@ tool proficiencies: singing stone (musical instrument), tinker's tools, archaeol
 
 ## Inventory
 
-**money:** 520gp / 3000 gold marks / 6250 silver marks ("marks")
+**money:** 556gp / 3000 gold marks / 6250 silver marks ("marks")
 
 **max weight (lb):** '120'`:=STR*15`\
 **current weight (lb):** '100'`:=total_weight()`
