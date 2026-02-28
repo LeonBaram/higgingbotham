@@ -46,7 +46,7 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 60 / '84'`:=100-26+10`\
+hp: 83 / '83'`:=100-27+10`\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 17
@@ -87,7 +87,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 0d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 3d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -132,7 +132,7 @@ spell save DC: '19'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
 
 | lvl 1 | lvl 2 | lvl 3            | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
 | ----- | ----- | ---------------- | ----- | ----- | ----- | ----- |
-| 2/4   | 2/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
+| 4/4   | 3/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
 
 **spells:**
 
@@ -218,7 +218,7 @@ tool proficiencies: singing stone (musical instrument), tinker's tools, archaeol
 
 ## Inventory
 
-**money:** 556gp / 3000 gold marks / 6250 silver marks ("marks")
+**money:** 906gp / 3000 gold marks / 6250 silver marks ("marks")
 
 **max weight (lb):** '120'`:=STR*15`\
 **current weight (lb):** '100'`:=total_weight()`
@@ -369,6 +369,8 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - jade figure shaped like a parrot
 - once per week, becomes a living parrot (equivalent to Find Familiar with Owl form)
 - while it is alive, I cannot be surprised
+- I can "possess" the parrot with my soul (Familiar++)
+- while possessing the parrot I can cast verbal-only components as the parrot
 
 ### Cloak of Camouflage
 
