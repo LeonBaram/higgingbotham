@@ -7,6 +7,8 @@ Lore Bard '14'`:lvl`\
 
 ## Conditions
 
+**INSPIRED**
+
 **Planar Alignment:**
 
 - only regain spell slots lvl1/lvl2/lvl3
