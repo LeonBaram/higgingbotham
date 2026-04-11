@@ -74,7 +74,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 4d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 3d10 / '4d10'`:=fmt(cha,'d10')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -119,7 +119,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   |
+| 4/4   | 0/3   | 3/3   | 3/3   | 1/2   | 1/1   | 1/1   |
 
 **spells:**
 
