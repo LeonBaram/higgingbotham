@@ -343,7 +343,7 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - range: 120 / 480
 - reload 1 (bonus action)
 - 2-handed
-- \+2d8 additional damage against targets that have damaged you this round
+- payback: +2d8 additional damage against targets that have damaged you this round
 - once per long rest, if in bright light, can use one of:
     - gain 5hp when starting your turn in direct sunlight
     - ignore total cover against 1 target, if it is in direct sunlight
