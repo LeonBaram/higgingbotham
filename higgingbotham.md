@@ -9,22 +9,7 @@ Lore Bard '14'`:lvl`\
 
 **INSPIRED**
 
-**Planar Alignment:**
-
-- only regain spell slots lvl1/lvl2/lvl3
 - portable holes / bags of holding reset
-- betrayer's tear is only a +2 focus (-1 on spell attacks and save DC)
-    - '-1'`:BETRAYER_PENALTY=-1`
-- on each long rest, pass a CON save or max hp reduced by X, where X is a roll of your hit dice - current reduction of 0 hp
-
-**Planar Alignment (Kimeral 1):**
-
-- disadvantage on skill checks to recall info about the Frontier
-- can make skill checks to "recall" info about Kimeral, even if I would have no way to know it
-    - (the world fills in the blanks for me)
-- advantage on perception and investigation checks
-    - '+5'`:+KIMERAL_PASSIVE_BONUS=5`
-- gain a climbing and swimming speed equal to walking speed
 
 **proficiency bonus:** '+5'`:+prof`
 
@@ -48,10 +33,10 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 83 / '83'`:=100-27+10`\
+hp: 110 / '110'`:=100+10`\
 hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
-temp hp: 17
+temp hp: 0
 
 **attacks:**
 
@@ -126,15 +111,15 @@ cast Find Familiar (Owl) using magic parrot: 1 / 1
 betrayers last tear bonus (to spell attack and save DC): '+3'`:+betrayer_bonus`\
 (reduced to +1 by **planar alignment**)
 
-spell attack bonus: '+11'`:+=cha + prof + betrayer_bonus + BETRAYER_PENALTY`\
-spell save DC: '19'`:=8 + cha + prof + betrayer_bonus + BETRAYER_PENALTY`
+spell attack bonus: '+12'`:+=cha + prof + betrayer_bonus`\
+spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 **spell slots:**\
 (levels 4-7 disabled due to **planar alignment**)
 
-| lvl 1 | lvl 2 | lvl 3            | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
-| ----- | ----- | ---------------- | ----- | ----- | ----- | ----- |
-| 4/4   | 3/3   | 2/2 (formerly 3) | 0/3   | 0/2   | 0/1   | 0/1   |
+| lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   |
 
 **spells:**
 
@@ -210,8 +195,8 @@ jack of all trades: '+2'`:+jack=prof//2`
 | persuasion      | '+9'`:+=cha+prof`       |
 
 bonus from **Observant** feat: '+5'`:+observant_feat=5`\
-**passive perception:** '32'`:=10+wis+expertise + observant_feat + KIMERAL_PASSIVE_BONUS`\
-**passive investigation:** '33'`:=10+int+expertise + observant_feat + KIMERAL_PASSIVE_BONUS`
+**passive perception:** '27'`:=10+wis+expertise + observant_feat`\
+**passive investigation:** '28'`:=10+int+expertise + observant_feat`
 
 languages known: shalben common, graveltalk, elvish, arcanum
 armor proficiencies: light armor
