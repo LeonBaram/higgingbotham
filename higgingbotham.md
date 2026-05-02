@@ -288,10 +288,6 @@ stun baton
 - if you misfire, you can use a reaction to roll a d20. if you roll higher than the misfire score, there is no misfire.
 - when you attack with a one-handed weapon, if you're holding a loaded, light firearm, you can use a bonus action to attack with it
 
-### Token of the Gloom
-
-- "if you choose to succeed, you shall"
-
 ### Class Features
 
 - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
