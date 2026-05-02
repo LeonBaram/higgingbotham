@@ -350,7 +350,7 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - **living ammunition:** when fed "organic matter" through the ejector port, produces +0 magical ammo from a small hole in the stock
 - **vine sling:** weapon can be equipped / unequipped as a free object interaction, due to assistance from the living vine sling
 
-### Parrot of the Cryptozoologist
+### Parrot of the Cryptozoologist "Jeremy"
 
 - figurine of wondrous power, rare
 - jade figure shaped like a parrot
