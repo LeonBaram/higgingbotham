@@ -84,7 +84,7 @@ treacherous leech (cutting words on their save): 5 / '5'`:=prof`
 > Finds that their words cut deeper then ever before
 
 ''`:=reset(longrest)`\
-betrayers last tear (whispers of doubt: disadvantage on initiative to '4'`:=cha` creatures in 60ft): 1 / 1\
+betrayers last tear (whispers of doubt: disadvantage on initiative to '4'`:=cha` creatures in 60ft): 0 / 1\
 betrayers last tear (lingering malice: summon focus to myself): 1 / 1
 
 spell-storing tattoos:
