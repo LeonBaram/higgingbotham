@@ -36,6 +36,8 @@ hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
 
+bonus hp: 15/15
+
 **attacks:**
 
 - rapier: '+8'`:+=dex+prof` to hit; damage: '1d8+3'`:=fmt('1d8+',dex)` piercing
