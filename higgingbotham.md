@@ -128,7 +128,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
     - friends (SM) <C>
     - minor illusion (SM)
     - mage hand (VS)
-    - message
+    - message (N/A)
 - lvl1:
     - silvery barbs (V)
     - command (V)
