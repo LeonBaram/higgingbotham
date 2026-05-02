@@ -93,7 +93,7 @@ spell-storing tattoos:
 - 1x lvl3 absorb elements (1 per element)
 
 ''`:=reset(longrest)`\
-free cast Fortune's Favor: 1 / 1
+free cast Fortune's Favor: 0 / 1
 
 ''`:=reset(longrest,shortrest)`\
 use reaction to attempt to prevent misfire: 1 / 1
