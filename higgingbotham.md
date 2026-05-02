@@ -324,7 +324,7 @@ Automatically succeed on a Deception check a number of times equal to your Profi
 
 Able to cast See Invisibility at will
 
-### Betrayer's Last Tear - At-Will Message
+### Betrayer's Last Tear - Quiet Tongue
 
 Able to cast Message cantrip at will without using components
 
