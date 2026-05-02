@@ -7,8 +7,6 @@ Lore Bard '14'`:lvl`\
 
 ## Conditions
 
-**INSPIRED**
-
 - portable holes / bags of holding reset
 
 **proficiency bonus:** '+5'`:+prof`
