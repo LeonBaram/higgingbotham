@@ -32,11 +32,11 @@ armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
 hp: 110 / '110'`:=100+10`\
-hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
+hit dice: 7d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 20
 
-bonus hp: 15/15
+bonus hp: 14/15
 
 **attacks:**
 
