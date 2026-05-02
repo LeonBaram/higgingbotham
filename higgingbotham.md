@@ -128,6 +128,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
     - friends (SM) <C>
     - minor illusion (SM)
     - mage hand (VS)
+    - message
 - lvl1:
     - silvery barbs (V)
     - command (V)
@@ -322,6 +323,10 @@ Automatically succeed on a Deception check a number of times equal to your Profi
 ### Betrayer's Last Tear - Eyes Lie
 
 Able to cast See Invisibility at will
+
+### Betrayer's Last Tear - At-Will Message
+
+Able to cast Message cantrip at will without using components
 
 ### James's Dual Holsters (not currently active)
 
