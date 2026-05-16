@@ -32,7 +32,7 @@ armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
 hp: 110 / '110'`:=100+10`\
-hit dice: 7d8 / '14d8'`:=fmt(lvl, "d8")`
+hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
 
@@ -84,7 +84,7 @@ treacherous leech (cutting words on their save): 5 / '5'`:=prof`
 > Finds that their words cut deeper then ever before
 
 ''`:=reset(longrest)`\
-betrayers last tear (whispers of doubt: disadvantage on initiative to '4'`:=cha` creatures in 60ft): 0 / 1\
+betrayers last tear (whispers of doubt: disadvantage on initiative to '4'`:=cha` creatures in 60ft): 1 / 1\
 betrayers last tear (lingering malice: summon focus to myself): 1 / 1
 
 spell-storing tattoos:
@@ -93,7 +93,7 @@ spell-storing tattoos:
 - 1x lvl3 absorb elements (1 per element)
 
 ''`:=reset(longrest)`\
-free cast Fortune's Favor: 0 / 1
+free cast Fortune's Favor: 1 / 1
 
 ''`:=reset(longrest,shortrest)`\
 use reaction to attempt to prevent misfire: 1 / 1
@@ -119,7 +119,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3/4   | 0/3   | 3/3   | 1/3   | 0/2   | 0/1   | 0/1   |
+| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   |
 
 **spells:**
 
