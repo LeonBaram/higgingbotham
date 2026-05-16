@@ -14,6 +14,8 @@ heroes feast:
 - immune to poison and frighten
 - advantage on WIS saves
 
+INSPIRATION
+
 **proficiency bonus:** '+5'`:+prof`
 
 ## Stats
