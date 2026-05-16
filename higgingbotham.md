@@ -378,6 +378,11 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - if prone and motionless, Heavily Obscured; DC 20 Perception to detect
 - once per long rest, can cast Invisibility on self as bonus action
 
+### Treacherous Leech
+
+- can use Cutting Words against enemies' saves \# of times per day equal to proficiency
+- cast Disguise Self at will
+
 ### Anthropologist
 
 - after observing humanoids interacting with one another for at least 1 day, I can learn a small amount of important words/expressions/gestures -- enough for simple/basic communication
