@@ -9,6 +9,11 @@ Lore Bard '14'`:lvl`\
 
 - portable holes / bags of holding reset
 
+heroes feast:
+
+- immune to poison and frighten
+- advantage on WIS saves
+
 **proficiency bonus:** '+5'`:+prof`
 
 ## Stats
@@ -36,7 +41,9 @@ hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
 
-bonus hp: 14/15
+bonus heroes feast hp: 18/18
+
+bonus aid hp: 20/20
 
 **attacks:**
 
