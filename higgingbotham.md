@@ -2,7 +2,7 @@
 
 _Professor Herbert Higgingbotham, PhD, head of anthropology at the Dunwall College of Liberal Arts_
 
-Lore Bard '14'`:lvl`\
+Lore Bard '15'`:lvl`\
 54-year-old Anthropologist; 'Lawful Good'`:alignment`
 
 ## Conditions
@@ -38,8 +38,8 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 110 / '110'`:=100+10`\
-hit dice: 14d8 / '14d8'`:=fmt(lvl, "d8")`
+hp: 121 / '121'`:=111+10`\
+hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
 
 temp hp: 6
 
@@ -83,7 +83,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 0d10 / '4d10'`:=fmt(cha,'d10')`
+**Bardic Inspiration:** 4d12 / '4d12'`:=fmt(cha,'d12')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -126,9 +126,11 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 **spell slots:**\
 (levels 4-7 disabled due to **planar alignment**)
 
-| lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3/4   | 2/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   |
+**TODO: select 1 new spell, replace 0-1 spells**
+
+| lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 3/4   | 2/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   | 1/1   |
 
 **spells:**
 
