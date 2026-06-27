@@ -380,7 +380,7 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - advantage on stealth checks in natural or urban environments
 - if motionless since last turn, am Lightly Obscured
 - if prone and motionless, Heavily Obscured; DC 20 Perception to detect
-- once per long rest, can cast Invisibility on self as bonus action
+- once per long rest, can cast Invisibility on self as bonus action without using a spell slot
 
 ### Treacherous Leech
 
