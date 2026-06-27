@@ -174,6 +174,8 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
     - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
     - regenerate (VSM)
     - teleport (V)
+- lvl8:
+    - antipathy/sympathy (VSM)
 
 ## Skills
 
