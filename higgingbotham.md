@@ -144,7 +144,6 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
     - silvery barbs (V)
     - command (V)
     - bane (VSM) <C>
-    - unseen servant (VSM)
 - lvl2:
     - calm emotions (VS) <C>
     - suggestion (VM)
@@ -155,6 +154,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 - lvl3:
     - dispel magic (VS)
     - counterspell (S)
+    - mass healing word (V)
 - lvl4:
     - charm monster (VS)
     - dimension door (V)
