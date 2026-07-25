@@ -457,6 +457,9 @@ function total_weight()
     return total
 end
 
+longrest=false
+shortrest=false
+
 -- print "RESET" if any of the given reset conditions are true
 function reset(...)
     for _, condition in ipairs(table.pack(...)) do
