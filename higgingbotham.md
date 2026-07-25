@@ -38,14 +38,14 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 121 / '121'`:=111+10`\
+hp: 99 / '121'`:=111+10`\
 hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
 
-bonus heroes feast hp: 0/18
+bonus heroes feast hp: 0/0
 
-bonus aid hp: 0/20
+bonus aid hp: 0/0
 
 **attacks:**
 
@@ -67,7 +67,7 @@ bonus aid hp: 0/20
 
 **ammo:**
 
-- 154 regular
+- 153 regular
 - 106 poop bullets (+0 magical ammo)
 - 47 silver bullets (+1 magical ammo, +1d4 radiant)
 
@@ -128,7 +128,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   | 1/1   |
+| 4/4   | 2/3   | 3/3   | 1/3   | 2/2   | 1/1   | 1/1   | 1/1   |
 
 **spells:**
 
