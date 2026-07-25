@@ -41,11 +41,11 @@ armor class: '17'`:=14+dex` (Bardic Leathers)
 hp: 121 / '121'`:=111+10`\
 hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
 
-temp hp: 6
+temp hp: 0
 
-bonus heroes feast hp: 18/18
+bonus heroes feast hp: 0/18
 
-bonus aid hp: 20/20
+bonus aid hp: 0/20
 
 **attacks:**
 
