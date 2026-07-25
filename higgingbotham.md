@@ -126,8 +126,6 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 **spell slots:**\
 (levels 4-7 disabled due to **planar alignment**)
 
-**TODO: select 1 new spell, replace 0-1 spells**
-
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   | 1/1   |
