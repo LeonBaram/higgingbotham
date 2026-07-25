@@ -99,7 +99,7 @@ betrayers last tear (lingering malice: summon focus to myself): 1 / 1
 spell-storing tattoos:
 
 - 1x lvl3 absorb elements (fire)
-- 1x lvl3 absorb elements (1 per element)
+- 1x lvl3 absorb elements (cold)
 
 ''`:=reset(longrest)`\
 free cast Fortune's Favor: 1 / 1
