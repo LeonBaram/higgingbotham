@@ -38,12 +38,12 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 117 / '121'`:=111+10`\
+hp: 98 / '121'`:=111+10`\
 hit dice: 12d8 / '15d8'`:=fmt(lvl, "d8")`
 
-temp hp: 20
+temp hp: 0
 
-bonus heroes feast hp: 0/0
+bonus heroes feast hp: 0/36
 
 bonus aid hp: 0/0
 
@@ -83,7 +83,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 3d12 / '4d12'`:=fmt(cha,'d12')`
+**Bardic Inspiration:** 0d12 / '4d12'`:=fmt(cha,'d12')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -128,7 +128,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3/4   | 2/3   | 3/3   | 0/3   | 2/2   | 1/1   | 1/1   | 1/1   |
+| 1/4   | 1/3   | 0/3   | 0/3   | 0/2   | 0/1   | 0/1   | 1/1   |
 
 **spells:**
 
