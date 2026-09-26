@@ -51,19 +51,19 @@ bonus aid hp: 0/0
 
 - rapier: '+8'`:+=dex+prof` to hit; damage: '1d8+3'`:=fmt('1d8+',dex)` piercing
 - dagger: '+8'`:+=dex+prof` to hit; damage: '1d4+3'`:=fmt('1d4+',dex)` piercing (thrown)
-    - range 60/240
+  - range 60/240
 - **Debt Collector (+2 revolver):**
-    - to hit: '+10'`:+=dex+prof+2`
-    - damage: '1d10+5'`:=fmt('1d10+',dex+2)` piercing
-    - damage when no money: '4d10+5'`:=fmt('4d10+',dex+2)` force
-    - range 60/240; reload 6/6; misfire 1
-    - fragment count: 0; people killed without money: 1/3
-    - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
+  - to hit: '+10'`:+=dex+prof+2`
+  - damage: '1d10+5'`:=fmt('1d10+',dex+2)` piercing
+  - damage when no money: '4d10+5'`:=fmt('4d10+',dex+2)` force
+  - range 60/240; reload 6/6; misfire 1
+  - fragment count: 0; people killed without money: 1/3
+  - engraving: D̵̓͒E̸͝͝B̸̛̏T̷̿̅S̶̛̎ ̶̌́G̵͝O BEYOND ̶̾̐W̴͝͝E̸̐͘ALTH
 - **Perfidia (+2 rifle, 2-handed):**
-    - to hit: '+10'`:+=dex+prof+2`
-    - damage: '2d10+5'`:=fmt('2d10+',dex+2)`
-        - with payback: '2d10+2d8+5'`:=fmt('2d10+2d8+',dex+2)`
-    - range 120/480; reload 1; NO MISFIRE
+  - to hit: '+10'`:+=dex+prof+2`
+  - damage: '2d10+5'`:=fmt('2d10+',dex+2)`
+    - with payback: '2d10+2d8+5'`:=fmt('2d10+2d8+',dex+2)`
+  - range 120/480; reload 1; NO MISFIRE
 
 **ammo:**
 
@@ -133,47 +133,47 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 **spells:**
 
 - cantrips:
-    - vicious mockery (V)
-    - friends (SM) <C>
-    - minor illusion (SM)
-    - mage hand (VS)
-    - message (N/A)
+  - vicious mockery (V)
+  - friends (SM) <C>
+  - minor illusion (SM)
+  - mage hand (VS)
+  - message (N/A)
 - lvl1:
-    - silvery barbs (V)
-    - command (V)
-    - bane (VSM) <C>
+  - silvery barbs (V)
+  - command (V)
+  - bane (VSM) <C>
 - lvl2:
-    - calm emotions (VS) <C>
-    - suggestion (VM)
-    - silence (VS) <C>
-    - shatter (VSM)
-    - heat metal (VSM) <C>
-    - mirror image (VS)
+  - calm emotions (VS) <C>
+  - suggestion (VM)
+  - silence (VS) <C>
+  - shatter (VSM)
+  - heat metal (VSM) <C>
+  - mirror image (VS)
 - lvl3:
-    - dispel magic (VS)
-    - counterspell (S)
-    - mass healing word (V)
+  - dispel magic (VS)
+  - counterspell (S)
+  - mass healing word (V)
 - lvl4:
-    - charm monster (VS)
-    - dimension door (V)
-    - greater invisibility (VS) <C>
-    - death ward (VS)
+  - charm monster (VS)
+  - dimension door (V)
+  - greater invisibility (VS) <C>
+  - death ward (VS)
 - lvl5:
-    - raise dead (VSM - diamond 500gp x 1)
-    - modify memory (VS) <C>
-    - holy weapon (VS) <C>
-    - hold monster (VSM) <C>
-    - greater restoration (VSM - diamond dust worth at least 100gp, which the spell consumes)
-    - sunbeam (VSM) <C>
+  - raise dead (VSM - diamond 500gp x 1)
+  - modify memory (VS) <C>
+  - holy weapon (VS) <C>
+  - hold monster (VSM) <C>
+  - greater restoration (VSM - diamond dust worth at least 100gp, which the spell consumes)
+  - sunbeam (VSM) <C>
 - lvl6:
-    - mass suggestion (VM)
+  - mass suggestion (VM)
 - lvl7:
-    - etherealness (VS)
-    - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
-    - regenerate (VSM)
-    - teleport (V)
+  - etherealness (VS)
+  - simulacrum (VSM - snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1500gp, sprinkled over the duplicate and consumed by the spell)
+  - regenerate (VSM)
+  - teleport (V)
 - lvl8:
-    - antipathy/sympathy (VSM)
+  - antipathy/sympathy (VSM)
 
 ## Skills
 
@@ -303,9 +303,9 @@ stun baton
 
 - song of rest (d10) (+1d10 hp when hit-dice healing on short rests)
 - cutting words
-    - when a creature you can see in 60ft of you makes an attack roll / ability check / damage roll, you can use your reaction to spend a **bardic inspiration**, roll it, and subtract it from the result. the creature is immune if it can't hear you, or is immune to charm.
+  - when a creature you can see in 60ft of you makes an attack roll / ability check / damage roll, you can use your reaction to spend a **bardic inspiration**, roll it, and subtract it from the result. the creature is immune if it can't hear you, or is immune to charm.
 - countercharm
-    - as an action, you can start a performance until the end of your next turn. creatures in 30ft (_that can hear you_) of you gain advantage on saves against frighten / charm. ends early if you are incapacitated.
+  - as an action, you can start a performance until the end of your next turn. creatures in 30ft (_that can hear you_) of you gain advantage on saves against frighten / charm. ends early if you are incapacitated.
 
 ### Modified Simulacrum
 
@@ -357,8 +357,8 @@ Spending an hour bonding a firearm to the holster will allow a duplicate firearm
 - 2-handed
 - payback: +2d8 additional damage against targets that have damaged you this round
 - once per long rest, if in bright light, can use one of:
-    - gain 5hp when starting your turn in direct sunlight
-    - ignore total cover against 1 target, if it is in direct sunlight
+  - gain 5hp when starting your turn in direct sunlight
+  - ignore total cover against 1 target, if it is in direct sunlight
 - **living ammunition:** when fed "organic matter" through the ejector port, produces +0 magical ammo from a small hole in the stock
 - **vine sling:** weapon can be equipped / unequipped as a free object interaction, due to assistance from the living vine sling
 
