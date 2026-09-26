@@ -38,10 +38,10 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 99 / '121'`:=111+10`\
-hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
+hp: 117 / '121'`:=111+10`\
+hit dice: 12d8 / '15d8'`:=fmt(lvl, "d8")`
 
-temp hp: 0
+temp hp: 20
 
 bonus heroes feast hp: 0/0
 
