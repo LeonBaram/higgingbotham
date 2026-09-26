@@ -83,7 +83,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 4d12 / '4d12'`:=fmt(cha,'d12')`
+**Bardic Inspiration:** 3d12 / '4d12'`:=fmt(cha,'d12')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
