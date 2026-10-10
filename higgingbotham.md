@@ -38,8 +38,8 @@ speed: 30 (walking / swimming / climbing)\
 armor class: '17'`:=14+dex` (Bardic Leathers)
 
 ''`:=reset(longrest)`\
-hp: 98 / '121'`:=111+10`\
-hit dice: 12d8 / '15d8'`:=fmt(lvl, "d8")`
+hp: 121 / '121'`:=111+10`\
+hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
 
 temp hp: 0
 
@@ -83,7 +83,7 @@ once per long rest:
 ## Resources
 
 ''`:=reset(longrest,shortrest)`\
-**Bardic Inspiration:** 0d12 / '4d12'`:=fmt(cha,'d12')`
+**Bardic Inspiration:** 4d12 / '4d12'`:=fmt(cha,'d12')`
 
 ''`:=reset(longrest)`\
 treacherous leech (cutting words on their save): 5 / '5'`:=prof`
@@ -117,18 +117,16 @@ cast Find Familiar (Owl) using magic parrot: 1 / 1
 
 ''`:=reset(longrest)`
 
-betrayers last tear bonus (to spell attack and save DC): '+3'`:+betrayer_bonus`\
-(reduced to +1 by **planar alignment**)
+betrayers last tear bonus (to spell attack and save DC): '+3'`:+betrayer_bonus`
 
 spell attack bonus: '+12'`:+=cha + prof + betrayer_bonus`\
 spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
-**spell slots:**\
-(levels 4-7 disabled due to **planar alignment**)
+**spell slots:**
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 1/4   | 1/3   | 0/3   | 0/3   | 0/2   | 0/1   | 0/1   | 1/1   |
+| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   | 1/1   |
 
 **spells:**
 
