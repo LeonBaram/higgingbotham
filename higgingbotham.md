@@ -39,11 +39,11 @@ armor class: '17'`:=14+dex` (Bardic Leathers)
 hp: 121 / '121'`:=111+10`\
 hit dice: 15d8 / '15d8'`:=fmt(lvl, "d8")`
 
-temp hp: 0
+temp hp: 7
 
 bonus heroes feast hp: 0/36
 
-bonus aid hp: 0/0
+bonus aid hp: 20/20
 
 **attacks:**
 
@@ -124,7 +124,7 @@ spell save DC: '20'`:=8 + cha + prof + betrayer_bonus`
 
 | lvl 1 | lvl 2 | lvl 3 | lvl 4 | lvl 5 | lvl 6 | lvl 7 | lvl 8 |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 1/1   | 1/1   |
+| 4/4   | 3/3   | 3/3   | 3/3   | 2/2   | 1/1   | 0/1   | 1/1   |
 
 **spells:**
 
