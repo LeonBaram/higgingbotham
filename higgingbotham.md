@@ -224,9 +224,9 @@ inventory = [[
     2lb     betrayer's last tear (+3 SPELLCASTING FOCUS) (MAGIC) (ATTUNED)
             hat ("The Treacherous Leech") (MAGIC)
             perfidia rifle (MAGIC) (ATTUNED)
-            James's Dual Holsters (MAGIC)
+            James's Dual Holsters (MAGIC) (HELD BY GAX)
             Parrot of the Cryptozoologist (MAGIC)
-            Cloak of Camouflage (MAGIC)
+            Cloak of Camouflage (MAGIC) (HELD BY GAX)
             round eyeglasses (left lens broken)
     1lb     traveler's clothes
     1lb     singing rock (bardic focus)
@@ -235,7 +235,7 @@ inventory = [[
     3lb     Debt Collector (+2 revolver)
     2lb     rapier
     1lb     dagger
-    10lb    Bardic Leathers (+2 studded leather - AC=14+dex) (MAGIC)
+    10lb    Bardic Leathers (+2 studded leather - AC=14+dex) (MAGIC) (HELD BY GAX)
     13lb    studded leather armor (AC=12+dex)
             The Map (magic map from Anteverse B-1)
     5lb     backpack
